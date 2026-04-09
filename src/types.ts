@@ -21,7 +21,7 @@ export type FactorKey =
   | 'humidityPct'
   | 'dailyVarianceF';
 
-export type Preference = { target: number; weight: number };
+export type Preference = { min: number; max: number };
 export type Preferences = Record<FactorKey, Preference>;
 
 export type RankedCity = {

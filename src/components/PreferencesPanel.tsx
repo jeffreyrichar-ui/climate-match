@@ -22,8 +22,9 @@ export function PreferencesPanel({ prefs, onChange, onResetAll }: Props) {
         </button>
       </div>
       <p className="prefs-intro">
-        Drag the <em>ideal</em> slider to pick your target for each factor. Use
-        the <em>how much it matters</em> slider to tell us what you care about.
+        For each factor, drag the two handles to pick the range you'd be happy
+        with. Cities scoring inside every range get 100% match. Drag a slider
+        to its full span to ignore that factor.
       </p>
       <div className="factors">
         {FACTORS.map((f) => (

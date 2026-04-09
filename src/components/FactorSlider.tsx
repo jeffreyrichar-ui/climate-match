@@ -1,5 +1,6 @@
 import type { Preference } from '../types';
 import type { FactorMeta } from '../lib/factors';
+import { isFullRange } from '../lib/factors';
 
 type Props = {
   factor: FactorMeta;
@@ -8,7 +9,24 @@ type Props = {
 };
 
 export function FactorSlider({ factor, value, onChange }: Props) {
-  const reset = () => onChange({ target: factor.default, weight: 50 });
+  const reset = () =>
+    onChange({ min: factor.defaultMin, max: factor.defaultMax });
+
+  const setMin = (n: number) => {
+    const clamped = Math.min(n, value.max);
+    onChange({ ...value, min: clamped });
+  };
+  const setMax = (n: number) => {
+    const clamped = Math.max(n, value.min);
+    onChange({ ...value, max: clamped });
+  };
+
+  const ignored = isFullRange(value, factor);
+
+  // visual bar fill — proportional position of the selected range on the track
+  const span = factor.max - factor.min;
+  const leftPct = ((value.min - factor.min) / span) * 100;
+  const rightPct = ((value.max - factor.min) / span) * 100;
 
   return (
     <div className="factor">
@@ -22,38 +40,51 @@ export function FactorSlider({ factor, value, onChange }: Props) {
         </button>
       </div>
 
-      <div className="slider-row">
-        <label className="slider-caption">
-          Ideal: <strong>{value.target}</strong> {factor.unit}
-        </label>
+      <div className="range-summary">
+        {ignored ? (
+          <span className="muted">Any value (this factor is ignored)</span>
+        ) : (
+          <>
+            <strong>{value.min}</strong> – <strong>{value.max}</strong>{' '}
+            {factor.unit}
+          </>
+        )}
+      </div>
+
+      <div className="range-track-wrap">
+        <div className="range-track">
+          <div
+            className="range-fill"
+            style={{ left: `${leftPct}%`, right: `${100 - rightPct}%` }}
+          />
+        </div>
         <input
           type="range"
+          className="range-input range-input-min"
           min={factor.min}
           max={factor.max}
           step={factor.step}
-          value={value.target}
-          onChange={(e) =>
-            onChange({ ...value, target: Number(e.target.value) })
-          }
+          value={value.min}
+          onChange={(e) => setMin(Number(e.target.value))}
+        />
+        <input
+          type="range"
+          className="range-input range-input-max"
+          min={factor.min}
+          max={factor.max}
+          step={factor.step}
+          value={value.max}
+          onChange={(e) => setMax(Number(e.target.value))}
         />
       </div>
 
-      <div className="slider-row">
-        <label className="slider-caption weight-caption">
-          How much it matters: <strong>{value.weight}</strong>
-          {value.weight === 0 && <span className="muted"> (ignored)</span>}
-        </label>
-        <input
-          type="range"
-          min={0}
-          max={100}
-          step={1}
-          value={value.weight}
-          onChange={(e) =>
-            onChange({ ...value, weight: Number(e.target.value) })
-          }
-          className="weight-slider"
-        />
+      <div className="range-bounds">
+        <span>
+          {factor.min} {factor.unit}
+        </span>
+        <span>
+          {factor.max} {factor.unit}
+        </span>
       </div>
     </div>
   );

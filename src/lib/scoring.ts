@@ -1,62 +1,51 @@
 import type { City, FactorKey, Preferences, RankedCity } from '../types';
-import { FACTORS, FACTOR_BY_KEY } from './factors';
+import { FACTORS, FACTOR_BY_KEY, isFullRange } from './factors';
 
 /**
  * Score a single city against the preferences.
- * Lower score = better match. Also returns per-factor contributions.
+ *
+ * For each factor:
+ *   - if the city's value is inside [min, max], distance is 0 (perfect)
+ *   - otherwise, distance is how far outside the range, normalized to [0, 1]
+ *     by the factor's full span.
+ *
+ * Score = sum of normalized distances. Lower = better.
+ * matchPct = 100 * (1 - score / numFactors)  (each factor contributes max 1)
  */
 export function scoreCity(city: City, prefs: Preferences) {
   const contributions = {} as Record<FactorKey, number>;
   let score = 0;
-  let maxPossible = 0;
 
   for (const f of FACTORS) {
     const pref = prefs[f.key];
-    const weight = pref.weight / 100;
-    if (weight === 0) {
-      contributions[f.key] = 0;
-      continue;
-    }
-    const range = f.max - f.min;
     const value = city.climate[f.key];
-    const rawDist = Math.abs(value - pref.target) / range;
-    const dist = Math.min(1, rawDist); // clamp outliers
-    const contribution = dist * weight;
-    contributions[f.key] = contribution;
-    score += contribution;
-    maxPossible += weight;
+    const span = f.max - f.min;
+
+    let dist: number;
+    if (value >= pref.min && value <= pref.max) {
+      dist = 0;
+    } else if (value < pref.min) {
+      dist = (pref.min - value) / span;
+    } else {
+      dist = (value - pref.max) / span;
+    }
+    dist = Math.min(1, dist);
+    contributions[f.key] = dist;
+    score += dist;
   }
 
-  const matchPct =
-    maxPossible === 0 ? 0 : Math.max(0, 100 * (1 - score / maxPossible));
+  const matchPct = Math.max(0, 100 * (1 - score / FACTORS.length));
   return { score, matchPct, contributions };
 }
 
 /**
  * Rank cities by how well they match the preferences.
- * If every weight is 0, returns cities alphabetically with matchPct=0.
  */
 export function rankCities(
   cities: readonly City[],
   prefs: Preferences,
   limit = 20,
 ): RankedCity[] {
-  const allZero = FACTORS.every((f) => prefs[f.key].weight === 0);
-
-  if (allZero) {
-    return [...cities]
-      .sort((a, b) => a.name.localeCompare(b.name))
-      .slice(0, limit)
-      .map((city) => ({
-        city,
-        score: 0,
-        matchPct: 0,
-        contributions: Object.fromEntries(
-          FACTORS.map((f) => [f.key, 0]),
-        ) as Record<FactorKey, number>,
-      }));
-  }
-
   const ranked = cities.map<RankedCity>((city) => {
     const { score, matchPct, contributions } = scoreCity(city, prefs);
     return { city, score, matchPct, contributions };
@@ -84,4 +73,4 @@ export function validateCity(raw: unknown): string | null {
   return null;
 }
 
-export { FACTOR_BY_KEY };
+export { FACTOR_BY_KEY, isFullRange };

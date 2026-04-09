@@ -7,7 +7,8 @@ export type FactorMeta = {
   min: number;
   max: number;
   step: number;
-  default: number;
+  defaultMin: number;
+  defaultMax: number;
   description: string;
 };
 
@@ -19,7 +20,8 @@ export const FACTORS: readonly FactorMeta[] = [
     min: 0,
     max: 100,
     step: 1,
-    default: 68,
+    defaultMin: 60,
+    defaultMax: 75,
     description: 'Annual mean temperature',
   },
   {
@@ -29,7 +31,8 @@ export const FACTORS: readonly FactorMeta[] = [
     min: 0,
     max: 120,
     step: 1,
-    default: 30,
+    defaultMin: 10,
+    defaultMax: 45,
     description: 'Total yearly precipitation (excluding snow)',
   },
   {
@@ -39,7 +42,8 @@ export const FACTORS: readonly FactorMeta[] = [
     min: 0,
     max: 120,
     step: 1,
-    default: 0,
+    defaultMin: 0,
+    defaultMax: 10,
     description: 'Total yearly snow',
   },
   {
@@ -49,7 +53,8 @@ export const FACTORS: readonly FactorMeta[] = [
     min: 1000,
     max: 4200,
     step: 25,
-    default: 2800,
+    defaultMin: 2400,
+    defaultMax: 3600,
     description: 'Annual hours of bright sunshine',
   },
   {
@@ -59,7 +64,8 @@ export const FACTORS: readonly FactorMeta[] = [
     min: 20,
     max: 95,
     step: 1,
-    default: 55,
+    defaultMin: 45,
+    defaultMax: 70,
     description: 'Average relative humidity',
   },
   {
@@ -69,7 +75,8 @@ export const FACTORS: readonly FactorMeta[] = [
     min: 5,
     max: 40,
     step: 1,
-    default: 18,
+    defaultMin: 12,
+    defaultMax: 25,
     description: 'Average difference between daily high and low',
   },
 ] as const;
@@ -81,7 +88,12 @@ export const FACTOR_BY_KEY: Record<FactorKey, FactorMeta> = Object.fromEntries(
 export function defaultPreferences(): Preferences {
   const prefs: Partial<Preferences> = {};
   for (const f of FACTORS) {
-    prefs[f.key] = { target: f.default, weight: 50 };
+    prefs[f.key] = { min: f.defaultMin, max: f.defaultMax };
   }
   return prefs as Preferences;
+}
+
+/** Returns true if the range covers the entire allowed span (i.e. "any"). */
+export function isFullRange(pref: { min: number; max: number }, factor: FactorMeta) {
+  return pref.min <= factor.min && pref.max >= factor.max;
 }

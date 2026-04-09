@@ -15,7 +15,7 @@ export function CityCard({ rank, ranked }: Props) {
     keyof typeof contributions,
     number,
   ][];
-  const nonZero = contribEntries.filter(([, v]) => v > 0);
+  const nonZero = contribEntries.filter(([, v]) => v > 0.01);
   const worst = nonZero.sort((a, b) => b[1] - a[1])[0];
 
   return (
@@ -36,15 +36,15 @@ export function CityCard({ rank, ranked }: Props) {
         {FACTORS.map((f) => {
           const value = climate[f.key];
           const contrib = contributions[f.key];
-          const isWorst = worst && worst[0] === f.key && worst[1] > 0.05;
+          const isWorst = worst && worst[0] === f.key && worst[1] > 0.02;
           return (
             <div
               key={f.key}
               className={`climate-cell${isWorst ? ' climate-worst' : ''}`}
               title={
                 contrib > 0
-                  ? `Off by ${(contrib * 100).toFixed(0)} weighted pts`
-                  : 'Not weighted'
+                  ? `${(contrib * 100).toFixed(0)}% outside your range`
+                  : 'Within your range'
               }
             >
               <div className="climate-key">{f.label}</div>

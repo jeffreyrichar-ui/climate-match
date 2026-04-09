@@ -1,7 +1,7 @@
 import { useEffect, useMemo, useState } from 'react';
 import { PreferencesPanel } from './components/PreferencesPanel';
 import { ResultsList } from './components/ResultsList';
-import { defaultPreferences, FACTORS } from './lib/factors';
+import { defaultPreferences } from './lib/factors';
 import { rankCities, validateCity } from './lib/scoring';
 import type { City, Preferences } from './types';
 import citiesData from './data/cities.json';
@@ -24,10 +24,6 @@ export default function App() {
   }, []);
 
   const results = useMemo(() => rankCities(cities, prefs, 20), [cities, prefs]);
-  const allWeightsZero = useMemo(
-    () => FACTORS.every((f) => prefs[f.key].weight === 0),
-    [prefs],
-  );
 
   useEffect(() => {
     document.title = `Climate Match · ${cities.length} cities`;
@@ -50,11 +46,7 @@ export default function App() {
           onChange={setPrefs}
           onResetAll={() => setPrefs(defaultPreferences())}
         />
-        <ResultsList
-          results={results}
-          totalCities={cities.length}
-          allWeightsZero={allWeightsZero}
-        />
+        <ResultsList results={results} totalCities={cities.length} />
       </main>
 
       <footer className="app-footer">
