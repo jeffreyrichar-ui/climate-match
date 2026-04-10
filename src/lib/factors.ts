@@ -1,5 +1,7 @@
 import type { FactorKey, Preferences } from '../types';
 
+export type Marker = { value: number; label: string };
+
 export type FactorMeta = {
   key: FactorKey;
   label: string;
@@ -10,6 +12,7 @@ export type FactorMeta = {
   defaultMin: number;
   defaultMax: number;
   description: string;
+  markers: readonly Marker[];
 };
 
 export const FACTORS: readonly FactorMeta[] = [
@@ -23,6 +26,13 @@ export const FACTORS: readonly FactorMeta[] = [
     defaultMin: 60,
     defaultMax: 75,
     description: 'Annual mean temperature',
+    markers: [
+      { value: 30, label: 'Anchorage' },
+      { value: 50, label: 'Seattle' },
+      { value: 65, label: 'Paris' },
+      { value: 78, label: 'Miami' },
+      { value: 90, label: 'Dubai' },
+    ],
   },
   {
     key: 'rainInches',
@@ -34,6 +44,13 @@ export const FACTORS: readonly FactorMeta[] = [
     defaultMin: 10,
     defaultMax: 45,
     description: 'Total yearly precipitation (excluding snow)',
+    markers: [
+      { value: 4, label: 'Phoenix' },
+      { value: 25, label: 'Denver' },
+      { value: 45, label: 'NYC' },
+      { value: 75, label: 'Miami' },
+      { value: 100, label: 'Tropics' },
+    ],
   },
   {
     key: 'snowInches',
@@ -45,6 +62,12 @@ export const FACTORS: readonly FactorMeta[] = [
     defaultMin: 0,
     defaultMax: 10,
     description: 'Total yearly snow',
+    markers: [
+      { value: 0, label: 'None' },
+      { value: 25, label: 'NYC' },
+      { value: 55, label: 'Denver' },
+      { value: 90, label: 'Quebec' },
+    ],
   },
   {
     key: 'sunHours',
@@ -56,6 +79,13 @@ export const FACTORS: readonly FactorMeta[] = [
     defaultMin: 2400,
     defaultMax: 3600,
     description: 'Annual hours of bright sunshine',
+    markers: [
+      { value: 1300, label: 'Reykjavik' },
+      { value: 1700, label: 'London' },
+      { value: 2500, label: 'NYC' },
+      { value: 3200, label: 'LA' },
+      { value: 3900, label: 'Phoenix' },
+    ],
   },
   {
     key: 'humidityPct',
@@ -67,6 +97,12 @@ export const FACTORS: readonly FactorMeta[] = [
     defaultMin: 45,
     defaultMax: 70,
     description: 'Average relative humidity',
+    markers: [
+      { value: 30, label: 'Desert' },
+      { value: 50, label: 'Comfy' },
+      { value: 70, label: 'Humid' },
+      { value: 85, label: 'Tropical' },
+    ],
   },
   {
     key: 'dailyVarianceF',
@@ -78,6 +114,12 @@ export const FACTORS: readonly FactorMeta[] = [
     defaultMin: 12,
     defaultMax: 25,
     description: 'Average difference between daily high and low',
+    markers: [
+      { value: 10, label: 'Hawaii' },
+      { value: 18, label: 'NYC' },
+      { value: 28, label: 'Desert' },
+      { value: 38, label: 'Extreme' },
+    ],
   },
 ] as const;
 

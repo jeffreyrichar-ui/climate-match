@@ -86,6 +86,26 @@ export function FactorSlider({ factor, value, onChange }: Props) {
           {factor.max} {factor.unit}
         </span>
       </div>
+
+      {factor.markers.length > 0 && (
+        <div className="range-markers">
+          {factor.markers.map((m) => {
+            const pct = ((m.value - factor.min) / span) * 100;
+            const inRange = m.value >= value.min && m.value <= value.max;
+            return (
+              <div
+                key={m.label}
+                className={`range-marker${inRange ? ' range-marker-in' : ''}`}
+                style={{ left: `${pct}%` }}
+                title={`${m.label}: ${m.value} ${factor.unit}`}
+              >
+                <div className="range-marker-tick" />
+                <div className="range-marker-label">{m.label}</div>
+              </div>
+            );
+          })}
+        </div>
+      )}
     </div>
   );
 }

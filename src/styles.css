@@ -190,6 +190,41 @@ body {
   margin-top: 2px;
 }
 
+.range-markers {
+  position: relative;
+  height: 28px;
+  margin-top: 4px;
+}
+.range-marker {
+  position: absolute;
+  top: 0;
+  transform: translateX(-50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  pointer-events: auto;
+}
+.range-marker-tick {
+  width: 1px;
+  height: 6px;
+  background: var(--muted);
+  opacity: 0.6;
+}
+.range-marker-label {
+  font-size: 9px;
+  color: var(--muted);
+  margin-top: 2px;
+  white-space: nowrap;
+  letter-spacing: 0.2px;
+}
+.range-marker-in .range-marker-tick {
+  background: var(--accent-2);
+  opacity: 1;
+}
+.range-marker-in .range-marker-label {
+  color: var(--accent-2);
+}
+
 /* ---------- Results Panel ---------- */
 .results-panel {}
 .results-header {
