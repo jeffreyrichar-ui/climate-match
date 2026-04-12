@@ -8,8 +8,12 @@ export type City = {
     rainInches: number;
     snowInches: number;
     sunHours: number;
-    humidityPct: number;
     dailyVarianceF: number;
+    summerHighF: number;
+    winterLowF: number;
+    rainyDays: number;
+    windMph: number;
+    dewPointF: number;
   };
 };
 
@@ -18,8 +22,12 @@ export type FactorKey =
   | 'rainInches'
   | 'snowInches'
   | 'sunHours'
-  | 'humidityPct'
-  | 'dailyVarianceF';
+  | 'dailyVarianceF'
+  | 'summerHighF'
+  | 'winterLowF'
+  | 'rainyDays'
+  | 'windMph'
+  | 'dewPointF';
 
 export type Preference = { min: number; max: number };
 export type Preferences = Record<FactorKey, Preference>;

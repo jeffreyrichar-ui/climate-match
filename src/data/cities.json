@@ -1,19 +1,5 @@
 [
   {
-    "name": "Aarhus",
-    "country": "Denmark",
-    "lat": 56.16,
-    "lon": 10.21,
-    "climate": {
-      "avgTempF": 49,
-      "rainInches": 39,
-      "snowInches": 16,
-      "sunHours": 2862,
-      "humidityPct": 80,
-      "dailyVarianceF": 11
-    }
-  },
-  {
     "name": "Abidjan",
     "country": "Ivory Coast",
     "lat": 5.35,
@@ -23,8 +9,12 @@
       "rainInches": 83,
       "snowInches": 0,
       "sunHours": 3322,
-      "humidityPct": 87,
-      "dailyVarianceF": 10
+      "dailyVarianceF": 10,
+      "summerHighF": 88,
+      "winterLowF": 73,
+      "rainyDays": 315,
+      "windMph": 8,
+      "dewPointF": 75
     }
   },
   {
@@ -37,36 +27,12 @@
       "rainInches": 2,
       "snowInches": 0,
       "sunHours": 3918,
-      "humidityPct": 61,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Abuja",
-    "country": "Nigeria",
-    "lat": 9.06,
-    "lon": 7.5,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 34,
-      "snowInches": 0,
-      "sunHours": 3441,
-      "humidityPct": 60,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Acapulco",
-    "country": "Mexico",
-    "lat": 16.11,
-    "lon": -91.51,
-    "climate": {
-      "avgTempF": 72,
-      "rainInches": 86,
-      "snowInches": 0,
-      "sunHours": 3481,
-      "humidityPct": 84,
-      "dailyVarianceF": 13
+      "dailyVarianceF": 15,
+      "summerHighF": 107,
+      "winterLowF": 64,
+      "rainyDays": 8,
+      "windMph": 15,
+      "dewPointF": 66
     }
   },
   {
@@ -79,22 +45,12 @@
       "rainInches": 43,
       "snowInches": 0,
       "sunHours": 3589,
-      "humidityPct": 83,
-      "dailyVarianceF": 10
-    }
-  },
-  {
-    "name": "Adana",
-    "country": "Türkiye",
-    "lat": 36.99,
-    "lon": 35.33,
-    "climate": {
-      "avgTempF": 69,
-      "rainInches": 29,
-      "snowInches": 0,
-      "sunHours": 3789,
-      "humidityPct": 64,
-      "dailyVarianceF": 21
+      "dailyVarianceF": 10,
+      "summerHighF": 88,
+      "winterLowF": 74,
+      "rainyDays": 191,
+      "windMph": 11,
+      "dewPointF": 74
     }
   },
   {
@@ -104,39 +60,15 @@
     "lon": 38.75,
     "climate": {
       "avgTempF": 58,
-      "rainInches": 54,
+      "rainInches": 64,
       "snowInches": 0,
-      "sunHours": 3809,
-      "humidityPct": 67,
-      "dailyVarianceF": 21
-    }
-  },
-  {
-    "name": "Agra",
-    "country": "India",
-    "lat": 27.18,
-    "lon": 78.02,
-    "climate": {
-      "avgTempF": 76,
-      "rainInches": 34,
-      "snowInches": 0,
-      "sunHours": 3597,
-      "humidityPct": 65,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Ahmedabad",
-    "country": "India",
-    "lat": 23.03,
-    "lon": 72.59,
-    "climate": {
-      "avgTempF": 81,
-      "rainInches": 40,
-      "snowInches": 0,
-      "sunHours": 3683,
-      "humidityPct": 55,
-      "dailyVarianceF": 21
+      "sunHours": 3831,
+      "dailyVarianceF": 21,
+      "summerHighF": 73,
+      "winterLowF": 45,
+      "rainyDays": 179,
+      "windMph": 9,
+      "dewPointF": 48
     }
   },
   {
@@ -149,22 +81,12 @@
       "rainInches": 8,
       "snowInches": 21,
       "sunHours": 3966,
-      "humidityPct": 38,
-      "dailyVarianceF": 24
-    }
-  },
-  {
-    "name": "Aleppo",
-    "country": "Syria",
-    "lat": 36.2,
-    "lon": 37.16,
-    "climate": {
-      "avgTempF": 67,
-      "rainInches": 12,
-      "snowInches": 0,
-      "sunHours": 3833,
-      "humidityPct": 58,
-      "dailyVarianceF": 23
+      "dailyVarianceF": 24,
+      "summerHighF": 99,
+      "winterLowF": 28,
+      "rainyDays": 52,
+      "windMph": 14,
+      "dewPointF": 33
     }
   },
   {
@@ -177,8 +99,12 @@
       "rainInches": 20,
       "snowInches": 2,
       "sunHours": 3732,
-      "humidityPct": 74,
-      "dailyVarianceF": 17
+      "dailyVarianceF": 17,
+      "summerHighF": 94,
+      "winterLowF": 45,
+      "rainyDays": 70,
+      "windMph": 11,
+      "dewPointF": 55
     }
   },
   {
@@ -191,36 +117,30 @@
       "rainInches": 8,
       "snowInches": 0,
       "sunHours": 3952,
-      "humidityPct": 54,
-      "dailyVarianceF": 20
+      "dailyVarianceF": 20,
+      "summerHighF": 96,
+      "winterLowF": 40,
+      "rainyDays": 30,
+      "windMph": 14,
+      "dewPointF": 46
     }
   },
   {
-    "name": "Amritsar",
-    "country": "India",
-    "lat": 31.62,
-    "lon": 74.88,
+    "name": "Amsterdam",
+    "country": "The Netherlands",
+    "lat": 52.37,
+    "lon": 4.89,
     "climate": {
-      "avgTempF": 72,
-      "rainInches": 37,
-      "snowInches": 0,
-      "sunHours": 3437,
-      "humidityPct": 71,
-      "dailyVarianceF": 21
-    }
-  },
-  {
-    "name": "Anaheim",
-    "country": "United States",
-    "lat": 33.84,
-    "lon": -117.91,
-    "climate": {
-      "avgTempF": 64,
-      "rainInches": 22,
-      "snowInches": 0,
-      "sunHours": 3761,
-      "humidityPct": 64,
-      "dailyVarianceF": 20
+      "avgTempF": 53,
+      "rainInches": 47,
+      "snowInches": 12,
+      "sunHours": 2775,
+      "dailyVarianceF": 11,
+      "summerHighF": 74,
+      "winterLowF": 38,
+      "rainyDays": 188,
+      "windMph": 14,
+      "dewPointF": 44
     }
   },
   {
@@ -229,26 +149,16 @@
     "lat": 61.22,
     "lon": -149.9,
     "climate": {
-      "avgTempF": 38,
-      "rainInches": 26,
-      "snowInches": 104,
-      "sunHours": 2337,
-      "humidityPct": 78,
-      "dailyVarianceF": 13
-    }
-  },
-  {
-    "name": "Andorra la Vella",
-    "country": "Andorra",
-    "lat": 42.51,
-    "lon": 1.52,
-    "climate": {
-      "avgTempF": 54,
-      "rainInches": 27,
-      "snowInches": 23,
-      "sunHours": 3730,
-      "humidityPct": 61,
-      "dailyVarianceF": 20
+      "avgTempF": 37,
+      "rainInches": 24,
+      "snowInches": 111,
+      "sunHours": 2142,
+      "dailyVarianceF": 12,
+      "summerHighF": 65,
+      "winterLowF": 9,
+      "rainyDays": 165,
+      "windMph": 8,
+      "dewPointF": 31
     }
   },
   {
@@ -261,8 +171,12 @@
       "rainInches": 20,
       "snowInches": 7,
       "sunHours": 3602,
-      "humidityPct": 60,
-      "dailyVarianceF": 21
+      "dailyVarianceF": 21,
+      "summerHighF": 95,
+      "winterLowF": 25,
+      "rainyDays": 85,
+      "windMph": 10,
+      "dewPointF": 40
     }
   },
   {
@@ -275,8 +189,12 @@
       "rainInches": 36,
       "snowInches": 0,
       "sunHours": 3800,
-      "humidityPct": 62,
-      "dailyVarianceF": 20
+      "dailyVarianceF": 20,
+      "summerHighF": 101,
+      "winterLowF": 39,
+      "rainyDays": 78,
+      "windMph": 10,
+      "dewPointF": 51
     }
   },
   {
@@ -285,40 +203,16 @@
     "lat": -18.91,
     "lon": 47.54,
     "climate": {
-      "avgTempF": 64,
-      "rainInches": 53,
+      "avgTempF": 65,
+      "rainInches": 60,
       "snowInches": 0,
-      "sunHours": 3656,
-      "humidityPct": 77,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Arequipa",
-    "country": "Peru",
-    "lat": -16.4,
-    "lon": -71.53,
-    "climate": {
-      "avgTempF": 61,
-      "rainInches": 15,
-      "snowInches": 0,
-      "sunHours": 3938,
-      "humidityPct": 42,
-      "dailyVarianceF": 21
-    }
-  },
-  {
-    "name": "Asmara",
-    "country": "Eritrea",
-    "lat": 15.34,
-    "lon": 38.93,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 22,
-      "snowInches": 0,
-      "sunHours": 4006,
-      "humidityPct": 61,
-      "dailyVarianceF": 18
+      "sunHours": 3673,
+      "dailyVarianceF": 19,
+      "summerHighF": 82,
+      "winterLowF": 51,
+      "rainyDays": 138,
+      "windMph": 10,
+      "dewPointF": 58
     }
   },
   {
@@ -331,8 +225,12 @@
       "rainInches": 73,
       "snowInches": 0,
       "sunHours": 3476,
-      "humidityPct": 73,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 16,
+      "summerHighF": 92,
+      "winterLowF": 60,
+      "rainyDays": 121,
+      "windMph": 12,
+      "dewPointF": 64
     }
   },
   {
@@ -345,8 +243,12 @@
       "rainInches": 21,
       "snowInches": 7,
       "sunHours": 3813,
-      "humidityPct": 64,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 15,
+      "summerHighF": 96,
+      "winterLowF": 41,
+      "rainyDays": 77,
+      "windMph": 10,
+      "dewPointF": 52
     }
   },
   {
@@ -359,8 +261,30 @@
       "rainInches": 56,
       "snowInches": 0,
       "sunHours": 3297,
-      "humidityPct": 71,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 18,
+      "summerHighF": 90,
+      "winterLowF": 39,
+      "rainyDays": 131,
+      "windMph": 11,
+      "dewPointF": 52
+    }
+  },
+  {
+    "name": "Auckland",
+    "country": "New Zealand",
+    "lat": -36.85,
+    "lon": 174.76,
+    "climate": {
+      "avgTempF": 60,
+      "rainInches": 69,
+      "snowInches": 0,
+      "sunHours": 3257,
+      "dailyVarianceF": 9,
+      "summerHighF": 71,
+      "winterLowF": 45,
+      "rainyDays": 183,
+      "windMph": 17,
+      "dewPointF": 54
     }
   },
   {
@@ -369,12 +293,16 @@
     "lat": 30.27,
     "lon": -97.74,
     "climate": {
-      "avgTempF": 70,
+      "avgTempF": 71,
       "rainInches": 41,
       "snowInches": 0,
-      "sunHours": 3332,
-      "humidityPct": 64,
-      "dailyVarianceF": 20
+      "sunHours": 3284,
+      "dailyVarianceF": 19,
+      "summerHighF": 104,
+      "winterLowF": 47,
+      "rainyDays": 105,
+      "windMph": 13,
+      "dewPointF": 58
     }
   },
   {
@@ -386,23 +314,13 @@
       "avgTempF": 77,
       "rainInches": 6,
       "snowInches": 0,
-      "sunHours": 3807,
-      "humidityPct": 39,
-      "dailyVarianceF": 24
-    }
-  },
-  {
-    "name": "Bakersfield",
-    "country": "United States",
-    "lat": 35.37,
-    "lon": -119.02,
-    "climate": {
-      "avgTempF": 68,
-      "rainInches": 13,
-      "snowInches": 1,
-      "sunHours": 4014,
-      "humidityPct": 44,
-      "dailyVarianceF": 25
+      "sunHours": 3770,
+      "dailyVarianceF": 23,
+      "summerHighF": 115,
+      "winterLowF": 43,
+      "rainyDays": 24,
+      "windMph": 13,
+      "dewPointF": 40
     }
   },
   {
@@ -413,38 +331,32 @@
     "climate": {
       "avgTempF": 61,
       "rainInches": 10,
-      "snowInches": 2,
-      "sunHours": 3233,
-      "humidityPct": 72,
-      "dailyVarianceF": 12
+      "snowInches": 3,
+      "sunHours": 3221,
+      "dailyVarianceF": 12,
+      "summerHighF": 90,
+      "winterLowF": 36,
+      "rainyDays": 58,
+      "windMph": 17,
+      "dewPointF": 53
     }
   },
   {
-    "name": "Baltimore",
-    "country": "United States",
-    "lat": 39.29,
-    "lon": -76.61,
+    "name": "Bandar Seri Begawan",
+    "country": "Brunei",
+    "lat": 4.89,
+    "lon": 114.94,
     "climate": {
-      "avgTempF": 58,
-      "rainInches": 51,
-      "snowInches": 2,
-      "sunHours": 3285,
-      "humidityPct": 69,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Bamako",
-    "country": "Mali",
-    "lat": 12.61,
-    "lon": -7.98,
-    "climate": {
-      "avgTempF": 83,
-      "rainInches": 28,
+      "avgTempF": 80,
+      "rainInches": 140,
       "snowInches": 0,
-      "sunHours": 3618,
-      "humidityPct": 47,
-      "dailyVarianceF": 21
+      "sunHours": 3408,
+      "dailyVarianceF": 11,
+      "summerHighF": 88,
+      "winterLowF": 74,
+      "rainyDays": 307,
+      "windMph": 7,
+      "dewPointF": 76
     }
   },
   {
@@ -457,50 +369,30 @@
       "rainInches": 68,
       "snowInches": 0,
       "sunHours": 3529,
-      "humidityPct": 74,
-      "dailyVarianceF": 14
+      "dailyVarianceF": 14,
+      "summerHighF": 96,
+      "winterLowF": 69,
+      "rainyDays": 184,
+      "windMph": 10,
+      "dewPointF": 73
     }
   },
   {
-    "name": "Basel",
-    "country": "Switzerland",
-    "lat": 47.56,
-    "lon": 7.57,
+    "name": "Barcelona",
+    "country": "Spain",
+    "lat": 41.39,
+    "lon": 2.16,
     "climate": {
-      "avgTempF": 54,
-      "rainInches": 47,
-      "snowInches": 12,
-      "sunHours": 2881,
-      "humidityPct": 74,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Basra",
-    "country": "Iraq",
-    "lat": 30.51,
-    "lon": 47.78,
-    "climate": {
-      "avgTempF": 82,
-      "rainInches": 7,
-      "snowInches": 0,
-      "sunHours": 3746,
-      "humidityPct": 35,
-      "dailyVarianceF": 24
-    }
-  },
-  {
-    "name": "Baton Rouge",
-    "country": "United States",
-    "lat": 30.44,
-    "lon": -91.19,
-    "climate": {
-      "avgTempF": 71,
-      "rainInches": 40,
-      "snowInches": 0,
-      "sunHours": 3567,
-      "humidityPct": 72,
-      "dailyVarianceF": 17
+      "avgTempF": 63,
+      "rainInches": 18,
+      "snowInches": 1,
+      "sunHours": 3786,
+      "dailyVarianceF": 16,
+      "summerHighF": 85,
+      "winterLowF": 40,
+      "rainyDays": 60,
+      "windMph": 12,
+      "dewPointF": 53
     }
   },
   {
@@ -513,8 +405,12 @@
       "rainInches": 24,
       "snowInches": 6,
       "sunHours": 3168,
-      "humidityPct": 52,
-      "dailyVarianceF": 20
+      "dailyVarianceF": 20,
+      "summerHighF": 96,
+      "winterLowF": 18,
+      "rainyDays": 55,
+      "windMph": 11,
+      "dewPointF": 36
     }
   },
   {
@@ -527,8 +423,30 @@
       "rainInches": 31,
       "snowInches": 0,
       "sunHours": 3861,
-      "humidityPct": 63,
-      "dailyVarianceF": 12
+      "dailyVarianceF": 12,
+      "summerHighF": 89,
+      "winterLowF": 48,
+      "rainyDays": 69,
+      "windMph": 10,
+      "dewPointF": 56
+    }
+  },
+  {
+    "name": "Belfast",
+    "country": "United Kingdom",
+    "lat": 54.6,
+    "lon": -5.93,
+    "climate": {
+      "avgTempF": 51,
+      "rainInches": 49,
+      "snowInches": 6,
+      "sunHours": 2638,
+      "dailyVarianceF": 10,
+      "summerHighF": 68,
+      "winterLowF": 38,
+      "rainyDays": 193,
+      "windMph": 13,
+      "dewPointF": 44
     }
   },
   {
@@ -541,36 +459,12 @@
       "rainInches": 32,
       "snowInches": 20,
       "sunHours": 3248,
-      "humidityPct": 74,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Belize City",
-    "country": "Belize",
-    "lat": 17.5,
-    "lon": -88.2,
-    "climate": {
-      "avgTempF": 80,
-      "rainInches": 91,
-      "snowInches": 0,
-      "sunHours": 3755,
-      "humidityPct": 82,
-      "dailyVarianceF": 7
-    }
-  },
-  {
-    "name": "Belo Horizonte",
-    "country": "Brazil",
-    "lat": -19.92,
-    "lon": -43.94,
-    "climate": {
-      "avgTempF": 69,
-      "rainInches": 51,
-      "snowInches": 0,
-      "sunHours": 3760,
-      "humidityPct": 69,
-      "dailyVarianceF": 17
+      "dailyVarianceF": 16,
+      "summerHighF": 85,
+      "winterLowF": 32,
+      "rainyDays": 133,
+      "windMph": 10,
+      "dewPointF": 44
     }
   },
   {
@@ -580,11 +474,15 @@
     "lon": 77.59,
     "climate": {
       "avgTempF": 74,
-      "rainInches": 39,
+      "rainInches": 31,
       "snowInches": 0,
-      "sunHours": 3524,
-      "humidityPct": 70,
-      "dailyVarianceF": 19
+      "sunHours": 3663,
+      "dailyVarianceF": 20,
+      "summerHighF": 92,
+      "winterLowF": 58,
+      "rainyDays": 130,
+      "windMph": 11,
+      "dewPointF": 61
     }
   },
   {
@@ -597,8 +495,12 @@
       "rainInches": 82,
       "snowInches": 106,
       "sunHours": 2367,
-      "humidityPct": 82,
-      "dailyVarianceF": 12
+      "dailyVarianceF": 12,
+      "summerHighF": 67,
+      "winterLowF": 24,
+      "rainyDays": 205,
+      "windMph": 10,
+      "dewPointF": 38
     }
   },
   {
@@ -608,39 +510,15 @@
     "lon": 13.41,
     "climate": {
       "avgTempF": 52,
-      "rainInches": 25,
-      "snowInches": 10,
-      "sunHours": 2916,
-      "humidityPct": 74,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Bern",
-    "country": "Switzerland",
-    "lat": 46.95,
-    "lon": 7.45,
-    "climate": {
-      "avgTempF": 51,
-      "rainInches": 53,
-      "snowInches": 32,
-      "sunHours": 3087,
-      "humidityPct": 75,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Bhopal",
-    "country": "India",
-    "lat": 23.25,
-    "lon": 77.4,
-    "climate": {
-      "avgTempF": 76,
-      "rainInches": 40,
-      "snowInches": 0,
-      "sunHours": 3623,
-      "humidityPct": 62,
-      "dailyVarianceF": 19
+      "rainInches": 31,
+      "snowInches": 15,
+      "sunHours": 2808,
+      "dailyVarianceF": 14,
+      "summerHighF": 77,
+      "winterLowF": 31,
+      "rainyDays": 145,
+      "windMph": 13,
+      "dewPointF": 41
     }
   },
   {
@@ -653,22 +531,30 @@
       "rainInches": 13,
       "snowInches": 33,
       "sunHours": 3480,
-      "humidityPct": 56,
-      "dailyVarianceF": 22
+      "dailyVarianceF": 22,
+      "summerHighF": 88,
+      "winterLowF": 19,
+      "rainyDays": 68,
+      "windMph": 12,
+      "dewPointF": 32
     }
   },
   {
-    "name": "Bloemfontein",
-    "country": "South Africa",
-    "lat": -29.12,
-    "lon": 26.21,
+    "name": "Bismarck",
+    "country": "United States",
+    "lat": 46.81,
+    "lon": -100.78,
     "climate": {
-      "avgTempF": 62,
-      "rainInches": 17,
-      "snowInches": 0,
-      "sunHours": 3933,
-      "humidityPct": 51,
-      "dailyVarianceF": 26
+      "avgTempF": 44,
+      "rainInches": 16,
+      "snowInches": 32,
+      "sunHours": 3392,
+      "dailyVarianceF": 18,
+      "summerHighF": 82,
+      "winterLowF": 9,
+      "rainyDays": 79,
+      "windMph": 14,
+      "dewPointF": 34
     }
   },
   {
@@ -678,11 +564,15 @@
     "lon": -74.08,
     "climate": {
       "avgTempF": 56,
-      "rainInches": 35,
+      "rainInches": 30,
       "snowInches": 0,
-      "sunHours": 3837,
-      "humidityPct": 80,
-      "dailyVarianceF": 18
+      "sunHours": 3850,
+      "dailyVarianceF": 18,
+      "summerHighF": 69,
+      "winterLowF": 45,
+      "rainyDays": 141,
+      "windMph": 10,
+      "dewPointF": 53
     }
   },
   {
@@ -695,22 +585,30 @@
       "rainInches": 11,
       "snowInches": 29,
       "sunHours": 3507,
-      "humidityPct": 54,
-      "dailyVarianceF": 22
+      "dailyVarianceF": 22,
+      "summerHighF": 96,
+      "winterLowF": 27,
+      "rainyDays": 87,
+      "windMph": 12,
+      "dewPointF": 35
     }
   },
   {
-    "name": "Bologna",
-    "country": "Italy",
-    "lat": 44.49,
-    "lon": 11.34,
+    "name": "Bordeaux",
+    "country": "France",
+    "lat": 44.84,
+    "lon": -0.58,
     "climate": {
-      "avgTempF": 59,
-      "rainInches": 30,
-      "snowInches": 8,
-      "sunHours": 3401,
-      "humidityPct": 71,
-      "dailyVarianceF": 17
+      "avgTempF": 58,
+      "rainInches": 50,
+      "snowInches": 1,
+      "sunHours": 3134,
+      "dailyVarianceF": 16,
+      "summerHighF": 81,
+      "winterLowF": 35,
+      "rainyDays": 141,
+      "windMph": 11,
+      "dewPointF": 49
     }
   },
   {
@@ -723,8 +621,12 @@
       "rainInches": 52,
       "snowInches": 31,
       "sunHours": 3012,
-      "humidityPct": 74,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 16,
+      "summerHighF": 83,
+      "winterLowF": 25,
+      "rainyDays": 124,
+      "windMph": 12,
+      "dewPointF": 42
     }
   },
   {
@@ -734,11 +636,15 @@
     "lon": -47.93,
     "climate": {
       "avgTempF": 71,
-      "rainInches": 41,
+      "rainInches": 38,
       "snowInches": 0,
-      "sunHours": 3805,
-      "humidityPct": 65,
-      "dailyVarianceF": 18
+      "sunHours": 3874,
+      "dailyVarianceF": 18,
+      "summerHighF": 86,
+      "winterLowF": 58,
+      "rainyDays": 129,
+      "windMph": 9,
+      "dewPointF": 59
     }
   },
   {
@@ -751,22 +657,12 @@
       "rainInches": 27,
       "snowInches": 15,
       "sunHours": 3017,
-      "humidityPct": 73,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Brazzaville",
-    "country": "Congo Republic",
-    "lat": -4.27,
-    "lon": 15.28,
-    "climate": {
-      "avgTempF": 78,
-      "rainInches": 68,
-      "snowInches": 0,
-      "sunHours": 3391,
-      "humidityPct": 80,
-      "dailyVarianceF": 14
+      "dailyVarianceF": 15,
+      "summerHighF": 82,
+      "winterLowF": 32,
+      "rainyDays": 123,
+      "windMph": 12,
+      "dewPointF": 41
     }
   },
   {
@@ -778,23 +674,49 @@
       "avgTempF": 80,
       "rainInches": 33,
       "snowInches": 0,
-      "sunHours": 3955,
-      "humidityPct": 75,
-      "dailyVarianceF": 8
+      "sunHours": 3947,
+      "dailyVarianceF": 9,
+      "summerHighF": 89,
+      "winterLowF": 73,
+      "rainyDays": 173,
+      "windMph": 14,
+      "dewPointF": 73
     }
   },
   {
-    "name": "Brno",
-    "country": "Czechia",
-    "lat": 49.2,
-    "lon": 16.61,
+    "name": "Brisbane",
+    "country": "Australia",
+    "lat": -27.47,
+    "lon": 153.03,
     "climate": {
-      "avgTempF": 52,
-      "rainInches": 26,
-      "snowInches": 25,
-      "sunHours": 2880,
-      "humidityPct": 73,
-      "dailyVarianceF": 16
+      "avgTempF": 68,
+      "rainInches": 32,
+      "snowInches": 0,
+      "sunHours": 3783,
+      "dailyVarianceF": 20,
+      "summerHighF": 88,
+      "winterLowF": 50,
+      "rainyDays": 104,
+      "windMph": 10,
+      "dewPointF": 59
+    }
+  },
+  {
+    "name": "Brussels",
+    "country": "Belgium",
+    "lat": 50.85,
+    "lon": 4.35,
+    "climate": {
+      "avgTempF": 53,
+      "rainInches": 38,
+      "snowInches": 7,
+      "sunHours": 2736,
+      "dailyVarianceF": 13,
+      "summerHighF": 77,
+      "winterLowF": 37,
+      "rainyDays": 160,
+      "windMph": 14,
+      "dewPointF": 44
     }
   },
   {
@@ -807,8 +729,12 @@
       "rainInches": 21,
       "snowInches": 18,
       "sunHours": 3276,
-      "humidityPct": 70,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 18,
+      "summerHighF": 89,
+      "winterLowF": 30,
+      "rainyDays": 97,
+      "windMph": 11,
+      "dewPointF": 44
     }
   },
   {
@@ -821,8 +747,12 @@
       "rainInches": 35,
       "snowInches": 19,
       "sunHours": 3096,
-      "humidityPct": 73,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 16,
+      "summerHighF": 83,
+      "winterLowF": 30,
+      "rainyDays": 125,
+      "windMph": 11,
+      "dewPointF": 42
     }
   },
   {
@@ -831,12 +761,16 @@
     "lat": -34.61,
     "lon": -58.38,
     "climate": {
-      "avgTempF": 64,
-      "rainInches": 32,
+      "avgTempF": 65,
+      "rainInches": 36,
       "snowInches": 0,
-      "sunHours": 3586,
-      "humidityPct": 72,
-      "dailyVarianceF": 13
+      "sunHours": 3496,
+      "dailyVarianceF": 13,
+      "summerHighF": 85,
+      "winterLowF": 48,
+      "rainyDays": 89,
+      "windMph": 15,
+      "dewPointF": 54
     }
   },
   {
@@ -849,22 +783,12 @@
       "rainInches": 38,
       "snowInches": 31,
       "sunHours": 2900,
-      "humidityPct": 76,
-      "dailyVarianceF": 13
-    }
-  },
-  {
-    "name": "Bursa",
-    "country": "Türkiye",
-    "lat": 40.2,
-    "lon": 29.06,
-    "climate": {
-      "avgTempF": 60,
-      "rainInches": 43,
-      "snowInches": 29,
-      "sunHours": 3377,
-      "humidityPct": 71,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 13,
+      "summerHighF": 78,
+      "winterLowF": 26,
+      "rainyDays": 149,
+      "windMph": 14,
+      "dewPointF": 41
     }
   },
   {
@@ -877,8 +801,12 @@
       "rainInches": 74,
       "snowInches": 0,
       "sunHours": 3068,
-      "humidityPct": 74,
-      "dailyVarianceF": 14
+      "dailyVarianceF": 14,
+      "summerHighF": 85,
+      "winterLowF": 27,
+      "rainyDays": 108,
+      "windMph": 13,
+      "dewPointF": 48
     }
   },
   {
@@ -891,8 +819,12 @@
       "rainInches": 1,
       "snowInches": 0,
       "sunHours": 4000,
-      "humidityPct": 49,
-      "dailyVarianceF": 23
+      "dailyVarianceF": 23,
+      "summerHighF": 103,
+      "winterLowF": 47,
+      "rainyDays": 6,
+      "windMph": 13,
+      "dewPointF": 53
     }
   },
   {
@@ -901,12 +833,16 @@
     "lat": 22.56,
     "lon": 88.36,
     "climate": {
-      "avgTempF": 79,
-      "rainInches": 69,
+      "avgTempF": 80,
+      "rainInches": 73,
       "snowInches": 0,
-      "sunHours": 3399,
-      "humidityPct": 76,
-      "dailyVarianceF": 16
+      "sunHours": 3365,
+      "dailyVarianceF": 17,
+      "summerHighF": 96,
+      "winterLowF": 58,
+      "rainyDays": 151,
+      "windMph": 9,
+      "dewPointF": 70
     }
   },
   {
@@ -919,8 +855,12 @@
       "rainInches": 12,
       "snowInches": 31,
       "sunHours": 3431,
-      "humidityPct": 66,
-      "dailyVarianceF": 22
+      "dailyVarianceF": 22,
+      "summerHighF": 77,
+      "winterLowF": 9,
+      "rainyDays": 80,
+      "windMph": 11,
+      "dewPointF": 30
     }
   },
   {
@@ -933,8 +873,12 @@
       "rainInches": 43,
       "snowInches": 0,
       "sunHours": 4024,
-      "humidityPct": 77,
-      "dailyVarianceF": 10
+      "dailyVarianceF": 10,
+      "summerHighF": 90,
+      "winterLowF": 72,
+      "rainyDays": 179,
+      "windMph": 11,
+      "dewPointF": 71
     }
   },
   {
@@ -947,8 +891,12 @@
       "rainInches": 33,
       "snowInches": 0,
       "sunHours": 3722,
-      "humidityPct": 75,
-      "dailyVarianceF": 14
+      "dailyVarianceF": 14,
+      "summerHighF": 77,
+      "winterLowF": 47,
+      "rainyDays": 94,
+      "windMph": 14,
+      "dewPointF": 55
     }
   },
   {
@@ -957,68 +905,34 @@
     "lat": 10.49,
     "lon": -66.88,
     "climate": {
-      "avgTempF": 71,
-      "rainInches": 46,
+      "avgTempF": 72,
+      "rainInches": 36,
       "snowInches": 0,
-      "sunHours": 3812,
-      "humidityPct": 82,
-      "dailyVarianceF": 15
+      "sunHours": 3917,
+      "dailyVarianceF": 16,
+      "summerHighF": 85,
+      "winterLowF": 59,
+      "rainyDays": 238,
+      "windMph": 6,
+      "dewPointF": 69
     }
   },
   {
-    "name": "Castries",
-    "country": "Saint Lucia",
-    "lat": 14,
-    "lon": -61.01,
+    "name": "Cebu City",
+    "country": "Philippines",
+    "lat": 10.32,
+    "lon": 123.89,
     "climate": {
-      "avgTempF": 78,
-      "rainInches": 37,
+      "avgTempF": 81,
+      "rainInches": 112,
       "snowInches": 0,
-      "sunHours": 4048,
-      "humidityPct": 76,
-      "dailyVarianceF": 9
-    }
-  },
-  {
-    "name": "Cayenne",
-    "country": "",
-    "lat": 4.94,
-    "lon": -52.33,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 181,
-      "snowInches": 0,
-      "sunHours": 3169,
-      "humidityPct": 85,
-      "dailyVarianceF": 10
-    }
-  },
-  {
-    "name": "Charlotte",
-    "country": "United States",
-    "lat": 35.23,
-    "lon": -80.84,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 42,
-      "snowInches": 3,
-      "sunHours": 3378,
-      "humidityPct": 68,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Chelyabinsk",
-    "country": "Russia",
-    "lat": 55.15,
-    "lon": 61.43,
-    "climate": {
-      "avgTempF": 41,
-      "rainInches": 13,
-      "snowInches": 46,
-      "sunHours": 3111,
-      "humidityPct": 69,
-      "dailyVarianceF": 15
+      "sunHours": 3581,
+      "dailyVarianceF": 9,
+      "summerHighF": 87,
+      "winterLowF": 76,
+      "rainyDays": 309,
+      "windMph": 10,
+      "dewPointF": 75
     }
   },
   {
@@ -1028,11 +942,15 @@
     "lon": 104.07,
     "climate": {
       "avgTempF": 64,
-      "rainInches": 40,
+      "rainInches": 39,
       "snowInches": 0,
-      "sunHours": 2038,
-      "humidityPct": 74,
-      "dailyVarianceF": 15
+      "sunHours": 2055,
+      "dailyVarianceF": 15,
+      "summerHighF": 89,
+      "winterLowF": 35,
+      "rainyDays": 132,
+      "windMph": 8,
+      "dewPointF": 54
     }
   },
   {
@@ -1041,26 +959,34 @@
     "lat": 13.09,
     "lon": 80.28,
     "climate": {
-      "avgTempF": 82,
-      "rainInches": 60,
+      "avgTempF": 83,
+      "rainInches": 64,
       "snowInches": 0,
-      "sunHours": 3625,
-      "humidityPct": 76,
-      "dailyVarianceF": 12
+      "sunHours": 3647,
+      "dailyVarianceF": 13,
+      "summerHighF": 98,
+      "winterLowF": 71,
+      "rainyDays": 147,
+      "windMph": 12,
+      "dewPointF": 73
     }
   },
   {
-    "name": "Chesapeake",
+    "name": "Cheyenne",
     "country": "United States",
-    "lat": 36.82,
-    "lon": -76.27,
+    "lat": 41.14,
+    "lon": -104.82,
     "climate": {
-      "avgTempF": 61,
-      "rainInches": 54,
-      "snowInches": 0,
-      "sunHours": 3354,
-      "humidityPct": 74,
-      "dailyVarianceF": 16
+      "avgTempF": 46,
+      "rainInches": 16,
+      "snowInches": 41,
+      "sunHours": 3661,
+      "dailyVarianceF": 21,
+      "summerHighF": 82,
+      "winterLowF": 17,
+      "rainyDays": 101,
+      "windMph": 17,
+      "dewPointF": 29
     }
   },
   {
@@ -1073,8 +999,12 @@
       "rainInches": 81,
       "snowInches": 0,
       "sunHours": 3750,
-      "humidityPct": 74,
-      "dailyVarianceF": 17
+      "dailyVarianceF": 17,
+      "summerHighF": 98,
+      "winterLowF": 60,
+      "rainyDays": 163,
+      "windMph": 6,
+      "dewPointF": 68
     }
   },
   {
@@ -1083,40 +1013,16 @@
     "lat": 41.85,
     "lon": -87.65,
     "climate": {
-      "avgTempF": 51,
-      "rainInches": 43,
-      "snowInches": 24,
-      "sunHours": 3064,
-      "humidityPct": 73,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Chihuahua City",
-    "country": "Mexico",
-    "lat": 28.64,
-    "lon": -106.09,
-    "climate": {
-      "avgTempF": 68,
-      "rainInches": 5,
-      "snowInches": 0,
-      "sunHours": 4014,
-      "humidityPct": 35,
-      "dailyVarianceF": 26
-    }
-  },
-  {
-    "name": "Chittagong",
-    "country": "Bangladesh",
-    "lat": 22.34,
-    "lon": 91.83,
-    "climate": {
-      "avgTempF": 78,
-      "rainInches": 78,
-      "snowInches": 0,
-      "sunHours": 3377,
-      "humidityPct": 80,
-      "dailyVarianceF": 16
+      "avgTempF": 52,
+      "rainInches": 46,
+      "snowInches": 20,
+      "sunHours": 3059,
+      "dailyVarianceF": 14,
+      "summerHighF": 80,
+      "winterLowF": 27,
+      "rainyDays": 126,
+      "windMph": 15,
+      "dewPointF": 42
     }
   },
   {
@@ -1129,36 +1035,30 @@
       "rainInches": 69,
       "snowInches": 1,
       "sunHours": 2210,
-      "humidityPct": 80,
-      "dailyVarianceF": 13
+      "dailyVarianceF": 13,
+      "summerHighF": 89,
+      "winterLowF": 38,
+      "rainyDays": 167,
+      "windMph": 7,
+      "dewPointF": 58
     }
   },
   {
-    "name": "Cincinnati",
-    "country": "United States",
-    "lat": 39.13,
-    "lon": -84.51,
+    "name": "Christchurch",
+    "country": "New Zealand",
+    "lat": -43.53,
+    "lon": 172.63,
     "climate": {
-      "avgTempF": 56,
-      "rainInches": 41,
-      "snowInches": 12,
-      "sunHours": 3232,
-      "humidityPct": 67,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Ciudad Juárez",
-    "country": "Mexico",
-    "lat": 31.72,
-    "lon": -106.46,
-    "climate": {
-      "avgTempF": 67,
-      "rainInches": 3,
+      "avgTempF": 55,
+      "rainInches": 30,
       "snowInches": 1,
-      "sunHours": 4047,
-      "humidityPct": 33,
-      "dailyVarianceF": 26
+      "sunHours": 3219,
+      "dailyVarianceF": 13,
+      "summerHighF": 71,
+      "winterLowF": 39,
+      "rainyDays": 115,
+      "windMph": 15,
+      "dewPointF": 47
     }
   },
   {
@@ -1167,54 +1067,16 @@
     "lat": 41.5,
     "lon": -81.7,
     "climate": {
-      "avgTempF": 52,
-      "rainInches": 40,
-      "snowInches": 38,
-      "sunHours": 3056,
-      "humidityPct": 74,
-      "dailyVarianceF": 12
-    }
-  },
-  {
-    "name": "Cluj-Napoca",
-    "country": "Romania",
-    "lat": 46.77,
-    "lon": 23.6,
-    "climate": {
-      "avgTempF": 52,
-      "rainInches": 26,
-      "snowInches": 36,
-      "sunHours": 3235,
-      "humidityPct": 77,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Coimbatore",
-    "country": "India",
-    "lat": 11.01,
-    "lon": 76.97,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 45,
-      "snowInches": 0,
-      "sunHours": 3782,
-      "humidityPct": 70,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Cologne",
-    "country": "Germany",
-    "lat": 50.93,
-    "lon": 6.95,
-    "climate": {
-      "avgTempF": 54,
+      "avgTempF": 53,
       "rainInches": 39,
-      "snowInches": 7,
-      "sunHours": 2878,
-      "humidityPct": 75,
-      "dailyVarianceF": 15
+      "snowInches": 24,
+      "sunHours": 3079,
+      "dailyVarianceF": 11,
+      "summerHighF": 77,
+      "winterLowF": 29,
+      "rainyDays": 143,
+      "windMph": 15,
+      "dewPointF": 43
     }
   },
   {
@@ -1227,36 +1089,12 @@
       "rainInches": 137,
       "snowInches": 0,
       "sunHours": 3339,
-      "humidityPct": 85,
-      "dailyVarianceF": 10
-    }
-  },
-  {
-    "name": "Colorado Springs",
-    "country": "United States",
-    "lat": 38.83,
-    "lon": -104.82,
-    "climate": {
-      "avgTempF": 48,
-      "rainInches": 16,
-      "snowInches": 26,
-      "sunHours": 3793,
-      "humidityPct": 52,
-      "dailyVarianceF": 26
-    }
-  },
-  {
-    "name": "Conakry",
-    "country": "Guinea",
-    "lat": 9.54,
-    "lon": -13.68,
-    "climate": {
-      "avgTempF": 80,
-      "rainInches": 115,
-      "snowInches": 0,
-      "sunHours": 3333,
-      "humidityPct": 82,
-      "dailyVarianceF": 8
+      "dailyVarianceF": 10,
+      "summerHighF": 86,
+      "winterLowF": 71,
+      "rainyDays": 305,
+      "windMph": 10,
+      "dewPointF": 75
     }
   },
   {
@@ -1269,36 +1107,12 @@
       "rainInches": 32,
       "snowInches": 9,
       "sunHours": 2891,
-      "humidityPct": 79,
-      "dailyVarianceF": 9
-    }
-  },
-  {
-    "name": "Corpus Christi",
-    "country": "United States",
-    "lat": 27.8,
-    "lon": -97.4,
-    "climate": {
-      "avgTempF": 73,
-      "rainInches": 30,
-      "snowInches": 0,
-      "sunHours": 3546,
-      "humidityPct": 76,
-      "dailyVarianceF": 11
-    }
-  },
-  {
-    "name": "Curitiba",
-    "country": "Brazil",
-    "lat": -25.43,
-    "lon": -49.27,
-    "climate": {
-      "avgTempF": 64,
-      "rainInches": 60,
-      "snowInches": 0,
-      "sunHours": 3043,
-      "humidityPct": 84,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 9,
+      "summerHighF": 67,
+      "winterLowF": 34,
+      "rainyDays": 139,
+      "windMph": 17,
+      "dewPointF": 41
     }
   },
   {
@@ -1311,50 +1125,12 @@
       "rainInches": 48,
       "snowInches": 6,
       "sunHours": 3662,
-      "humidityPct": 70,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Da Nang",
-    "country": "Vietnam",
-    "lat": 16.07,
-    "lon": 108.22,
-    "climate": {
-      "avgTempF": 80,
-      "rainInches": 93,
-      "snowInches": 0,
-      "sunHours": 3399,
-      "humidityPct": 82,
-      "dailyVarianceF": 10
-    }
-  },
-  {
-    "name": "Daegu",
-    "country": "South Korea",
-    "lat": 35.87,
-    "lon": 128.59,
-    "climate": {
-      "avgTempF": 58,
-      "rainInches": 59,
-      "snowInches": 2,
-      "sunHours": 3044,
-      "humidityPct": 69,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Daejeon",
-    "country": "South Korea",
-    "lat": 36.35,
-    "lon": 127.38,
-    "climate": {
-      "avgTempF": 57,
-      "rainInches": 65,
-      "snowInches": 3,
-      "sunHours": 2928,
-      "humidityPct": 70,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 20,
+      "summerHighF": 67,
+      "winterLowF": 38,
+      "rainyDays": 202,
+      "windMph": 7,
+      "dewPointF": 43
     }
   },
   {
@@ -1367,22 +1143,12 @@
       "rainInches": 19,
       "snowInches": 0,
       "sunHours": 3780,
-      "humidityPct": 71,
-      "dailyVarianceF": 9
-    }
-  },
-  {
-    "name": "Dalian",
-    "country": "China",
-    "lat": 38.91,
-    "lon": 121.6,
-    "climate": {
-      "avgTempF": 53,
-      "rainInches": 33,
-      "snowInches": 8,
-      "sunHours": 3249,
-      "humidityPct": 70,
-      "dailyVarianceF": 11
+      "dailyVarianceF": 9,
+      "summerHighF": 88,
+      "winterLowF": 65,
+      "rainyDays": 43,
+      "windMph": 14,
+      "dewPointF": 67
     }
   },
   {
@@ -1391,26 +1157,16 @@
     "lat": 32.78,
     "lon": -96.81,
     "climate": {
-      "avgTempF": 68,
-      "rainInches": 54,
-      "snowInches": 2,
-      "sunHours": 3434,
-      "humidityPct": 61,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Damascus",
-    "country": "Syria",
-    "lat": 33.51,
-    "lon": 36.29,
-    "climate": {
-      "avgTempF": 67,
-      "rainInches": 7,
-      "snowInches": 0,
-      "sunHours": 3964,
-      "humidityPct": 48,
-      "dailyVarianceF": 25
+      "avgTempF": 69,
+      "rainInches": 57,
+      "snowInches": 1,
+      "sunHours": 3395,
+      "dailyVarianceF": 19,
+      "summerHighF": 104,
+      "winterLowF": 43,
+      "rainyDays": 111,
+      "windMph": 14,
+      "dewPointF": 55
     }
   },
   {
@@ -1420,25 +1176,33 @@
     "lon": 39.27,
     "climate": {
       "avgTempF": 79,
-      "rainInches": 43,
+      "rainInches": 57,
       "snowInches": 0,
-      "sunHours": 3845,
-      "humidityPct": 77,
-      "dailyVarianceF": 12
+      "sunHours": 3799,
+      "dailyVarianceF": 11,
+      "summerHighF": 89,
+      "winterLowF": 71,
+      "rainyDays": 178,
+      "windMph": 10,
+      "dewPointF": 73
     }
   },
   {
-    "name": "Debrecen",
-    "country": "Hungary",
-    "lat": 47.53,
-    "lon": 21.62,
+    "name": "Darwin",
+    "country": "Australia",
+    "lat": -12.46,
+    "lon": 130.84,
     "climate": {
-      "avgTempF": 54,
-      "rainInches": 34,
-      "snowInches": 12,
-      "sunHours": 3051,
-      "humidityPct": 74,
-      "dailyVarianceF": 16
+      "avgTempF": 81,
+      "rainInches": 61,
+      "snowInches": 0,
+      "sunHours": 3803,
+      "dailyVarianceF": 11,
+      "summerHighF": 90,
+      "winterLowF": 71,
+      "rainyDays": 138,
+      "windMph": 13,
+      "dewPointF": 70
     }
   },
   {
@@ -1447,12 +1211,16 @@
     "lat": 28.65,
     "lon": 77.23,
     "climate": {
-      "avgTempF": 76,
-      "rainInches": 30,
+      "avgTempF": 75,
+      "rainInches": 32,
       "snowInches": 0,
-      "sunHours": 3567,
-      "humidityPct": 64,
-      "dailyVarianceF": 21
+      "sunHours": 3572,
+      "dailyVarianceF": 21,
+      "summerHighF": 98,
+      "winterLowF": 44,
+      "rainyDays": 88,
+      "windMph": 10,
+      "dewPointF": 57
     }
   },
   {
@@ -1465,22 +1233,12 @@
       "rainInches": 17,
       "snowInches": 29,
       "sunHours": 3627,
-      "humidityPct": 57,
-      "dailyVarianceF": 28
-    }
-  },
-  {
-    "name": "Des Moines",
-    "country": "United States",
-    "lat": 41.6,
-    "lon": -93.61,
-    "climate": {
-      "avgTempF": 53,
-      "rainInches": 24,
-      "snowInches": 23,
-      "sunHours": 3375,
-      "humidityPct": 67,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 28,
+      "summerHighF": 88,
+      "winterLowF": 11,
+      "rainyDays": 85,
+      "windMph": 11,
+      "dewPointF": 33
     }
   },
   {
@@ -1493,8 +1251,12 @@
       "rainInches": 36,
       "snowInches": 24,
       "sunHours": 3023,
-      "humidityPct": 72,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 15,
+      "summerHighF": 82,
+      "winterLowF": 25,
+      "rainyDays": 132,
+      "windMph": 14,
+      "dewPointF": 41
     }
   },
   {
@@ -1507,22 +1269,12 @@
       "rainInches": 70,
       "snowInches": 0,
       "sunHours": 3377,
-      "humidityPct": 77,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Djibouti",
-    "country": "Djibouti",
-    "lat": 11.59,
-    "lon": 43.15,
-    "climate": {
-      "avgTempF": 86,
-      "rainInches": 10,
-      "snowInches": 0,
-      "sunHours": 3936,
-      "humidityPct": 63,
-      "dailyVarianceF": 11
+      "dailyVarianceF": 17,
+      "summerHighF": 93,
+      "winterLowF": 55,
+      "rainyDays": 153,
+      "windMph": 9,
+      "dewPointF": 69
     }
   },
   {
@@ -1535,36 +1287,12 @@
       "rainInches": 6,
       "snowInches": 0,
       "sunHours": 3804,
-      "humidityPct": 56,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Douala",
-    "country": "Cameroon",
-    "lat": 4.05,
-    "lon": 9.7,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 67,
-      "snowInches": 0,
-      "sunHours": 3092,
-      "humidityPct": 87,
-      "dailyVarianceF": 11
-    }
-  },
-  {
-    "name": "Dresden",
-    "country": "Germany",
-    "lat": 51.05,
-    "lon": 13.74,
-    "climate": {
-      "avgTempF": 52,
-      "rainInches": 28,
-      "snowInches": 20,
-      "sunHours": 2874,
-      "humidityPct": 74,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 18,
+      "summerHighF": 108,
+      "winterLowF": 58,
+      "rainyDays": 18,
+      "windMph": 15,
+      "dewPointF": 63
     }
   },
   {
@@ -1577,8 +1305,30 @@
       "rainInches": 3,
       "snowInches": 0,
       "sunHours": 3910,
-      "humidityPct": 57,
-      "dailyVarianceF": 22
+      "dailyVarianceF": 22,
+      "summerHighF": 110,
+      "winterLowF": 58,
+      "rainyDays": 7,
+      "windMph": 15,
+      "dewPointF": 63
+    }
+  },
+  {
+    "name": "Dublin",
+    "country": "Ireland",
+    "lat": 53.33,
+    "lon": -6.25,
+    "climate": {
+      "avgTempF": 53,
+      "rainInches": 42,
+      "snowInches": 3,
+      "sunHours": 2677,
+      "dailyVarianceF": 9,
+      "summerHighF": 66,
+      "winterLowF": 40,
+      "rainyDays": 167,
+      "windMph": 16,
+      "dewPointF": 45
     }
   },
   {
@@ -1591,36 +1341,30 @@
       "rainInches": 41,
       "snowInches": 0,
       "sunHours": 3442,
-      "humidityPct": 74,
-      "dailyVarianceF": 12
+      "dailyVarianceF": 12,
+      "summerHighF": 81,
+      "winterLowF": 56,
+      "rainyDays": 107,
+      "windMph": 16,
+      "dewPointF": 62
     }
   },
   {
-    "name": "Durham",
-    "country": "United States",
-    "lat": 35.99,
-    "lon": -78.9,
+    "name": "Edinburgh",
+    "country": "United Kingdom",
+    "lat": 55.95,
+    "lon": -3.2,
     "climate": {
-      "avgTempF": 62,
+      "avgTempF": 50,
       "rainInches": 44,
-      "snowInches": 1,
-      "sunHours": 3327,
-      "humidityPct": 68,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Düsseldorf",
-    "country": "Germany",
-    "lat": 51.22,
-    "lon": 6.78,
-    "climate": {
-      "avgTempF": 54,
-      "rainInches": 50,
-      "snowInches": 10,
-      "sunHours": 2750,
-      "humidityPct": 78,
-      "dailyVarianceF": 13
+      "snowInches": 7,
+      "sunHours": 2640,
+      "dailyVarianceF": 10,
+      "summerHighF": 64,
+      "winterLowF": 37,
+      "rainyDays": 176,
+      "windMph": 14,
+      "dewPointF": 42
     }
   },
   {
@@ -1633,36 +1377,30 @@
       "rainInches": 21,
       "snowInches": 18,
       "sunHours": 3228,
-      "humidityPct": 71,
-      "dailyVarianceF": 17
+      "dailyVarianceF": 17,
+      "summerHighF": 73,
+      "winterLowF": 9,
+      "rainyDays": 83,
+      "windMph": 13,
+      "dewPointF": 31
     }
   },
   {
-    "name": "El Paso",
+    "name": "Fairbanks",
     "country": "United States",
-    "lat": 31.76,
-    "lon": -106.49,
+    "lat": 64.84,
+    "lon": -147.72,
     "climate": {
-      "avgTempF": 67,
-      "rainInches": 4,
-      "snowInches": 1,
-      "sunHours": 4054,
-      "humidityPct": 33,
-      "dailyVarianceF": 26
-    }
-  },
-  {
-    "name": "Faisalabad",
-    "country": "Pakistan",
-    "lat": 31.42,
-    "lon": 73.09,
-    "climate": {
-      "avgTempF": 76,
-      "rainInches": 23,
-      "snowInches": 0,
-      "sunHours": 3610,
-      "humidityPct": 60,
-      "dailyVarianceF": 22
+      "avgTempF": 31,
+      "rainInches": 11,
+      "snowInches": 45,
+      "sunHours": 2333,
+      "dailyVarianceF": 16,
+      "summerHighF": 76,
+      "winterLowF": -7,
+      "rainyDays": 95,
+      "windMph": 8,
+      "dewPointF": 21
     }
   },
   {
@@ -1675,22 +1413,12 @@
       "rainInches": 15,
       "snowInches": 38,
       "sunHours": 3203,
-      "humidityPct": 71,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Fes",
-    "country": "Morocco",
-    "lat": 34.03,
-    "lon": -5,
-    "climate": {
-      "avgTempF": 68,
-      "rainInches": 15,
-      "snowInches": 0,
-      "sunHours": 3822,
-      "humidityPct": 56,
-      "dailyVarianceF": 25
+      "dailyVarianceF": 18,
+      "summerHighF": 85,
+      "winterLowF": 4,
+      "rainyDays": 80,
+      "windMph": 13,
+      "dewPointF": 34
     }
   },
   {
@@ -1700,53 +1428,15 @@
     "lon": 11.25,
     "climate": {
       "avgTempF": 61,
-      "rainInches": 39,
-      "snowInches": 2,
-      "sunHours": 3484,
-      "humidityPct": 72,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Fort Wayne",
-    "country": "United States",
-    "lat": 41.13,
-    "lon": -85.13,
-    "climate": {
-      "avgTempF": 53,
-      "rainInches": 33,
-      "snowInches": 23,
-      "sunHours": 3081,
-      "humidityPct": 70,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Fort Worth",
-    "country": "United States",
-    "lat": 32.73,
-    "lon": -97.32,
-    "climate": {
-      "avgTempF": 69,
-      "rainInches": 44,
-      "snowInches": 2,
-      "sunHours": 3465,
-      "humidityPct": 58,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Fortaleza",
-    "country": "Brazil",
-    "lat": -3.72,
-    "lon": -38.54,
-    "climate": {
-      "avgTempF": 80,
-      "rainInches": 50,
-      "snowInches": 0,
-      "sunHours": 3905,
-      "humidityPct": 77,
-      "dailyVarianceF": 10
+      "rainInches": 41,
+      "snowInches": 4,
+      "sunHours": 3450,
+      "dailyVarianceF": 19,
+      "summerHighF": 91,
+      "winterLowF": 37,
+      "rainyDays": 127,
+      "windMph": 9,
+      "dewPointF": 48
     }
   },
   {
@@ -1756,39 +1446,15 @@
     "lon": 14.55,
     "climate": {
       "avgTempF": 52,
-      "rainInches": 23,
-      "snowInches": 12,
-      "sunHours": 2893,
-      "humidityPct": 74,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Freetown",
-    "country": "Sierra Leone",
-    "lat": 8.49,
-    "lon": -13.24,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 113,
-      "snowInches": 0,
-      "sunHours": 3163,
-      "humidityPct": 84,
-      "dailyVarianceF": 8
-    }
-  },
-  {
-    "name": "Fresno",
-    "country": "United States",
-    "lat": 36.75,
-    "lon": -119.77,
-    "climate": {
-      "avgTempF": 64,
-      "rainInches": 25,
-      "snowInches": 5,
-      "sunHours": 3831,
-      "humidityPct": 55,
-      "dailyVarianceF": 25
+      "rainInches": 27,
+      "snowInches": 17,
+      "sunHours": 2802,
+      "dailyVarianceF": 14,
+      "summerHighF": 78,
+      "winterLowF": 31,
+      "rainyDays": 138,
+      "windMph": 12,
+      "dewPointF": 41
     }
   },
   {
@@ -1801,50 +1467,12 @@
       "rainInches": 67,
       "snowInches": 3,
       "sunHours": 2939,
-      "humidityPct": 75,
-      "dailyVarianceF": 12
-    }
-  },
-  {
-    "name": "Gaborone",
-    "country": "Botswana",
-    "lat": -24.65,
-    "lon": 25.91,
-    "climate": {
-      "avgTempF": 70,
-      "rainInches": 9,
-      "snowInches": 0,
-      "sunHours": 4001,
-      "humidityPct": 50,
-      "dailyVarianceF": 25
-    }
-  },
-  {
-    "name": "Gaziantep",
-    "country": "Türkiye",
-    "lat": 37.06,
-    "lon": 37.38,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 21,
-      "snowInches": 14,
-      "sunHours": 3757,
-      "humidityPct": 55,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Gdansk",
-    "country": "Poland",
-    "lat": 54.35,
-    "lon": 18.65,
-    "climate": {
-      "avgTempF": 50,
-      "rainInches": 24,
-      "snowInches": 22,
-      "sunHours": 2931,
-      "humidityPct": 76,
-      "dailyVarianceF": 12
+      "dailyVarianceF": 12,
+      "summerHighF": 90,
+      "winterLowF": 39,
+      "rainyDays": 150,
+      "windMph": 13,
+      "dewPointF": 55
     }
   },
   {
@@ -1857,22 +1485,12 @@
       "rainInches": 51,
       "snowInches": 10,
       "sunHours": 3289,
-      "humidityPct": 74,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Ghaziabad",
-    "country": "India",
-    "lat": 28.67,
-    "lon": 77.44,
-    "climate": {
-      "avgTempF": 75,
-      "rainInches": 34,
-      "snowInches": 0,
-      "sunHours": 3568,
-      "humidityPct": 66,
-      "dailyVarianceF": 21
+      "dailyVarianceF": 16,
+      "summerHighF": 83,
+      "winterLowF": 32,
+      "rainyDays": 134,
+      "windMph": 9,
+      "dewPointF": 43
     }
   },
   {
@@ -1885,22 +1503,12 @@
       "rainInches": 53,
       "snowInches": 4,
       "sunHours": 2519,
-      "humidityPct": 82,
-      "dailyVarianceF": 12
-    }
-  },
-  {
-    "name": "Greensboro",
-    "country": "United States",
-    "lat": 36.07,
-    "lon": -79.79,
-    "climate": {
-      "avgTempF": 60,
-      "rainInches": 35,
-      "snowInches": 2,
-      "sunHours": 3363,
-      "humidityPct": 68,
-      "dailyVarianceF": 20
+      "dailyVarianceF": 12,
+      "summerHighF": 69,
+      "winterLowF": 35,
+      "rainyDays": 189,
+      "windMph": 13,
+      "dewPointF": 42
     }
   },
   {
@@ -1913,8 +1521,12 @@
       "rainInches": 17,
       "snowInches": 0,
       "sunHours": 4021,
-      "humidityPct": 52,
-      "dailyVarianceF": 27
+      "dailyVarianceF": 27,
+      "summerHighF": 95,
+      "winterLowF": 50,
+      "rainyDays": 71,
+      "windMph": 10,
+      "dewPointF": 51
     }
   },
   {
@@ -1927,8 +1539,12 @@
       "rainInches": 91,
       "snowInches": 0,
       "sunHours": 2750,
-      "humidityPct": 77,
-      "dailyVarianceF": 13
+      "dailyVarianceF": 13,
+      "summerHighF": 92,
+      "winterLowF": 51,
+      "rainyDays": 175,
+      "windMph": 11,
+      "dewPointF": 65
     }
   },
   {
@@ -1941,36 +1557,12 @@
       "rainInches": 47,
       "snowInches": 0,
       "sunHours": 3960,
-      "humidityPct": 77,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Guayaquil",
-    "country": "Ecuador",
-    "lat": -2.2,
-    "lon": -79.89,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 61,
-      "snowInches": 0,
-      "sunHours": 3556,
-      "humidityPct": 77,
-      "dailyVarianceF": 13
-    }
-  },
-  {
-    "name": "Gwangju",
-    "country": "South Korea",
-    "lat": 35.15,
-    "lon": 126.92,
-    "climate": {
-      "avgTempF": 57,
-      "rainInches": 64,
-      "snowInches": 3,
-      "sunHours": 2856,
-      "humidityPct": 74,
-      "dailyVarianceF": 17
+      "dailyVarianceF": 20,
+      "summerHighF": 81,
+      "winterLowF": 53,
+      "rainyDays": 178,
+      "windMph": 11,
+      "dewPointF": 59
     }
   },
   {
@@ -1983,8 +1575,12 @@
       "rainInches": 73,
       "snowInches": 57,
       "sunHours": 2648,
-      "humidityPct": 80,
-      "dailyVarianceF": 13
+      "dailyVarianceF": 13,
+      "summerHighF": 75,
+      "winterLowF": 18,
+      "rainyDays": 153,
+      "windMph": 13,
+      "dewPointF": 40
     }
   },
   {
@@ -1994,11 +1590,15 @@
     "lon": 9.99,
     "climate": {
       "avgTempF": 51,
-      "rainInches": 33,
-      "snowInches": 13,
-      "sunHours": 2839,
-      "humidityPct": 78,
-      "dailyVarianceF": 14
+      "rainInches": 40,
+      "snowInches": 18,
+      "sunHours": 2727,
+      "dailyVarianceF": 13,
+      "summerHighF": 76,
+      "winterLowF": 34,
+      "rainyDays": 181,
+      "windMph": 13,
+      "dewPointF": 42
     }
   },
   {
@@ -2008,11 +1608,15 @@
     "lon": 120.16,
     "climate": {
       "avgTempF": 64,
-      "rainInches": 55,
-      "snowInches": 9,
-      "sunHours": 2597,
-      "humidityPct": 76,
-      "dailyVarianceF": 15
+      "rainInches": 56,
+      "snowInches": 2,
+      "sunHours": 2674,
+      "dailyVarianceF": 16,
+      "summerHighF": 91,
+      "winterLowF": 34,
+      "rainyDays": 136,
+      "windMph": 9,
+      "dewPointF": 56
     }
   },
   {
@@ -2025,8 +1629,12 @@
       "rainInches": 67,
       "snowInches": 0,
       "sunHours": 2603,
-      "humidityPct": 78,
-      "dailyVarianceF": 13
+      "dailyVarianceF": 13,
+      "summerHighF": 93,
+      "winterLowF": 54,
+      "rainyDays": 151,
+      "windMph": 9,
+      "dewPointF": 67
     }
   },
   {
@@ -2036,11 +1644,15 @@
     "lon": 126.65,
     "climate": {
       "avgTempF": 42,
-      "rainInches": 23,
-      "snowInches": 18,
-      "sunHours": 3303,
-      "humidityPct": 64,
-      "dailyVarianceF": 17
+      "rainInches": 22,
+      "snowInches": 21,
+      "sunHours": 3296,
+      "dailyVarianceF": 18,
+      "summerHighF": 80,
+      "winterLowF": -6,
+      "rainyDays": 85,
+      "windMph": 13,
+      "dewPointF": 29
     }
   },
   {
@@ -2050,11 +1662,15 @@
     "lon": -82.38,
     "climate": {
       "avgTempF": 79,
-      "rainInches": 32,
+      "rainInches": 30,
       "snowInches": 0,
-      "sunHours": 4009,
-      "humidityPct": 74,
-      "dailyVarianceF": 14
+      "sunHours": 4007,
+      "dailyVarianceF": 14,
+      "summerHighF": 93,
+      "winterLowF": 67,
+      "rainyDays": 146,
+      "windMph": 12,
+      "dewPointF": 69
     }
   },
   {
@@ -2067,22 +1683,12 @@
       "rainInches": 24,
       "snowInches": 70,
       "sunHours": 2805,
-      "humidityPct": 80,
-      "dailyVarianceF": 11
-    }
-  },
-  {
-    "name": "Heraklion",
-    "country": "Greece",
-    "lat": 35.33,
-    "lon": 25.14,
-    "climate": {
-      "avgTempF": 66,
-      "rainInches": 17,
-      "snowInches": 3,
-      "sunHours": 3890,
-      "humidityPct": 67,
-      "dailyVarianceF": 14
+      "dailyVarianceF": 11,
+      "summerHighF": 68,
+      "winterLowF": 22,
+      "rainyDays": 149,
+      "windMph": 14,
+      "dewPointF": 37
     }
   },
   {
@@ -2095,36 +1701,12 @@
       "rainInches": 3,
       "snowInches": 0,
       "sunHours": 4064,
-      "humidityPct": 38,
-      "dailyVarianceF": 26
-    }
-  },
-  {
-    "name": "Hialeah",
-    "country": "United States",
-    "lat": 25.86,
-    "lon": -80.28,
-    "climate": {
-      "avgTempF": 76,
-      "rainInches": 92,
-      "snowInches": 0,
-      "sunHours": 3783,
-      "humidityPct": 79,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Hiroshima",
-    "country": "Japan",
-    "lat": 34.4,
-    "lon": 132.45,
-    "climate": {
-      "avgTempF": 60,
-      "rainInches": 53,
-      "snowInches": 3,
-      "sunHours": 3098,
-      "humidityPct": 76,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 26,
+      "summerHighF": 106,
+      "winterLowF": 47,
+      "rainyDays": 15,
+      "windMph": 12,
+      "dewPointF": 50
     }
   },
   {
@@ -2137,22 +1719,30 @@
       "rainInches": 98,
       "snowInches": 0,
       "sunHours": 3477,
-      "humidityPct": 78,
-      "dailyVarianceF": 14
+      "dailyVarianceF": 14,
+      "summerHighF": 96,
+      "winterLowF": 72,
+      "rainyDays": 219,
+      "windMph": 10,
+      "dewPointF": 75
     }
   },
   {
-    "name": "Hohhot",
-    "country": "China",
-    "lat": 40.81,
-    "lon": 111.65,
+    "name": "Hobart",
+    "country": "Australia",
+    "lat": -42.88,
+    "lon": 147.33,
     "climate": {
-      "avgTempF": 47,
-      "rainInches": 12,
-      "snowInches": 13,
-      "sunHours": 3393,
-      "humidityPct": 43,
-      "dailyVarianceF": 21
+      "avgTempF": 55,
+      "rainInches": 23,
+      "snowInches": 0,
+      "sunHours": 3210,
+      "dailyVarianceF": 15,
+      "summerHighF": 73,
+      "winterLowF": 42,
+      "rainyDays": 105,
+      "windMph": 11,
+      "dewPointF": 47
     }
   },
   {
@@ -2161,12 +1751,16 @@
     "lat": 22.28,
     "lon": 114.17,
     "climate": {
-      "avgTempF": 73,
-      "rainInches": 87,
+      "avgTempF": 74,
+      "rainInches": 81,
       "snowInches": 0,
-      "sunHours": 3034,
-      "humidityPct": 82,
-      "dailyVarianceF": 8
+      "sunHours": 3095,
+      "dailyVarianceF": 9,
+      "summerHighF": 88,
+      "winterLowF": 55,
+      "rainyDays": 194,
+      "windMph": 11,
+      "dewPointF": 66
     }
   },
   {
@@ -2176,11 +1770,15 @@
     "lon": -157.86,
     "climate": {
       "avgTempF": 75,
-      "rainInches": 18,
+      "rainInches": 21,
       "snowInches": 0,
-      "sunHours": 4071,
-      "humidityPct": 72,
-      "dailyVarianceF": 10
+      "sunHours": 4011,
+      "dailyVarianceF": 10,
+      "summerHighF": 86,
+      "winterLowF": 69,
+      "rainyDays": 115,
+      "windMph": 14,
+      "dewPointF": 67
     }
   },
   {
@@ -2189,26 +1787,16 @@
     "lat": 29.76,
     "lon": -95.36,
     "climate": {
-      "avgTempF": 71,
-      "rainInches": 61,
+      "avgTempF": 72,
+      "rainInches": 57,
       "snowInches": 0,
-      "sunHours": 3327,
-      "humidityPct": 73,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Huế",
-    "country": "Vietnam",
-    "lat": 16.46,
-    "lon": 107.6,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 109,
-      "snowInches": 0,
-      "sunHours": 3219,
-      "humidityPct": 81,
-      "dailyVarianceF": 12
+      "sunHours": 3305,
+      "dailyVarianceF": 17,
+      "summerHighF": 101,
+      "winterLowF": 49,
+      "rainyDays": 135,
+      "windMph": 13,
+      "dewPointF": 62
     }
   },
   {
@@ -2218,81 +1806,15 @@
     "lon": 78.46,
     "climate": {
       "avgTempF": 78,
-      "rainInches": 37,
-      "snowInches": 0,
-      "sunHours": 3546,
-      "humidityPct": 63,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Incheon",
-    "country": "South Korea",
-    "lat": 37.46,
-    "lon": 126.71,
-    "climate": {
-      "avgTempF": 54,
-      "rainInches": 63,
-      "snowInches": 5,
-      "sunHours": 2990,
-      "humidityPct": 74,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Indhur",
-    "country": "India",
-    "lat": 22.72,
-    "lon": 75.83,
-    "climate": {
-      "avgTempF": 76,
-      "rainInches": 45,
-      "snowInches": 0,
-      "sunHours": 3632,
-      "humidityPct": 58,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Indianapolis",
-    "country": "United States",
-    "lat": 39.77,
-    "lon": -86.16,
-    "climate": {
-      "avgTempF": 54,
       "rainInches": 38,
-      "snowInches": 13,
-      "sunHours": 3164,
-      "humidityPct": 68,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Irvine",
-    "country": "United States",
-    "lat": 33.67,
-    "lon": -117.82,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 33,
       "snowInches": 0,
-      "sunHours": 3684,
-      "humidityPct": 71,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Irving",
-    "country": "United States",
-    "lat": 32.81,
-    "lon": -96.95,
-    "climate": {
-      "avgTempF": 69,
-      "rainInches": 53,
-      "snowInches": 1,
-      "sunHours": 3392,
-      "humidityPct": 62,
-      "dailyVarianceF": 19
+      "sunHours": 3631,
+      "dailyVarianceF": 19,
+      "summerHighF": 95,
+      "winterLowF": 60,
+      "rainyDays": 99,
+      "windMph": 10,
+      "dewPointF": 62
     }
   },
   {
@@ -2302,11 +1824,15 @@
     "lon": 51.67,
     "climate": {
       "avgTempF": 64,
-      "rainInches": 4,
-      "snowInches": 6,
-      "sunHours": 3878,
-      "humidityPct": 33,
-      "dailyVarianceF": 27
+      "rainInches": 5,
+      "snowInches": 8,
+      "sunHours": 3841,
+      "dailyVarianceF": 27,
+      "summerHighF": 102,
+      "winterLowF": 24,
+      "rainyDays": 32,
+      "windMph": 11,
+      "dewPointF": 26
     }
   },
   {
@@ -2319,8 +1845,12 @@
       "rainInches": 45,
       "snowInches": 1,
       "sunHours": 3560,
-      "humidityPct": 58,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 16,
+      "summerHighF": 94,
+      "winterLowF": 44,
+      "rainyDays": 124,
+      "windMph": 8,
+      "dewPointF": 54
     }
   },
   {
@@ -2333,36 +1863,12 @@
       "rainInches": 36,
       "snowInches": 5,
       "sunHours": 3271,
-      "humidityPct": 75,
-      "dailyVarianceF": 13
-    }
-  },
-  {
-    "name": "Izmir",
-    "country": "Türkiye",
-    "lat": 38.41,
-    "lon": 27.14,
-    "climate": {
-      "avgTempF": 65,
-      "rainInches": 35,
-      "snowInches": 0,
-      "sunHours": 3799,
-      "humidityPct": 64,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Jacksonville",
-    "country": "United States",
-    "lat": 30.33,
-    "lon": -81.66,
-    "climate": {
-      "avgTempF": 70,
-      "rainInches": 47,
-      "snowInches": 0,
-      "sunHours": 3560,
-      "humidityPct": 78,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 13,
+      "summerHighF": 88,
+      "winterLowF": 39,
+      "rainyDays": 102,
+      "windMph": 15,
+      "dewPointF": 51
     }
   },
   {
@@ -2375,8 +1881,12 @@
       "rainInches": 24,
       "snowInches": 0,
       "sunHours": 3708,
-      "humidityPct": 55,
-      "dailyVarianceF": 20
+      "dailyVarianceF": 20,
+      "summerHighF": 99,
+      "winterLowF": 46,
+      "rainyDays": 65,
+      "windMph": 10,
+      "dewPointF": 52
     }
   },
   {
@@ -2389,36 +1899,12 @@
       "rainInches": 7,
       "snowInches": 0,
       "sunHours": 3977,
-      "humidityPct": 62,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Jeju",
-    "country": "Ethiopia",
-    "lat": 8.42,
-    "lon": 39.63,
-    "climate": {
-      "avgTempF": 67,
-      "rainInches": 42,
-      "snowInches": 0,
-      "sunHours": 3977,
-      "humidityPct": 61,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Jersey City",
-    "country": "United States",
-    "lat": 40.73,
-    "lon": -74.08,
-    "climate": {
-      "avgTempF": 55,
-      "rainInches": 59,
-      "snowInches": 9,
-      "sunHours": 3179,
-      "humidityPct": 71,
-      "dailyVarianceF": 17
+      "dailyVarianceF": 14,
+      "summerHighF": 98,
+      "winterLowF": 67,
+      "rainyDays": 24,
+      "windMph": 17,
+      "dewPointF": 69
     }
   },
   {
@@ -2431,8 +1917,12 @@
       "rainInches": 12,
       "snowInches": 0,
       "sunHours": 3884,
-      "humidityPct": 60,
-      "dailyVarianceF": 19
+      "dailyVarianceF": 19,
+      "summerHighF": 93,
+      "winterLowF": 42,
+      "rainyDays": 53,
+      "windMph": 13,
+      "dewPointF": 49
     }
   },
   {
@@ -2445,64 +1935,30 @@
       "rainInches": 22,
       "snowInches": 0,
       "sunHours": 3898,
-      "humidityPct": 56,
-      "dailyVarianceF": 23
+      "dailyVarianceF": 23,
+      "summerHighF": 79,
+      "winterLowF": 38,
+      "rainyDays": 78,
+      "windMph": 11,
+      "dewPointF": 45
     }
   },
   {
-    "name": "Kampala",
-    "country": "Uganda",
-    "lat": 0.32,
-    "lon": 32.58,
+    "name": "Juneau",
+    "country": "United States",
+    "lat": 58.3,
+    "lon": -134.42,
     "climate": {
-      "avgTempF": 70,
-      "rainInches": 53,
-      "snowInches": 0,
-      "sunHours": 3749,
-      "humidityPct": 79,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Kandy",
-    "country": "Sri Lanka",
-    "lat": 7.29,
-    "lon": 80.63,
-    "climate": {
-      "avgTempF": 75,
-      "rainInches": 73,
-      "snowInches": 0,
-      "sunHours": 3436,
-      "humidityPct": 82,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Kano",
-    "country": "Nigeria",
-    "lat": 12,
-    "lon": 8.52,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 25,
-      "snowInches": 0,
-      "sunHours": 3689,
-      "humidityPct": 46,
-      "dailyVarianceF": 22
-    }
-  },
-  {
-    "name": "Kanpur",
-    "country": "India",
-    "lat": 26.47,
-    "lon": 80.35,
-    "climate": {
-      "avgTempF": 77,
-      "rainInches": 41,
-      "snowInches": 0,
-      "sunHours": 3589,
-      "humidityPct": 66,
-      "dailyVarianceF": 20
+      "avgTempF": 43,
+      "rainInches": 90,
+      "snowInches": 365,
+      "sunHours": 1858,
+      "dailyVarianceF": 9,
+      "summerHighF": 69,
+      "winterLowF": 25,
+      "rainyDays": 244,
+      "windMph": 9,
+      "dewPointF": 35
     }
   },
   {
@@ -2515,8 +1971,12 @@
       "rainInches": 41,
       "snowInches": 15,
       "sunHours": 3382,
-      "humidityPct": 67,
-      "dailyVarianceF": 19
+      "dailyVarianceF": 19,
+      "summerHighF": 90,
+      "winterLowF": 28,
+      "rainyDays": 115,
+      "windMph": 12,
+      "dewPointF": 45
     }
   },
   {
@@ -2526,11 +1986,15 @@
     "lon": 120.31,
     "climate": {
       "avgTempF": 77,
-      "rainInches": 57,
+      "rainInches": 66,
       "snowInches": 0,
-      "sunHours": 3542,
-      "humidityPct": 78,
-      "dailyVarianceF": 11
+      "sunHours": 3543,
+      "dailyVarianceF": 11,
+      "summerHighF": 89,
+      "winterLowF": 61,
+      "rainyDays": 131,
+      "windMph": 11,
+      "dewPointF": 69
     }
   },
   {
@@ -2543,8 +2007,12 @@
       "rainInches": 6,
       "snowInches": 0,
       "sunHours": 3780,
-      "humidityPct": 68,
-      "dailyVarianceF": 14
+      "dailyVarianceF": 14,
+      "summerHighF": 92,
+      "winterLowF": 54,
+      "rainyDays": 25,
+      "windMph": 16,
+      "dewPointF": 66
     }
   },
   {
@@ -2557,36 +2025,30 @@
       "rainInches": 81,
       "snowInches": 0,
       "sunHours": 3605,
-      "humidityPct": 75,
-      "dailyVarianceF": 19
+      "dailyVarianceF": 19,
+      "summerHighF": 83,
+      "winterLowF": 40,
+      "rainyDays": 174,
+      "windMph": 6,
+      "dewPointF": 57
     }
   },
   {
-    "name": "Kawasaki",
-    "country": "Japan",
-    "lat": 35.52,
-    "lon": 139.72,
+    "name": "Key West",
+    "country": "United States",
+    "lat": 24.56,
+    "lon": -81.78,
     "climate": {
-      "avgTempF": 62,
-      "rainInches": 51,
-      "snowInches": 2,
-      "sunHours": 3191,
-      "humidityPct": 71,
-      "dailyVarianceF": 13
-    }
-  },
-  {
-    "name": "Kazan'",
-    "country": "Russia",
-    "lat": 55.79,
-    "lon": 49.12,
-    "climate": {
-      "avgTempF": 43,
-      "rainInches": 13,
-      "snowInches": 50,
-      "sunHours": 2925,
-      "humidityPct": 74,
-      "dailyVarianceF": 14
+      "avgTempF": 79,
+      "rainInches": 36,
+      "snowInches": 0,
+      "sunHours": 4005,
+      "dailyVarianceF": 4,
+      "summerHighF": 87,
+      "winterLowF": 70,
+      "rainyDays": 120,
+      "windMph": 16,
+      "dewPointF": 69
     }
   },
   {
@@ -2599,8 +2061,12 @@
       "rainInches": 1,
       "snowInches": 0,
       "sunHours": 4016,
-      "humidityPct": 26,
-      "dailyVarianceF": 24
+      "dailyVarianceF": 24,
+      "summerHighF": 107,
+      "winterLowF": 61,
+      "rainyDays": 6,
+      "windMph": 15,
+      "dewPointF": 45
     }
   },
   {
@@ -2613,22 +2079,12 @@
       "rainInches": 63,
       "snowInches": 0,
       "sunHours": 3398,
-      "humidityPct": 77,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Kobe",
-    "country": "Japan",
-    "lat": 34.69,
-    "lon": 135.18,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 62,
-      "snowInches": 2,
-      "sunHours": 3189,
-      "humidityPct": 76,
-      "dailyVarianceF": 11
+      "dailyVarianceF": 14,
+      "summerHighF": 90,
+      "winterLowF": 72,
+      "rainyDays": 160,
+      "windMph": 7,
+      "dewPointF": 71
     }
   },
   {
@@ -2641,22 +2097,12 @@
       "rainInches": 97,
       "snowInches": 0,
       "sunHours": 3084,
-      "humidityPct": 77,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Konya",
-    "country": "Türkiye",
-    "lat": 37.87,
-    "lon": 32.48,
-    "climate": {
-      "avgTempF": 56,
-      "rainInches": 14,
-      "snowInches": 11,
-      "sunHours": 3844,
-      "humidityPct": 55,
-      "dailyVarianceF": 22
+      "dailyVarianceF": 16,
+      "summerHighF": 85,
+      "winterLowF": 33,
+      "rainyDays": 153,
+      "windMph": 8,
+      "dewPointF": 55
     }
   },
   {
@@ -2669,36 +2115,30 @@
       "rainInches": 35,
       "snowInches": 40,
       "sunHours": 2691,
-      "humidityPct": 76,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 15,
+      "summerHighF": 79,
+      "winterLowF": 27,
+      "rainyDays": 153,
+      "windMph": 12,
+      "dewPointF": 40
     }
   },
   {
-    "name": "Krasnoyarsk",
-    "country": "Russia",
-    "lat": 56.03,
-    "lon": 92.91,
+    "name": "Kuala Lumpur",
+    "country": "Malaysia",
+    "lat": 3.14,
+    "lon": 101.69,
     "climate": {
-      "avgTempF": 36,
-      "rainInches": 14,
-      "snowInches": 38,
-      "sunHours": 2911,
-      "humidityPct": 67,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Kumasi",
-    "country": "Ghana",
-    "lat": 6.69,
-    "lon": -1.62,
-    "climate": {
-      "avgTempF": 78,
-      "rainInches": 78,
+      "avgTempF": 81,
+      "rainInches": 125,
       "snowInches": 0,
-      "sunHours": 3103,
-      "humidityPct": 80,
-      "dailyVarianceF": 16
+      "sunHours": 3212,
+      "dailyVarianceF": 13,
+      "summerHighF": 90,
+      "winterLowF": 73,
+      "rainyDays": 283,
+      "windMph": 7,
+      "dewPointF": 75
     }
   },
   {
@@ -2707,12 +2147,16 @@
     "lat": 25.04,
     "lon": 102.72,
     "climate": {
-      "avgTempF": 61,
-      "rainInches": 52,
-      "snowInches": 4,
-      "sunHours": 3371,
-      "humidityPct": 71,
-      "dailyVarianceF": 20
+      "avgTempF": 62,
+      "rainInches": 42,
+      "snowInches": 0,
+      "sunHours": 3480,
+      "dailyVarianceF": 21,
+      "summerHighF": 83,
+      "winterLowF": 36,
+      "rainyDays": 138,
+      "windMph": 11,
+      "dewPointF": 52
     }
   },
   {
@@ -2725,22 +2169,12 @@
       "rainInches": 9,
       "snowInches": 0,
       "sunHours": 3700,
-      "humidityPct": 45,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Kyoto",
-    "country": "Japan",
-    "lat": 35.02,
-    "lon": 135.75,
-    "climate": {
-      "avgTempF": 60,
-      "rainInches": 60,
-      "snowInches": 4,
-      "sunHours": 3139,
-      "humidityPct": 76,
-      "dailyVarianceF": 17
+      "dailyVarianceF": 18,
+      "summerHighF": 114,
+      "winterLowF": 50,
+      "rainyDays": 27,
+      "windMph": 15,
+      "dewPointF": 52
     }
   },
   {
@@ -2753,8 +2187,12 @@
       "rainInches": 54,
       "snowInches": 0,
       "sunHours": 3282,
-      "humidityPct": 81,
-      "dailyVarianceF": 8
+      "dailyVarianceF": 8,
+      "summerHighF": 88,
+      "winterLowF": 76,
+      "rainyDays": 202,
+      "windMph": 11,
+      "dewPointF": 76
     }
   },
   {
@@ -2767,36 +2205,12 @@
       "rainInches": 32,
       "snowInches": 0,
       "sunHours": 3501,
-      "humidityPct": 67,
-      "dailyVarianceF": 21
-    }
-  },
-  {
-    "name": "Lanzhou",
-    "country": "China",
-    "lat": 36.06,
-    "lon": 103.84,
-    "climate": {
-      "avgTempF": 53,
-      "rainInches": 11,
-      "snowInches": 6,
-      "sunHours": 3279,
-      "humidityPct": 48,
-      "dailyVarianceF": 22
-    }
-  },
-  {
-    "name": "Laredo",
-    "country": "United States",
-    "lat": 27.51,
-    "lon": -99.51,
-    "climate": {
-      "avgTempF": 76,
-      "rainInches": 21,
-      "snowInches": 0,
-      "sunHours": 3510,
-      "humidityPct": 60,
-      "dailyVarianceF": 21
+      "dailyVarianceF": 21,
+      "summerHighF": 98,
+      "winterLowF": 42,
+      "rainyDays": 87,
+      "windMph": 9,
+      "dewPointF": 57
     }
   },
   {
@@ -2809,36 +2223,12 @@
       "rainInches": 9,
       "snowInches": 1,
       "sunHours": 3929,
-      "humidityPct": 29,
-      "dailyVarianceF": 23
-    }
-  },
-  {
-    "name": "Leeds",
-    "country": "United Kingdom",
-    "lat": 53.8,
-    "lon": -1.55,
-    "climate": {
-      "avgTempF": 50,
-      "rainInches": 39,
-      "snowInches": 8,
-      "sunHours": 2575,
-      "humidityPct": 82,
-      "dailyVarianceF": 12
-    }
-  },
-  {
-    "name": "Leipzig",
-    "country": "Germany",
-    "lat": 51.34,
-    "lon": 12.37,
-    "climate": {
-      "avgTempF": 52,
-      "rainInches": 25,
-      "snowInches": 16,
-      "sunHours": 2878,
-      "humidityPct": 73,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 23,
+      "summerHighF": 110,
+      "winterLowF": 38,
+      "rainyDays": 29,
+      "windMph": 14,
+      "dewPointF": 33
     }
   },
   {
@@ -2848,25 +2238,15 @@
     "lon": 91.1,
     "climate": {
       "avgTempF": 49,
-      "rainInches": 26,
-      "snowInches": 30,
-      "sunHours": 3983,
-      "humidityPct": 38,
-      "dailyVarianceF": 21
-    }
-  },
-  {
-    "name": "Libreville",
-    "country": "Gabon",
-    "lat": 0.39,
-    "lon": 9.45,
-    "climate": {
-      "avgTempF": 78,
-      "rainInches": 117,
-      "snowInches": 0,
-      "sunHours": 2907,
-      "humidityPct": 86,
-      "dailyVarianceF": 8
+      "rainInches": 28,
+      "snowInches": 37,
+      "sunHours": 3928,
+      "dailyVarianceF": 21,
+      "summerHighF": 71,
+      "winterLowF": 24,
+      "rainyDays": 122,
+      "windMph": 7,
+      "dewPointF": 25
     }
   },
   {
@@ -2875,26 +2255,34 @@
     "lat": -12.04,
     "lon": -77.03,
     "climate": {
-      "avgTempF": 66,
+      "avgTempF": 69,
       "rainInches": 3,
       "snowInches": 0,
-      "sunHours": 3730,
-      "humidityPct": 82,
-      "dailyVarianceF": 8
+      "sunHours": 3732,
+      "dailyVarianceF": 8,
+      "summerHighF": 80,
+      "winterLowF": 61,
+      "rainyDays": 17,
+      "windMph": 14,
+      "dewPointF": 62
     }
   },
   {
-    "name": "Liverpool",
-    "country": "United Kingdom",
-    "lat": 53.41,
-    "lon": -2.98,
+    "name": "Lisbon",
+    "country": "Portugal",
+    "lat": 38.72,
+    "lon": -9.13,
     "climate": {
-      "avgTempF": 52,
-      "rainInches": 47,
-      "snowInches": 7,
-      "sunHours": 2749,
-      "humidityPct": 81,
-      "dailyVarianceF": 11
+      "avgTempF": 63,
+      "rainInches": 18,
+      "snowInches": 0,
+      "sunHours": 3735,
+      "dailyVarianceF": 15,
+      "summerHighF": 87,
+      "winterLowF": 46,
+      "rainyDays": 64,
+      "windMph": 12,
+      "dewPointF": 54
     }
   },
   {
@@ -2907,8 +2295,12 @@
       "rainInches": 59,
       "snowInches": 28,
       "sunHours": 3033,
-      "humidityPct": 81,
-      "dailyVarianceF": 19
+      "dailyVarianceF": 19,
+      "summerHighF": 81,
+      "winterLowF": 25,
+      "rainyDays": 128,
+      "windMph": 7,
+      "dewPointF": 43
     }
   },
   {
@@ -2921,22 +2313,12 @@
       "rainInches": 30,
       "snowInches": 3,
       "sunHours": 2785,
-      "humidityPct": 80,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Long Beach",
-    "country": "United States",
-    "lat": 33.77,
-    "lon": -118.19,
-    "climate": {
-      "avgTempF": 61,
-      "rainInches": 30,
-      "snowInches": 0,
-      "sunHours": 3591,
-      "humidityPct": 75,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 14,
+      "summerHighF": 74,
+      "winterLowF": 35,
+      "rainyDays": 138,
+      "windMph": 14,
+      "dewPointF": 44
     }
   },
   {
@@ -2945,26 +2327,16 @@
     "lat": 34.05,
     "lon": -118.24,
     "climate": {
-      "avgTempF": 64,
-      "rainInches": 25,
+      "avgTempF": 62,
+      "rainInches": 39,
       "snowInches": 0,
-      "sunHours": 3692,
-      "humidityPct": 64,
-      "dailyVarianceF": 22
-    }
-  },
-  {
-    "name": "Louisville",
-    "country": "United States",
-    "lat": 38.25,
-    "lon": -85.76,
-    "climate": {
-      "avgTempF": 58,
-      "rainInches": 40,
-      "snowInches": 4,
-      "sunHours": 3326,
-      "humidityPct": 70,
-      "dailyVarianceF": 19
+      "sunHours": 3544,
+      "dailyVarianceF": 21,
+      "summerHighF": 87,
+      "winterLowF": 45,
+      "rainyDays": 57,
+      "windMph": 11,
+      "dewPointF": 50
     }
   },
   {
@@ -2977,78 +2349,30 @@
       "rainInches": 46,
       "snowInches": 0,
       "sunHours": 3411,
-      "humidityPct": 81,
-      "dailyVarianceF": 10
+      "dailyVarianceF": 10,
+      "summerHighF": 87,
+      "winterLowF": 65,
+      "rainyDays": 118,
+      "windMph": 12,
+      "dewPointF": 70
     }
   },
   {
-    "name": "Lubbock",
-    "country": "United States",
-    "lat": 33.58,
-    "lon": -101.86,
+    "name": "Lyon",
+    "country": "France",
+    "lat": 45.75,
+    "lon": 4.85,
     "climate": {
-      "avgTempF": 64,
-      "rainInches": 14,
-      "snowInches": 4,
-      "sunHours": 3822,
-      "humidityPct": 47,
-      "dailyVarianceF": 24
-    }
-  },
-  {
-    "name": "Lucknow",
-    "country": "India",
-    "lat": 26.84,
-    "lon": 80.92,
-    "climate": {
-      "avgTempF": 77,
-      "rainInches": 40,
-      "snowInches": 0,
-      "sunHours": 3558,
-      "humidityPct": 66,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Ludhiana",
-    "country": "India",
-    "lat": 30.91,
-    "lon": 75.85,
-    "climate": {
-      "avgTempF": 73,
-      "rainInches": 29,
-      "snowInches": 0,
-      "sunHours": 3453,
-      "humidityPct": 71,
-      "dailyVarianceF": 21
-    }
-  },
-  {
-    "name": "Luxembourg",
-    "country": "Luxembourg",
-    "lat": 49.75,
-    "lon": 6.17,
-    "climate": {
-      "avgTempF": 51,
-      "rainInches": 39,
-      "snowInches": 11,
-      "sunHours": 2752,
-      "humidityPct": 79,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Luxor",
-    "country": "Egypt",
-    "lat": 25.7,
-    "lon": 32.64,
-    "climate": {
-      "avgTempF": 81,
-      "rainInches": 0,
-      "snowInches": 0,
-      "sunHours": 4119,
-      "humidityPct": 29,
-      "dailyVarianceF": 26
+      "avgTempF": 57,
+      "rainInches": 37,
+      "snowInches": 2,
+      "sunHours": 3168,
+      "dailyVarianceF": 17,
+      "summerHighF": 86,
+      "winterLowF": 35,
+      "rainyDays": 119,
+      "windMph": 12,
+      "dewPointF": 45
     }
   },
   {
@@ -3057,54 +2381,52 @@
     "lat": 22.2,
     "lon": 113.55,
     "climate": {
-      "avgTempF": 73,
-      "rainInches": 86,
+      "avgTempF": 74,
+      "rainInches": 82,
       "snowInches": 0,
-      "sunHours": 3055,
-      "humidityPct": 80,
-      "dailyVarianceF": 9
+      "sunHours": 3130,
+      "dailyVarianceF": 9,
+      "summerHighF": 88,
+      "winterLowF": 55,
+      "rainyDays": 179,
+      "windMph": 12,
+      "dewPointF": 66
     }
   },
   {
-    "name": "Madurai",
-    "country": "India",
-    "lat": 9.92,
-    "lon": 78.12,
+    "name": "Madrid",
+    "country": "Spain",
+    "lat": 40.42,
+    "lon": -3.7,
     "climate": {
-      "avgTempF": 83,
-      "rainInches": 51,
+      "avgTempF": 61,
+      "rainInches": 20,
       "snowInches": 0,
-      "sunHours": 3693,
-      "humidityPct": 66,
-      "dailyVarianceF": 20
+      "sunHours": 3715,
+      "dailyVarianceF": 21,
+      "summerHighF": 95,
+      "winterLowF": 34,
+      "rainyDays": 64,
+      "windMph": 11,
+      "dewPointF": 42
     }
   },
   {
-    "name": "Managua",
-    "country": "Nicaragua",
-    "lat": 12.13,
-    "lon": -86.25,
+    "name": "Málaga",
+    "country": "Spain",
+    "lat": 36.72,
+    "lon": -4.42,
     "climate": {
-      "avgTempF": 82,
-      "rainInches": 65,
+      "avgTempF": 68,
+      "rainInches": 10,
       "snowInches": 0,
-      "sunHours": 3896,
-      "humidityPct": 72,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Manama",
-    "country": "Bahrain",
-    "lat": 26.23,
-    "lon": 50.59,
-    "climate": {
-      "avgTempF": 82,
-      "rainInches": 5,
-      "snowInches": 0,
-      "sunHours": 3805,
-      "humidityPct": 59,
-      "dailyVarianceF": 13
+      "sunHours": 3903,
+      "dailyVarianceF": 15,
+      "summerHighF": 91,
+      "winterLowF": 48,
+      "rainyDays": 37,
+      "windMph": 10,
+      "dewPointF": 55
     }
   },
   {
@@ -3117,8 +2439,12 @@
       "rainInches": 58,
       "snowInches": 0,
       "sunHours": 3766,
-      "humidityPct": 79,
-      "dailyVarianceF": 11
+      "dailyVarianceF": 11,
+      "summerHighF": 95,
+      "winterLowF": 75,
+      "rainyDays": 187,
+      "windMph": 8,
+      "dewPointF": 76
     }
   },
   {
@@ -3131,8 +2457,30 @@
       "rainInches": 53,
       "snowInches": 6,
       "sunHours": 2537,
-      "humidityPct": 81,
-      "dailyVarianceF": 12
+      "dailyVarianceF": 12,
+      "summerHighF": 72,
+      "winterLowF": 36,
+      "rainyDays": 206,
+      "windMph": 13,
+      "dewPointF": 43
+    }
+  },
+  {
+    "name": "Manila",
+    "country": "Philippines",
+    "lat": 14.6,
+    "lon": 120.98,
+    "climate": {
+      "avgTempF": 81,
+      "rainInches": 76,
+      "snowInches": 0,
+      "sunHours": 3698,
+      "dailyVarianceF": 11,
+      "summerHighF": 91,
+      "winterLowF": 74,
+      "rainyDays": 238,
+      "windMph": 11,
+      "dewPointF": 74
     }
   },
   {
@@ -3145,22 +2493,12 @@
       "rainInches": 31,
       "snowInches": 0,
       "sunHours": 3690,
-      "humidityPct": 73,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Maracaibo",
-    "country": "Venezuela",
-    "lat": 10.67,
-    "lon": -71.61,
-    "climate": {
-      "avgTempF": 83,
-      "rainInches": 45,
-      "snowInches": 0,
-      "sunHours": 3954,
-      "humidityPct": 76,
-      "dailyVarianceF": 11
+      "dailyVarianceF": 16,
+      "summerHighF": 85,
+      "winterLowF": 57,
+      "rainyDays": 93,
+      "windMph": 13,
+      "dewPointF": 64
     }
   },
   {
@@ -3173,50 +2511,30 @@
       "rainInches": 6,
       "snowInches": 0,
       "sunHours": 3899,
-      "humidityPct": 48,
-      "dailyVarianceF": 28
+      "dailyVarianceF": 28,
+      "summerHighF": 106,
+      "winterLowF": 42,
+      "rainyDays": 23,
+      "windMph": 10,
+      "dewPointF": 51
     }
   },
   {
-    "name": "Maseru",
-    "country": "Lesotho",
-    "lat": -29.32,
-    "lon": 27.48,
+    "name": "Marseille",
+    "country": "France",
+    "lat": 43.3,
+    "lon": 5.38,
     "climate": {
-      "avgTempF": 57,
-      "rainInches": 32,
+      "avgTempF": 61,
+      "rainInches": 17,
       "snowInches": 1,
-      "sunHours": 3947,
-      "humidityPct": 62,
-      "dailyVarianceF": 26
-    }
-  },
-  {
-    "name": "Mashhad",
-    "country": "Iran",
-    "lat": 36.3,
-    "lon": 59.61,
-    "climate": {
-      "avgTempF": 60,
-      "rainInches": 6,
-      "snowInches": 4,
-      "sunHours": 3667,
-      "humidityPct": 45,
-      "dailyVarianceF": 25
-    }
-  },
-  {
-    "name": "Mbabane",
-    "country": "Eswatini",
-    "lat": -26.32,
-    "lon": 31.13,
-    "climate": {
-      "avgTempF": 63,
-      "rainInches": 53,
-      "snowInches": 2,
-      "sunHours": 3524,
-      "humidityPct": 72,
-      "dailyVarianceF": 18
+      "sunHours": 3772,
+      "dailyVarianceF": 13,
+      "summerHighF": 85,
+      "winterLowF": 40,
+      "rainyDays": 61,
+      "windMph": 15,
+      "dewPointF": 50
     }
   },
   {
@@ -3229,36 +2547,30 @@
       "rainInches": 78,
       "snowInches": 0,
       "sunHours": 3490,
-      "humidityPct": 85,
-      "dailyVarianceF": 19
+      "dailyVarianceF": 19,
+      "summerHighF": 83,
+      "winterLowF": 58,
+      "rainyDays": 254,
+      "windMph": 6,
+      "dewPointF": 66
     }
   },
   {
-    "name": "Medina",
-    "country": "Saudi Arabia",
-    "lat": 24.47,
-    "lon": 39.61,
+    "name": "Melbourne",
+    "country": "Australia",
+    "lat": -37.81,
+    "lon": 144.96,
     "climate": {
-      "avgTempF": 83,
-      "rainInches": 5,
+      "avgTempF": 58,
+      "rainInches": 31,
       "snowInches": 0,
-      "sunHours": 4041,
-      "humidityPct": 29,
-      "dailyVarianceF": 27
-    }
-  },
-  {
-    "name": "Medina",
-    "country": "United States",
-    "lat": 41.14,
-    "lon": -81.86,
-    "climate": {
-      "avgTempF": 52,
-      "rainInches": 39,
-      "snowInches": 21,
-      "sunHours": 3002,
-      "humidityPct": 70,
-      "dailyVarianceF": 16
+      "sunHours": 3282,
+      "dailyVarianceF": 15,
+      "summerHighF": 79,
+      "winterLowF": 46,
+      "rainyDays": 122,
+      "windMph": 14,
+      "dewPointF": 50
     }
   },
   {
@@ -3271,8 +2583,12 @@
       "rainInches": 52,
       "snowInches": 0,
       "sunHours": 3351,
-      "humidityPct": 69,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 18,
+      "summerHighF": 91,
+      "winterLowF": 40,
+      "rainyDays": 114,
+      "windMph": 11,
+      "dewPointF": 51
     }
   },
   {
@@ -3285,8 +2601,12 @@
       "rainInches": 7,
       "snowInches": 0,
       "sunHours": 3742,
-      "humidityPct": 45,
-      "dailyVarianceF": 19
+      "dailyVarianceF": 19,
+      "summerHighF": 88,
+      "winterLowF": 40,
+      "rainyDays": 41,
+      "windMph": 10,
+      "dewPointF": 45
     }
   },
   {
@@ -3299,8 +2619,12 @@
       "rainInches": 33,
       "snowInches": 0,
       "sunHours": 4009,
-      "humidityPct": 59,
-      "dailyVarianceF": 26
+      "dailyVarianceF": 26,
+      "summerHighF": 86,
+      "winterLowF": 45,
+      "rainyDays": 118,
+      "windMph": 12,
+      "dewPointF": 48
     }
   },
   {
@@ -3313,8 +2637,12 @@
       "rainInches": 77,
       "snowInches": 0,
       "sunHours": 3816,
-      "humidityPct": 76,
-      "dailyVarianceF": 11
+      "dailyVarianceF": 11,
+      "summerHighF": 90,
+      "winterLowF": 66,
+      "rainyDays": 201,
+      "windMph": 13,
+      "dewPointF": 67
     }
   },
   {
@@ -3323,26 +2651,16 @@
     "lat": 45.46,
     "lon": 9.19,
     "climate": {
-      "avgTempF": 59,
-      "rainInches": 41,
-      "snowInches": 3,
-      "sunHours": 3365,
-      "humidityPct": 71,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Milwaukee",
-    "country": "United States",
-    "lat": 43.04,
-    "lon": -87.91,
-    "climate": {
-      "avgTempF": 50,
-      "rainInches": 31,
-      "snowInches": 44,
-      "sunHours": 3113,
-      "humidityPct": 71,
-      "dailyVarianceF": 15
+      "avgTempF": 58,
+      "rainInches": 51,
+      "snowInches": 1,
+      "sunHours": 3326,
+      "dailyVarianceF": 17,
+      "summerHighF": 86,
+      "winterLowF": 35,
+      "rainyDays": 116,
+      "windMph": 9,
+      "dewPointF": 45
     }
   },
   {
@@ -3351,68 +2669,16 @@
     "lat": 44.98,
     "lon": -93.26,
     "climate": {
-      "avgTempF": 46,
-      "rainInches": 32,
-      "snowInches": 45,
-      "sunHours": 3177,
-      "humidityPct": 70,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Mogadishu",
-    "country": "Somalia",
-    "lat": 2.04,
-    "lon": 45.34,
-    "climate": {
-      "avgTempF": 80,
-      "rainInches": 24,
-      "snowInches": 0,
-      "sunHours": 4170,
-      "humidityPct": 76,
-      "dailyVarianceF": 10
-    }
-  },
-  {
-    "name": "Mombasa",
-    "country": "Kenya",
-    "lat": -4.05,
-    "lon": 39.66,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 48,
-      "snowInches": 0,
-      "sunHours": 3945,
-      "humidityPct": 80,
-      "dailyVarianceF": 8
-    }
-  },
-  {
-    "name": "Monaco",
-    "country": "Monaco",
-    "lat": 43.74,
-    "lon": 7.42,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 24,
-      "snowInches": 1,
-      "sunHours": 3770,
-      "humidityPct": 65,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Monrovia",
-    "country": "Liberia",
-    "lat": 6.3,
-    "lon": -10.8,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 119,
-      "snowInches": 0,
-      "sunHours": 3170,
-      "humidityPct": 86,
-      "dailyVarianceF": 9
+      "avgTempF": 48,
+      "rainInches": 35,
+      "snowInches": 51,
+      "sunHours": 3220,
+      "dailyVarianceF": 19,
+      "summerHighF": 84,
+      "winterLowF": 13,
+      "rainyDays": 108,
+      "windMph": 11,
+      "dewPointF": 37
     }
   },
   {
@@ -3425,8 +2691,12 @@
       "rainInches": 24,
       "snowInches": 0,
       "sunHours": 3591,
-      "humidityPct": 63,
-      "dailyVarianceF": 21
+      "dailyVarianceF": 21,
+      "summerHighF": 99,
+      "winterLowF": 52,
+      "rainyDays": 72,
+      "windMph": 10,
+      "dewPointF": 58
     }
   },
   {
@@ -3439,8 +2709,12 @@
       "rainInches": 33,
       "snowInches": 0,
       "sunHours": 3527,
-      "humidityPct": 75,
-      "dailyVarianceF": 10
+      "dailyVarianceF": 10,
+      "summerHighF": 82,
+      "winterLowF": 50,
+      "rainyDays": 98,
+      "windMph": 17,
+      "dewPointF": 54
     }
   },
   {
@@ -3453,8 +2727,12 @@
       "rainInches": 43,
       "snowInches": 73,
       "sunHours": 2757,
-      "humidityPct": 75,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 15,
+      "summerHighF": 78,
+      "winterLowF": 9,
+      "rainyDays": 138,
+      "windMph": 12,
+      "dewPointF": 34
     }
   },
   {
@@ -3467,22 +2745,12 @@
       "rainInches": 18,
       "snowInches": 54,
       "sunHours": 2591,
-      "humidityPct": 76,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Mosul",
-    "country": "Iraq",
-    "lat": 36.34,
-    "lon": 43.12,
-    "climate": {
-      "avgTempF": 71,
-      "rainInches": 13,
-      "snowInches": 1,
-      "sunHours": 3705,
-      "humidityPct": 46,
-      "dailyVarianceF": 24
+      "dailyVarianceF": 15,
+      "summerHighF": 75,
+      "winterLowF": 17,
+      "rainyDays": 133,
+      "windMph": 13,
+      "dewPointF": 34
     }
   },
   {
@@ -3491,12 +2759,16 @@
     "lat": 19.07,
     "lon": 72.88,
     "climate": {
-      "avgTempF": 80,
-      "rainInches": 93,
+      "avgTempF": 81,
+      "rainInches": 81,
       "snowInches": 0,
-      "sunHours": 3514,
-      "humidityPct": 72,
-      "dailyVarianceF": 13
+      "sunHours": 3591,
+      "dailyVarianceF": 14,
+      "summerHighF": 91,
+      "winterLowF": 64,
+      "rainyDays": 120,
+      "windMph": 12,
+      "dewPointF": 71
     }
   },
   {
@@ -3506,11 +2778,15 @@
     "lon": 11.58,
     "climate": {
       "avgTempF": 51,
-      "rainInches": 40,
-      "snowInches": 29,
-      "sunHours": 2965,
-      "humidityPct": 75,
-      "dailyVarianceF": 16
+      "rainInches": 41,
+      "snowInches": 31,
+      "sunHours": 2868,
+      "dailyVarianceF": 16,
+      "summerHighF": 77,
+      "winterLowF": 31,
+      "rainyDays": 160,
+      "windMph": 11,
+      "dewPointF": 40
     }
   },
   {
@@ -3523,36 +2799,12 @@
       "rainInches": 2,
       "snowInches": 0,
       "sunHours": 3999,
-      "humidityPct": 52,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Nagoya",
-    "country": "Japan",
-    "lat": 35.18,
-    "lon": 136.91,
-    "climate": {
-      "avgTempF": 61,
-      "rainInches": 70,
-      "snowInches": 3,
-      "sunHours": 3262,
-      "humidityPct": 74,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Nagpur",
-    "country": "India",
-    "lat": 21.15,
-    "lon": 79.08,
-    "climate": {
-      "avgTempF": 80,
-      "rainInches": 55,
-      "snowInches": 0,
-      "sunHours": 3628,
-      "humidityPct": 58,
-      "dailyVarianceF": 21
+      "dailyVarianceF": 14,
+      "summerHighF": 103,
+      "winterLowF": 62,
+      "rainyDays": 10,
+      "windMph": 12,
+      "dewPointF": 62
     }
   },
   {
@@ -3565,8 +2817,12 @@
       "rainInches": 80,
       "snowInches": 0,
       "sunHours": 3263,
-      "humidityPct": 76,
-      "dailyVarianceF": 7
+      "dailyVarianceF": 7,
+      "summerHighF": 87,
+      "winterLowF": 61,
+      "rainyDays": 165,
+      "windMph": 15,
+      "dewPointF": 65
     }
   },
   {
@@ -3575,26 +2831,16 @@
     "lat": -1.28,
     "lon": 36.82,
     "climate": {
-      "avgTempF": 66,
-      "rainInches": 22,
+      "avgTempF": 67,
+      "rainInches": 27,
       "snowInches": 0,
-      "sunHours": 3599,
-      "humidityPct": 67,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Nanjing",
-    "country": "China",
-    "lat": 32.06,
-    "lon": 118.78,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 43,
-      "snowInches": 6,
-      "sunHours": 2749,
-      "humidityPct": 72,
-      "dailyVarianceF": 15
+      "sunHours": 3717,
+      "dailyVarianceF": 20,
+      "summerHighF": 84,
+      "winterLowF": 54,
+      "rainyDays": 146,
+      "windMph": 9,
+      "dewPointF": 56
     }
   },
   {
@@ -3604,11 +2850,15 @@
     "lon": 14.27,
     "climate": {
       "avgTempF": 63,
-      "rainInches": 44,
+      "rainInches": 45,
       "snowInches": 1,
-      "sunHours": 3654,
-      "humidityPct": 75,
-      "dailyVarianceF": 15
+      "sunHours": 3600,
+      "dailyVarianceF": 14,
+      "summerHighF": 87,
+      "winterLowF": 41,
+      "rainyDays": 135,
+      "windMph": 11,
+      "dewPointF": 54
     }
   },
   {
@@ -3621,22 +2871,12 @@
       "rainInches": 60,
       "snowInches": 2,
       "sunHours": 3292,
-      "humidityPct": 72,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Ndjamena",
-    "country": "Cameroon",
-    "lat": 12.01,
-    "lon": 14.72,
-    "climate": {
-      "avgTempF": 85,
-      "rainInches": 25,
-      "snowInches": 0,
-      "sunHours": 3633,
-      "humidityPct": 39,
-      "dailyVarianceF": 22
+      "dailyVarianceF": 19,
+      "summerHighF": 89,
+      "winterLowF": 38,
+      "rainyDays": 127,
+      "windMph": 10,
+      "dewPointF": 50
     }
   },
   {
@@ -3645,12 +2885,16 @@
     "lat": 29.95,
     "lon": -90.08,
     "climate": {
-      "avgTempF": 71,
-      "rainInches": 55,
+      "avgTempF": 72,
+      "rainInches": 45,
       "snowInches": 0,
-      "sunHours": 3535,
-      "humidityPct": 75,
-      "dailyVarianceF": 13
+      "sunHours": 3604,
+      "dailyVarianceF": 13,
+      "summerHighF": 97,
+      "winterLowF": 52,
+      "rainyDays": 146,
+      "windMph": 13,
+      "dewPointF": 62
     }
   },
   {
@@ -3660,67 +2904,33 @@
     "lon": -74.01,
     "climate": {
       "avgTempF": 55,
-      "rainInches": 55,
-      "snowInches": 14,
-      "sunHours": 3203,
-      "humidityPct": 70,
-      "dailyVarianceF": 16
+      "rainInches": 59,
+      "snowInches": 9,
+      "sunHours": 3179,
+      "dailyVarianceF": 17,
+      "summerHighF": 86,
+      "winterLowF": 31,
+      "rainyDays": 129,
+      "windMph": 13,
+      "dewPointF": 44
     }
   },
   {
-    "name": "Newark",
-    "country": "United States",
-    "lat": 40.74,
-    "lon": -74.17,
+    "name": "Nice",
+    "country": "France",
+    "lat": 43.7,
+    "lon": 7.27,
     "climate": {
-      "avgTempF": 55,
-      "rainInches": 56,
-      "snowInches": 10,
-      "sunHours": 3145,
-      "humidityPct": 69,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Niamey",
-    "country": "Niger",
-    "lat": 13.51,
-    "lon": 2.11,
-    "climate": {
-      "avgTempF": 86,
-      "rainInches": 13,
+      "avgTempF": 62,
+      "rainInches": 24,
       "snowInches": 0,
-      "sunHours": 3764,
-      "humidityPct": 34,
-      "dailyVarianceF": 23
-    }
-  },
-  {
-    "name": "Nizhny Novgorod",
-    "country": "Russia",
-    "lat": 56.33,
-    "lon": 44,
-    "climate": {
-      "avgTempF": 43,
-      "rainInches": 19,
-      "snowInches": 56,
-      "sunHours": 2706,
-      "humidityPct": 76,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Nouakchott",
-    "country": "Mauritania",
-    "lat": 18.09,
-    "lon": -15.98,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 6,
-      "snowInches": 0,
-      "sunHours": 3777,
-      "humidityPct": 49,
-      "dailyVarianceF": 19
+      "sunHours": 3749,
+      "dailyVarianceF": 14,
+      "summerHighF": 85,
+      "winterLowF": 42,
+      "rainyDays": 71,
+      "windMph": 9,
+      "dewPointF": 51
     }
   },
   {
@@ -3733,22 +2943,12 @@
       "rainInches": 11,
       "snowInches": 61,
       "sunHours": 2980,
-      "humidityPct": 69,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Oakland",
-    "country": "United States",
-    "lat": 37.8,
-    "lon": -122.27,
-    "climate": {
-      "avgTempF": 56,
-      "rainInches": 36,
-      "snowInches": 2,
-      "sunHours": 3625,
-      "humidityPct": 77,
-      "dailyVarianceF": 17
+      "dailyVarianceF": 16,
+      "summerHighF": 80,
+      "winterLowF": -1,
+      "rainyDays": 106,
+      "windMph": 12,
+      "dewPointF": 27
     }
   },
   {
@@ -3761,64 +2961,12 @@
       "rainInches": 24,
       "snowInches": 0,
       "sunHours": 4148,
-      "humidityPct": 61,
-      "dailyVarianceF": 26
-    }
-  },
-  {
-    "name": "Oklahoma City",
-    "country": "United States",
-    "lat": 35.47,
-    "lon": -97.52,
-    "climate": {
-      "avgTempF": 63,
-      "rainInches": 31,
-      "snowInches": 3,
-      "sunHours": 3541,
-      "humidityPct": 62,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Omaha",
-    "country": "United States",
-    "lat": 41.26,
-    "lon": -95.94,
-    "climate": {
-      "avgTempF": 54,
-      "rainInches": 23,
-      "snowInches": 19,
-      "sunHours": 3463,
-      "humidityPct": 65,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Omsk",
-    "country": "Russia",
-    "lat": 54.99,
-    "lon": 73.37,
-    "climate": {
-      "avgTempF": 39,
-      "rainInches": 13,
-      "snowInches": 38,
-      "sunHours": 3052,
-      "humidityPct": 71,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Oran",
-    "country": "Algeria",
-    "lat": 35.7,
-    "lon": -0.64,
-    "climate": {
-      "avgTempF": 66,
-      "rainInches": 8,
-      "snowInches": 0,
-      "sunHours": 3833,
-      "humidityPct": 69,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 26,
+      "summerHighF": 87,
+      "winterLowF": 51,
+      "rainyDays": 93,
+      "windMph": 9,
+      "dewPointF": 55
     }
   },
   {
@@ -3831,8 +2979,12 @@
       "rainInches": 64,
       "snowInches": 0,
       "sunHours": 3675,
-      "humidityPct": 75,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 18,
+      "summerHighF": 93,
+      "winterLowF": 54,
+      "rainyDays": 154,
+      "windMph": 12,
+      "dewPointF": 63
     }
   },
   {
@@ -3845,8 +2997,12 @@
       "rainInches": 62,
       "snowInches": 1,
       "sunHours": 3178,
-      "humidityPct": 75,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 15,
+      "summerHighF": 93,
+      "winterLowF": 33,
+      "rainyDays": 128,
+      "windMph": 14,
+      "dewPointF": 53
     }
   },
   {
@@ -3859,36 +3015,12 @@
       "rainInches": 32,
       "snowInches": 67,
       "sunHours": 2704,
-      "humidityPct": 77,
-      "dailyVarianceF": 13
-    }
-  },
-  {
-    "name": "Ottawa",
-    "country": "Canada",
-    "lat": 45.41,
-    "lon": -75.7,
-    "climate": {
-      "avgTempF": 46,
-      "rainInches": 34,
-      "snowInches": 74,
-      "sunHours": 2776,
-      "humidityPct": 75,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Ouagadougou",
-    "country": "Burkina Faso",
-    "lat": 12.37,
-    "lon": -1.53,
-    "climate": {
-      "avgTempF": 83,
-      "rainInches": 28,
-      "snowInches": 0,
-      "sunHours": 3727,
-      "humidityPct": 47,
-      "dailyVarianceF": 22
+      "dailyVarianceF": 13,
+      "summerHighF": 75,
+      "winterLowF": 17,
+      "rainyDays": 130,
+      "windMph": 9,
+      "dewPointF": 37
     }
   },
   {
@@ -3897,26 +3029,16 @@
     "lat": 38.12,
     "lon": 13.36,
     "climate": {
-      "avgTempF": 66,
-      "rainInches": 27,
+      "avgTempF": 67,
+      "rainInches": 31,
       "snowInches": 0,
-      "sunHours": 3784,
-      "humidityPct": 70,
-      "dailyVarianceF": 12
-    }
-  },
-  {
-    "name": "Panajijay",
-    "country": "Guatemala",
-    "lat": 14.85,
-    "lon": -90.97,
-    "climate": {
-      "avgTempF": 59,
-      "rainInches": 61,
-      "snowInches": 0,
-      "sunHours": 3896,
-      "humidityPct": 81,
-      "dailyVarianceF": 21
+      "sunHours": 3759,
+      "dailyVarianceF": 12,
+      "summerHighF": 92,
+      "winterLowF": 46,
+      "rainyDays": 95,
+      "windMph": 10,
+      "dewPointF": 56
     }
   },
   {
@@ -3925,68 +3047,70 @@
     "lat": 8.99,
     "lon": -79.52,
     "climate": {
-      "avgTempF": 79,
-      "rainInches": 101,
-      "snowInches": 0,
-      "sunHours": 3349,
-      "humidityPct": 84,
-      "dailyVarianceF": 11
-    }
-  },
-  {
-    "name": "Paramaribo",
-    "country": "Suriname",
-    "lat": 5.87,
-    "lon": -55.17,
-    "climate": {
       "avgTempF": 80,
-      "rainInches": 96,
+      "rainInches": 84,
       "snowInches": 0,
-      "sunHours": 3698,
-      "humidityPct": 82,
-      "dailyVarianceF": 10
+      "sunHours": 3483,
+      "dailyVarianceF": 12,
+      "summerHighF": 92,
+      "winterLowF": 74,
+      "rainyDays": 262,
+      "windMph": 10,
+      "dewPointF": 75
     }
   },
   {
-    "name": "Patna",
-    "country": "India",
-    "lat": 25.59,
-    "lon": 85.14,
+    "name": "Papeete",
+    "country": "",
+    "lat": -17.53,
+    "lon": -149.57,
     "climate": {
       "avgTempF": 78,
-      "rainInches": 47,
+      "rainInches": 131,
       "snowInches": 0,
-      "sunHours": 3531,
-      "humidityPct": 68,
-      "dailyVarianceF": 18
+      "sunHours": 3505,
+      "dailyVarianceF": 8,
+      "summerHighF": 84,
+      "winterLowF": 71,
+      "rainyDays": 310,
+      "windMph": 9,
+      "dewPointF": 74
     }
   },
   {
-    "name": "Pattaya",
-    "country": "Thailand",
-    "lat": 12.93,
-    "lon": 100.88,
+    "name": "Paris",
+    "country": "France",
+    "lat": 48.85,
+    "lon": 2.35,
     "climate": {
-      "avgTempF": 83,
-      "rainInches": 56,
-      "snowInches": 0,
-      "sunHours": 3587,
-      "humidityPct": 75,
-      "dailyVarianceF": 10
+      "avgTempF": 55,
+      "rainInches": 38,
+      "snowInches": 3,
+      "sunHours": 2867,
+      "dailyVarianceF": 14,
+      "summerHighF": 79,
+      "winterLowF": 36,
+      "rainyDays": 141,
+      "windMph": 13,
+      "dewPointF": 45
     }
   },
   {
-    "name": "Peshawar",
-    "country": "Pakistan",
-    "lat": 34.01,
-    "lon": 71.58,
+    "name": "Perth",
+    "country": "Australia",
+    "lat": -31.95,
+    "lon": 115.86,
     "climate": {
-      "avgTempF": 72,
-      "rainInches": 20,
+      "avgTempF": 66,
+      "rainInches": 22,
       "snowInches": 0,
-      "sunHours": 3482,
-      "humidityPct": 57,
-      "dailyVarianceF": 24
+      "sunHours": 3980,
+      "dailyVarianceF": 17,
+      "summerHighF": 87,
+      "winterLowF": 48,
+      "rainyDays": 66,
+      "windMph": 16,
+      "dewPointF": 52
     }
   },
   {
@@ -3995,12 +3119,34 @@
     "lat": 39.95,
     "lon": -75.16,
     "climate": {
-      "avgTempF": 56,
-      "rainInches": 49,
-      "snowInches": 8,
-      "sunHours": 3202,
-      "humidityPct": 67,
-      "dailyVarianceF": 18
+      "avgTempF": 57,
+      "rainInches": 47,
+      "snowInches": 2,
+      "sunHours": 3212,
+      "dailyVarianceF": 18,
+      "summerHighF": 89,
+      "winterLowF": 33,
+      "rainyDays": 125,
+      "windMph": 11,
+      "dewPointF": 45
+    }
+  },
+  {
+    "name": "Phnom Penh",
+    "country": "Cambodia",
+    "lat": 11.56,
+    "lon": 104.92,
+    "climate": {
+      "avgTempF": 82,
+      "rainInches": 88,
+      "snowInches": 0,
+      "sunHours": 3527,
+      "dailyVarianceF": 13,
+      "summerHighF": 94,
+      "winterLowF": 71,
+      "rainyDays": 209,
+      "windMph": 9,
+      "dewPointF": 73
     }
   },
   {
@@ -4010,11 +3156,15 @@
     "lon": -112.07,
     "climate": {
       "avgTempF": 74,
-      "rainInches": 13,
+      "rainInches": 10,
       "snowInches": 0,
-      "sunHours": 3943,
-      "humidityPct": 34,
-      "dailyVarianceF": 25
+      "sunHours": 3927,
+      "dailyVarianceF": 26,
+      "summerHighF": 112,
+      "winterLowF": 41,
+      "rainyDays": 29,
+      "windMph": 12,
+      "dewPointF": 41
     }
   },
   {
@@ -4027,8 +3177,12 @@
       "rainInches": 78,
       "snowInches": 0,
       "sunHours": 3611,
-      "humidityPct": 81,
-      "dailyVarianceF": 10
+      "dailyVarianceF": 10,
+      "summerHighF": 91,
+      "winterLowF": 75,
+      "rainyDays": 227,
+      "windMph": 9,
+      "dewPointF": 74
     }
   },
   {
@@ -4037,96 +3191,16 @@
     "lat": 40.44,
     "lon": -80,
     "climate": {
-      "avgTempF": 53,
-      "rainInches": 46,
-      "snowInches": 16,
-      "sunHours": 2967,
-      "humidityPct": 71,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Plano",
-    "country": "United States",
-    "lat": 33.02,
-    "lon": -96.7,
-    "climate": {
-      "avgTempF": 68,
-      "rainInches": 58,
-      "snowInches": 0,
-      "sunHours": 3372,
-      "humidityPct": 64,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Plovdiv",
-    "country": "Bulgaria",
-    "lat": 42.15,
-    "lon": 24.75,
-    "climate": {
-      "avgTempF": 59,
-      "rainInches": 18,
-      "snowInches": 13,
-      "sunHours": 3451,
-      "humidityPct": 63,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Podgorica",
-    "country": "Montenegro",
-    "lat": 42.44,
-    "lon": 19.26,
-    "climate": {
-      "avgTempF": 61,
-      "rainInches": 88,
-      "snowInches": 1,
-      "sunHours": 3380,
-      "humidityPct": 66,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Pokhara",
-    "country": "Nepal",
-    "lat": 28.27,
-    "lon": 83.97,
-    "climate": {
-      "avgTempF": 65,
-      "rainInches": 76,
-      "snowInches": 0,
-      "sunHours": 3490,
-      "humidityPct": 65,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Port Elizabeth",
-    "country": "South Africa",
-    "lat": -33.96,
-    "lon": 25.61,
-    "climate": {
-      "avgTempF": 64,
-      "rainInches": 25,
-      "snowInches": 0,
-      "sunHours": 3614,
-      "humidityPct": 74,
-      "dailyVarianceF": 11
-    }
-  },
-  {
-    "name": "Port-au-Prince",
-    "country": "Haiti",
-    "lat": 18.54,
-    "lon": -72.34,
-    "climate": {
-      "avgTempF": 82,
-      "rainInches": 15,
-      "snowInches": 0,
-      "sunHours": 4045,
-      "humidityPct": 60,
-      "dailyVarianceF": 17
+      "avgTempF": 54,
+      "rainInches": 40,
+      "snowInches": 7,
+      "sunHours": 2950,
+      "dailyVarianceF": 18,
+      "summerHighF": 83,
+      "winterLowF": 32,
+      "rainyDays": 142,
+      "windMph": 10,
+      "dewPointF": 45
     }
   },
   {
@@ -4136,25 +3210,15 @@
     "lon": -8.61,
     "climate": {
       "avgTempF": 60,
-      "rainInches": 60,
+      "rainInches": 57,
       "snowInches": 0,
-      "sunHours": 3479,
-      "humidityPct": 79,
-      "dailyVarianceF": 13
-    }
-  },
-  {
-    "name": "Porto Alegre",
-    "country": "Brazil",
-    "lat": -30.03,
-    "lon": -51.23,
-    "climate": {
-      "avgTempF": 68,
-      "rainInches": 73,
-      "snowInches": 0,
-      "sunHours": 3206,
-      "humidityPct": 78,
-      "dailyVarianceF": 16
+      "sunHours": 3492,
+      "dailyVarianceF": 13,
+      "summerHighF": 77,
+      "winterLowF": 45,
+      "rainyDays": 118,
+      "windMph": 13,
+      "dewPointF": 52
     }
   },
   {
@@ -4167,64 +3231,12 @@
       "rainInches": 27,
       "snowInches": 22,
       "sunHours": 2877,
-      "humidityPct": 71,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Pretoria",
-    "country": "South Africa",
-    "lat": -25.74,
-    "lon": 28.19,
-    "climate": {
-      "avgTempF": 65,
-      "rainInches": 20,
-      "snowInches": 0,
-      "sunHours": 3893,
-      "humidityPct": 54,
-      "dailyVarianceF": 24
-    }
-  },
-  {
-    "name": "Pristina",
-    "country": "Kosovo",
-    "lat": 42.67,
-    "lon": 21.17,
-    "climate": {
-      "avgTempF": 53,
-      "rainInches": 27,
-      "snowInches": 19,
-      "sunHours": 3385,
-      "humidityPct": 72,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Puebla City",
-    "country": "Mexico",
-    "lat": 19.04,
-    "lon": -98.2,
-    "climate": {
-      "avgTempF": 63,
-      "rainInches": 22,
-      "snowInches": 0,
-      "sunHours": 4074,
-      "humidityPct": 60,
-      "dailyVarianceF": 23
-    }
-  },
-  {
-    "name": "Pune",
-    "country": "India",
-    "lat": 18.52,
-    "lon": 73.86,
-    "climate": {
-      "avgTempF": 77,
-      "rainInches": 31,
-      "snowInches": 0,
-      "sunHours": 3721,
-      "humidityPct": 63,
-      "dailyVarianceF": 20
+      "dailyVarianceF": 16,
+      "summerHighF": 82,
+      "winterLowF": 30,
+      "rainyDays": 144,
+      "windMph": 12,
+      "dewPointF": 40
     }
   },
   {
@@ -4237,50 +3249,30 @@
       "rainInches": 52,
       "snowInches": 14,
       "sunHours": 3052,
-      "humidityPct": 70,
-      "dailyVarianceF": 17
+      "dailyVarianceF": 17,
+      "summerHighF": 85,
+      "winterLowF": 14,
+      "rainyDays": 101,
+      "windMph": 10,
+      "dewPointF": 41
     }
   },
   {
-    "name": "Qingdao",
-    "country": "China",
-    "lat": 36.06,
-    "lon": 120.38,
+    "name": "Queenstown",
+    "country": "South Africa",
+    "lat": -31.9,
+    "lon": 26.88,
     "climate": {
-      "avgTempF": 57,
-      "rainInches": 34,
-      "snowInches": 1,
-      "sunHours": 3153,
-      "humidityPct": 72,
-      "dailyVarianceF": 11
-    }
-  },
-  {
-    "name": "Quanzhou",
-    "country": "China",
-    "lat": 24.91,
-    "lon": 118.59,
-    "climate": {
-      "avgTempF": 72,
-      "rainInches": 61,
+      "avgTempF": 61,
+      "rainInches": 30,
       "snowInches": 0,
-      "sunHours": 3128,
-      "humidityPct": 73,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Quetta",
-    "country": "Pakistan",
-    "lat": 30.18,
-    "lon": 67,
-    "climate": {
-      "avgTempF": 64,
-      "rainInches": 8,
-      "snowInches": 5,
-      "sunHours": 4010,
-      "humidityPct": 40,
-      "dailyVarianceF": 21
+      "sunHours": 3588,
+      "dailyVarianceF": 24,
+      "summerHighF": 83,
+      "winterLowF": 43,
+      "rainyDays": 101,
+      "windMph": 13,
+      "dewPointF": 49
     }
   },
   {
@@ -4293,50 +3285,12 @@
       "rainInches": 142,
       "snowInches": 0,
       "sunHours": 3685,
-      "humidityPct": 80,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Rabat",
-    "country": "Morocco",
-    "lat": 34.01,
-    "lon": -6.83,
-    "climate": {
-      "avgTempF": 66,
-      "rainInches": 13,
-      "snowInches": 0,
-      "sunHours": 3838,
-      "humidityPct": 78,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Raleigh",
-    "country": "United States",
-    "lat": 35.77,
-    "lon": -78.64,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 42,
-      "snowInches": 1,
-      "sunHours": 3378,
-      "humidityPct": 69,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Recife",
-    "country": "Brazil",
-    "lat": -8.05,
-    "lon": -34.88,
-    "climate": {
-      "avgTempF": 78,
-      "rainInches": 64,
-      "snowInches": 0,
-      "sunHours": 3891,
-      "humidityPct": 79,
-      "dailyVarianceF": 8
+      "dailyVarianceF": 18,
+      "summerHighF": 70,
+      "winterLowF": 47,
+      "rainyDays": 250,
+      "windMph": 7,
+      "dewPointF": 50
     }
   },
   {
@@ -4349,8 +3303,12 @@
       "rainInches": 11,
       "snowInches": 58,
       "sunHours": 3850,
-      "humidityPct": 51,
-      "dailyVarianceF": 22
+      "dailyVarianceF": 22,
+      "summerHighF": 94,
+      "winterLowF": 23,
+      "rainyDays": 80,
+      "windMph": 8,
+      "dewPointF": 35
     }
   },
   {
@@ -4363,8 +3321,12 @@
       "rainInches": 25,
       "snowInches": 69,
       "sunHours": 2798,
-      "humidityPct": 80,
-      "dailyVarianceF": 12
+      "dailyVarianceF": 12,
+      "summerHighF": 70,
+      "winterLowF": 23,
+      "rainyDays": 159,
+      "windMph": 12,
+      "dewPointF": 37
     }
   },
   {
@@ -4377,8 +3339,12 @@
       "rainInches": 52,
       "snowInches": 86,
       "sunHours": 2020,
-      "humidityPct": 79,
-      "dailyVarianceF": 8
+      "dailyVarianceF": 8,
+      "summerHighF": 58,
+      "winterLowF": 22,
+      "rainyDays": 182,
+      "windMph": 14,
+      "dewPointF": 36
     }
   },
   {
@@ -4391,8 +3357,12 @@
       "rainInches": 25,
       "snowInches": 62,
       "sunHours": 2812,
-      "humidityPct": 78,
-      "dailyVarianceF": 13
+      "dailyVarianceF": 13,
+      "summerHighF": 73,
+      "winterLowF": 26,
+      "rainyDays": 165,
+      "windMph": 12,
+      "dewPointF": 38
     }
   },
   {
@@ -4401,12 +3371,16 @@
     "lat": -22.91,
     "lon": -43.18,
     "climate": {
-      "avgTempF": 74,
-      "rainInches": 46,
+      "avgTempF": 75,
+      "rainInches": 39,
       "snowInches": 0,
-      "sunHours": 3525,
-      "humidityPct": 82,
-      "dailyVarianceF": 11
+      "sunHours": 3601,
+      "dailyVarianceF": 11,
+      "summerHighF": 86,
+      "winterLowF": 65,
+      "rainyDays": 137,
+      "windMph": 10,
+      "dewPointF": 68
     }
   },
   {
@@ -4419,8 +3393,12 @@
       "rainInches": 6,
       "snowInches": 0,
       "sunHours": 3809,
-      "humidityPct": 31,
-      "dailyVarianceF": 23
+      "dailyVarianceF": 23,
+      "summerHighF": 112,
+      "winterLowF": 48,
+      "rainyDays": 20,
+      "windMph": 14,
+      "dewPointF": 34
     }
   },
   {
@@ -4429,12 +3407,16 @@
     "lat": 68.97,
     "lon": 33.1,
     "climate": {
-      "avgTempF": 35,
-      "rainInches": 16,
-      "snowInches": 71,
-      "sunHours": 2064,
-      "humidityPct": 81,
-      "dailyVarianceF": 12
+      "avgTempF": 34,
+      "rainInches": 11,
+      "snowInches": 72,
+      "sunHours": 2141,
+      "dailyVarianceF": 12,
+      "summerHighF": 64,
+      "winterLowF": 8,
+      "rainyDays": 132,
+      "windMph": 10,
+      "dewPointF": 28
     }
   },
   {
@@ -4443,40 +3425,16 @@
     "lat": 41.89,
     "lon": 12.51,
     "climate": {
-      "avgTempF": 63,
+      "avgTempF": 62,
       "rainInches": 36,
       "snowInches": 0,
-      "sunHours": 3712,
-      "humidityPct": 71,
-      "dailyVarianceF": 19
-    }
-  },
-  {
-    "name": "Rosario",
-    "country": "Argentina",
-    "lat": -32.95,
-    "lon": -60.64,
-    "climate": {
-      "avgTempF": 66,
-      "rainInches": 41,
-      "snowInches": 0,
-      "sunHours": 3408,
-      "humidityPct": 71,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Rostov-on-Don",
-    "country": "Russia",
-    "lat": 47.23,
-    "lon": 39.72,
-    "climate": {
-      "avgTempF": 53,
-      "rainInches": 26,
-      "snowInches": 21,
-      "sunHours": 3014,
-      "humidityPct": 71,
-      "dailyVarianceF": 16
+      "sunHours": 3660,
+      "dailyVarianceF": 18,
+      "summerHighF": 93,
+      "winterLowF": 38,
+      "rainyDays": 116,
+      "windMph": 10,
+      "dewPointF": 51
     }
   },
   {
@@ -4489,8 +3447,12 @@
       "rainInches": 30,
       "snowInches": 2,
       "sunHours": 3703,
-      "humidityPct": 64,
-      "dailyVarianceF": 26
+      "dailyVarianceF": 26,
+      "summerHighF": 99,
+      "winterLowF": 37,
+      "rainyDays": 68,
+      "windMph": 10,
+      "dewPointF": 48
     }
   },
   {
@@ -4499,40 +3461,34 @@
     "lat": 43.41,
     "lon": -84.61,
     "climate": {
-      "avgTempF": 49,
-      "rainInches": 26,
-      "snowInches": 36,
-      "sunHours": 2989,
-      "humidityPct": 69,
-      "dailyVarianceF": 18
+      "avgTempF": 50,
+      "rainInches": 31,
+      "snowInches": 40,
+      "sunHours": 2986,
+      "dailyVarianceF": 17,
+      "summerHighF": 82,
+      "winterLowF": 21,
+      "rainyDays": 120,
+      "windMph": 12,
+      "dewPointF": 39
     }
   },
   {
-    "name": "Saint Paul",
+    "name": "Salt Lake City",
     "country": "United States",
-    "lat": 44.94,
-    "lon": -93.09,
+    "lat": 40.76,
+    "lon": -111.89,
     "climate": {
-      "avgTempF": 46,
-      "rainInches": 33,
-      "snowInches": 45,
-      "sunHours": 3145,
-      "humidityPct": 70,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Saitama",
-    "country": "Japan",
-    "lat": 35.91,
-    "lon": 139.66,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 52,
-      "snowInches": 4,
-      "sunHours": 3174,
-      "humidityPct": 69,
-      "dailyVarianceF": 17
+      "avgTempF": 51,
+      "rainInches": 16,
+      "snowInches": 78,
+      "sunHours": 3612,
+      "dailyVarianceF": 22,
+      "summerHighF": 96,
+      "winterLowF": 19,
+      "rainyDays": 97,
+      "windMph": 12,
+      "dewPointF": 37
     }
   },
   {
@@ -4545,36 +3501,12 @@
       "rainInches": 52,
       "snowInches": 63,
       "sunHours": 2786,
-      "humidityPct": 78,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Samara",
-    "country": "Russia",
-    "lat": 53.2,
-    "lon": 50.15,
-    "climate": {
-      "avgTempF": 45,
-      "rainInches": 14,
-      "snowInches": 45,
-      "sunHours": 2970,
-      "humidityPct": 72,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "San Antonio",
-    "country": "United States",
-    "lat": 29.42,
-    "lon": -98.49,
-    "climate": {
-      "avgTempF": 71,
-      "rainInches": 31,
-      "snowInches": 0,
-      "sunHours": 3368,
-      "humidityPct": 62,
-      "dailyVarianceF": 21
+      "dailyVarianceF": 18,
+      "summerHighF": 79,
+      "winterLowF": 29,
+      "rainyDays": 178,
+      "windMph": 7,
+      "dewPointF": 42
     }
   },
   {
@@ -4583,12 +3515,16 @@
     "lat": 32.72,
     "lon": -117.16,
     "climate": {
-      "avgTempF": 62,
-      "rainInches": 16,
+      "avgTempF": 61,
+      "rainInches": 23,
       "snowInches": 0,
-      "sunHours": 3636,
-      "humidityPct": 73,
-      "dailyVarianceF": 14
+      "sunHours": 3508,
+      "dailyVarianceF": 14,
+      "summerHighF": 77,
+      "winterLowF": 45,
+      "rainyDays": 54,
+      "windMph": 12,
+      "dewPointF": 54
     }
   },
   {
@@ -4598,25 +3534,15 @@
     "lon": -122.42,
     "climate": {
       "avgTempF": 56,
-      "rainInches": 27,
+      "rainInches": 35,
       "snowInches": 0,
-      "sunHours": 3719,
-      "humidityPct": 79,
-      "dailyVarianceF": 11
-    }
-  },
-  {
-    "name": "San Jose",
-    "country": "United States",
-    "lat": 37.34,
-    "lon": -121.89,
-    "climate": {
-      "avgTempF": 60,
-      "rainInches": 24,
-      "snowInches": 1,
-      "sunHours": 3842,
-      "humidityPct": 66,
-      "dailyVarianceF": 21
+      "sunHours": 3632,
+      "dailyVarianceF": 11,
+      "summerHighF": 71,
+      "winterLowF": 43,
+      "rainyDays": 74,
+      "windMph": 17,
+      "dewPointF": 50
     }
   },
   {
@@ -4629,22 +3555,12 @@
       "rainInches": 61,
       "snowInches": 0,
       "sunHours": 3922,
-      "humidityPct": 80,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "San Luis Potosí City",
-    "country": "Mexico",
-    "lat": 22.15,
-    "lon": -100.98,
-    "climate": {
-      "avgTempF": 65,
-      "rainInches": 11,
-      "snowInches": 0,
-      "sunHours": 3987,
-      "humidityPct": 56,
-      "dailyVarianceF": 26
+      "dailyVarianceF": 18,
+      "summerHighF": 86,
+      "winterLowF": 61,
+      "rainyDays": 212,
+      "windMph": 7,
+      "dewPointF": 66
     }
   },
   {
@@ -4657,50 +3573,12 @@
       "rainInches": 60,
       "snowInches": 0,
       "sunHours": 3935,
-      "humidityPct": 74,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Sanaa",
-    "country": "Yemen",
-    "lat": 15.35,
-    "lon": 44.21,
-    "climate": {
-      "avgTempF": 66,
-      "rainInches": 6,
-      "snowInches": 0,
-      "sunHours": 3893,
-      "humidityPct": 42,
-      "dailyVarianceF": 24
-    }
-  },
-  {
-    "name": "Santa Ana",
-    "country": "United States",
-    "lat": 33.75,
-    "lon": -117.87,
-    "climate": {
-      "avgTempF": 64,
-      "rainInches": 18,
-      "snowInches": 0,
-      "sunHours": 3810,
-      "humidityPct": 65,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Santiago de Cali",
-    "country": "Colombia",
-    "lat": 3.44,
-    "lon": -76.52,
-    "climate": {
-      "avgTempF": 72,
-      "rainInches": 107,
-      "snowInches": 0,
-      "sunHours": 3502,
-      "humidityPct": 82,
-      "dailyVarianceF": 14
+      "dailyVarianceF": 17,
+      "summerHighF": 89,
+      "winterLowF": 69,
+      "rainyDays": 197,
+      "windMph": 8,
+      "dewPointF": 68
     }
   },
   {
@@ -4709,12 +3587,16 @@
     "lat": 18.47,
     "lon": -69.89,
     "climate": {
-      "avgTempF": 78,
-      "rainInches": 54,
+      "avgTempF": 79,
+      "rainInches": 52,
       "snowInches": 0,
-      "sunHours": 3952,
-      "humidityPct": 80,
-      "dailyVarianceF": 13
+      "sunHours": 3976,
+      "dailyVarianceF": 13,
+      "summerHighF": 87,
+      "winterLowF": 68,
+      "rainyDays": 191,
+      "windMph": 10,
+      "dewPointF": 71
     }
   },
   {
@@ -4723,12 +3605,16 @@
     "lat": -23.55,
     "lon": -46.64,
     "climate": {
-      "avgTempF": 67,
-      "rainInches": 55,
+      "avgTempF": 68,
+      "rainInches": 53,
       "snowInches": 0,
-      "sunHours": 3230,
-      "humidityPct": 80,
-      "dailyVarianceF": 17
+      "sunHours": 3249,
+      "dailyVarianceF": 17,
+      "summerHighF": 85,
+      "winterLowF": 53,
+      "rainyDays": 151,
+      "windMph": 12,
+      "dewPointF": 62
     }
   },
   {
@@ -4741,36 +3627,12 @@
       "rainInches": 40,
       "snowInches": 61,
       "sunHours": 3084,
-      "humidityPct": 77,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Sarajevo",
-    "country": "Bosnia and Herzegovina",
-    "lat": 43.85,
-    "lon": 18.36,
-    "climate": {
-      "avgTempF": 54,
-      "rainInches": 40,
-      "snowInches": 27,
-      "sunHours": 3191,
-      "humidityPct": 73,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Saskatoon",
-    "country": "Canada",
-    "lat": 52.13,
-    "lon": -106.67,
-    "climate": {
-      "avgTempF": 40,
-      "rainInches": 10,
-      "snowInches": 15,
-      "sunHours": 3374,
-      "humidityPct": 70,
-      "dailyVarianceF": 19
+      "dailyVarianceF": 14,
+      "summerHighF": 85,
+      "winterLowF": 14,
+      "rainyDays": 161,
+      "windMph": 15,
+      "dewPointF": 41
     }
   },
   {
@@ -4783,22 +3645,12 @@
       "rainInches": 51,
       "snowInches": 0,
       "sunHours": 3497,
-      "humidityPct": 76,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Scottsdale",
-    "country": "United States",
-    "lat": 33.51,
-    "lon": -111.9,
-    "climate": {
-      "avgTempF": 75,
-      "rainInches": 11,
-      "snowInches": 0,
-      "sunHours": 3928,
-      "humidityPct": 32,
-      "dailyVarianceF": 24
+      "dailyVarianceF": 17,
+      "summerHighF": 91,
+      "winterLowF": 47,
+      "rainyDays": 133,
+      "windMph": 11,
+      "dewPointF": 59
     }
   },
   {
@@ -4807,26 +3659,16 @@
     "lat": 47.61,
     "lon": -122.33,
     "climate": {
-      "avgTempF": 52,
-      "rainInches": 40,
-      "snowInches": 17,
-      "sunHours": 2862,
-      "humidityPct": 78,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Sendai",
-    "country": "Japan",
-    "lat": 38.27,
-    "lon": 140.87,
-    "climate": {
-      "avgTempF": 56,
-      "rainInches": 50,
-      "snowInches": 17,
-      "sunHours": 3047,
-      "humidityPct": 76,
-      "dailyVarianceF": 16
+      "avgTempF": 53,
+      "rainInches": 38,
+      "snowInches": 8,
+      "sunHours": 2927,
+      "dailyVarianceF": 14,
+      "summerHighF": 79,
+      "winterLowF": 36,
+      "rainyDays": 126,
+      "windMph": 12,
+      "dewPointF": 45
     }
   },
   {
@@ -4839,8 +3681,30 @@
       "rainInches": 63,
       "snowInches": 6,
       "sunHours": 2986,
-      "humidityPct": 73,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 16,
+      "summerHighF": 85,
+      "winterLowF": 17,
+      "rainyDays": 115,
+      "windMph": 10,
+      "dewPointF": 44
+    }
+  },
+  {
+    "name": "Seville",
+    "country": "Spain",
+    "lat": 37.38,
+    "lon": -5.97,
+    "climate": {
+      "avgTempF": 68,
+      "rainInches": 14,
+      "snowInches": 0,
+      "sunHours": 3799,
+      "dailyVarianceF": 22,
+      "summerHighF": 103,
+      "winterLowF": 44,
+      "rainyDays": 49,
+      "windMph": 10,
+      "dewPointF": 51
     }
   },
   {
@@ -4853,50 +3717,12 @@
       "rainInches": 56,
       "snowInches": 1,
       "sunHours": 2717,
-      "humidityPct": 77,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Shenzhen",
-    "country": "China",
-    "lat": 22.55,
-    "lon": 114.07,
-    "climate": {
-      "avgTempF": 73,
-      "rainInches": 73,
-      "snowInches": 0,
-      "sunHours": 3114,
-      "humidityPct": 79,
-      "dailyVarianceF": 12
-    }
-  },
-  {
-    "name": "Shiraz",
-    "country": "Iran",
-    "lat": 29.61,
-    "lon": 52.53,
-    "climate": {
-      "avgTempF": 67,
-      "rainInches": 9,
-      "snowInches": 2,
-      "sunHours": 3929,
-      "humidityPct": 35,
-      "dailyVarianceF": 24
-    }
-  },
-  {
-    "name": "Skopje",
-    "country": "Macedonia",
-    "lat": 42,
-    "lon": 21.43,
-    "climate": {
-      "avgTempF": 57,
-      "rainInches": 21,
-      "snowInches": 7,
-      "sunHours": 3446,
-      "humidityPct": 66,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 14,
+      "summerHighF": 89,
+      "winterLowF": 33,
+      "rainyDays": 135,
+      "windMph": 11,
+      "dewPointF": 55
     }
   },
   {
@@ -4906,11 +3732,15 @@
     "lon": 39.72,
     "climate": {
       "avgTempF": 59,
-      "rainInches": 73,
-      "snowInches": 36,
-      "sunHours": 3145,
-      "humidityPct": 79,
-      "dailyVarianceF": 12
+      "rainInches": 75,
+      "snowInches": 39,
+      "sunHours": 3163,
+      "dailyVarianceF": 12,
+      "summerHighF": 86,
+      "winterLowF": 34,
+      "rainyDays": 173,
+      "windMph": 10,
+      "dewPointF": 50
     }
   },
   {
@@ -4923,8 +3753,12 @@
       "rainInches": 30,
       "snowInches": 14,
       "sunHours": 3415,
-      "humidityPct": 68,
-      "dailyVarianceF": 19
+      "dailyVarianceF": 19,
+      "summerHighF": 86,
+      "winterLowF": 29,
+      "rainyDays": 108,
+      "windMph": 9,
+      "dewPointF": 42
     }
   },
   {
@@ -4937,8 +3771,12 @@
       "rainInches": 13,
       "snowInches": 25,
       "sunHours": 3287,
-      "humidityPct": 64,
-      "dailyVarianceF": 20
+      "dailyVarianceF": 20,
+      "summerHighF": 90,
+      "winterLowF": 26,
+      "rainyDays": 80,
+      "windMph": 10,
+      "dewPointF": 38
     }
   },
   {
@@ -4951,8 +3789,12 @@
       "rainInches": 41,
       "snowInches": 77,
       "sunHours": 3549,
-      "humidityPct": 69,
-      "dailyVarianceF": 21
+      "dailyVarianceF": 21,
+      "summerHighF": 86,
+      "winterLowF": 20,
+      "rainyDays": 123,
+      "windMph": 6,
+      "dewPointF": 39
     }
   },
   {
@@ -4965,8 +3807,12 @@
       "rainInches": 21,
       "snowInches": 63,
       "sunHours": 2781,
-      "humidityPct": 79,
-      "dailyVarianceF": 12
+      "dailyVarianceF": 12,
+      "summerHighF": 73,
+      "winterLowF": 17,
+      "rainyDays": 166,
+      "windMph": 13,
+      "dewPointF": 36
     }
   },
   {
@@ -4979,120 +3825,66 @@
       "rainInches": 24,
       "snowInches": 45,
       "sunHours": 2702,
-      "humidityPct": 79,
-      "dailyVarianceF": 13
+      "dailyVarianceF": 13,
+      "summerHighF": 73,
+      "winterLowF": 22,
+      "rainyDays": 134,
+      "windMph": 11,
+      "dewPointF": 38
     }
   },
   {
-    "name": "Stockton",
-    "country": "United States",
-    "lat": 37.96,
-    "lon": -121.29,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 23,
-      "snowInches": 1,
-      "sunHours": 3790,
-      "humidityPct": 62,
-      "dailyVarianceF": 26
-    }
-  },
-  {
-    "name": "Stuttgart",
-    "country": "Germany",
-    "lat": 48.78,
-    "lon": 9.18,
-    "climate": {
-      "avgTempF": 53,
-      "rainInches": 32,
-      "snowInches": 12,
-      "sunHours": 2993,
-      "humidityPct": 73,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Sucre",
-    "country": "Bolivia",
-    "lat": -19.03,
-    "lon": -65.26,
-    "climate": {
-      "avgTempF": 60,
-      "rainInches": 27,
-      "snowInches": 0,
-      "sunHours": 3814,
-      "humidityPct": 59,
-      "dailyVarianceF": 22
-    }
-  },
-  {
-    "name": "Surat",
-    "country": "India",
-    "lat": 21.2,
-    "lon": 72.83,
+    "name": "Sunda Kelapa",
+    "country": "Indonesia",
+    "lat": -6.21,
+    "lon": 106.85,
     "climate": {
       "avgTempF": 81,
-      "rainInches": 52,
+      "rainInches": 75,
       "snowInches": 0,
-      "sunHours": 3674,
-      "humidityPct": 65,
-      "dailyVarianceF": 18
+      "sunHours": 3707,
+      "dailyVarianceF": 16,
+      "summerHighF": 95,
+      "winterLowF": 74,
+      "rainyDays": 246,
+      "windMph": 9,
+      "dewPointF": 74
     }
   },
   {
-    "name": "Suzhou",
-    "country": "China",
-    "lat": 33.64,
-    "lon": 116.98,
-    "climate": {
-      "avgTempF": 61,
-      "rainInches": 33,
-      "snowInches": 3,
-      "sunHours": 2921,
-      "humidityPct": 68,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Tabriz",
-    "country": "Iran",
-    "lat": 38.08,
-    "lon": 46.29,
-    "climate": {
-      "avgTempF": 56,
-      "rainInches": 8,
-      "snowInches": 28,
-      "sunHours": 3875,
-      "humidityPct": 50,
-      "dailyVarianceF": 21
-    }
-  },
-  {
-    "name": "Taichung",
-    "country": "Taiwan",
-    "lat": 24.15,
-    "lon": 120.68,
-    "climate": {
-      "avgTempF": 73,
-      "rainInches": 95,
-      "snowInches": 0,
-      "sunHours": 3569,
-      "humidityPct": 79,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Tainan City",
-    "country": "Taiwan",
-    "lat": 22.99,
-    "lon": 120.21,
+    "name": "Suva",
+    "country": "Fiji",
+    "lat": -18.14,
+    "lon": 178.43,
     "climate": {
       "avgTempF": 76,
-      "rainInches": 67,
+      "rainInches": 87,
       "snowInches": 0,
-      "sunHours": 3591,
-      "humidityPct": 78,
-      "dailyVarianceF": 14
+      "sunHours": 3150,
+      "dailyVarianceF": 9,
+      "summerHighF": 86,
+      "winterLowF": 69,
+      "rainyDays": 264,
+      "windMph": 10,
+      "dewPointF": 73
+    }
+  },
+  {
+    "name": "Sydney",
+    "country": "Australia",
+    "lat": -33.87,
+    "lon": 151.21,
+    "climate": {
+      "avgTempF": 64,
+      "rainInches": 35,
+      "snowInches": 0,
+      "sunHours": 3744,
+      "dailyVarianceF": 17,
+      "summerHighF": 79,
+      "winterLowF": 47,
+      "rainyDays": 117,
+      "windMph": 13,
+      "dewPointF": 55
     }
   },
   {
@@ -5102,11 +3894,15 @@
     "lon": 121.53,
     "climate": {
       "avgTempF": 73,
-      "rainInches": 70,
+      "rainInches": 51,
       "snowInches": 0,
-      "sunHours": 2588,
-      "humidityPct": 80,
-      "dailyVarianceF": 11
+      "sunHours": 2772,
+      "dailyVarianceF": 12,
+      "summerHighF": 93,
+      "winterLowF": 56,
+      "rainyDays": 164,
+      "windMph": 11,
+      "dewPointF": 67
     }
   },
   {
@@ -5115,40 +3911,16 @@
     "lat": 27.95,
     "lon": -82.46,
     "climate": {
-      "avgTempF": 73,
-      "rainInches": 57,
+      "avgTempF": 74,
+      "rainInches": 44,
       "snowInches": 0,
-      "sunHours": 3715,
-      "humidityPct": 75,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Tampere",
-    "country": "Finland",
-    "lat": 61.5,
-    "lon": 23.79,
-    "climate": {
-      "avgTempF": 42,
-      "rainInches": 25,
-      "snowInches": 71,
-      "sunHours": 2600,
-      "humidityPct": 81,
-      "dailyVarianceF": 11
-    }
-  },
-  {
-    "name": "Tangier",
-    "country": "Morocco",
-    "lat": 35.77,
-    "lon": -5.8,
-    "climate": {
-      "avgTempF": 66,
-      "rainInches": 18,
-      "snowInches": 0,
-      "sunHours": 3835,
-      "humidityPct": 76,
-      "dailyVarianceF": 15
+      "sunHours": 3768,
+      "dailyVarianceF": 16,
+      "summerHighF": 93,
+      "winterLowF": 55,
+      "rainyDays": 144,
+      "windMph": 13,
+      "dewPointF": 64
     }
   },
   {
@@ -5158,25 +3930,15 @@
     "lon": 44.83,
     "climate": {
       "avgTempF": 57,
-      "rainInches": 21,
-      "snowInches": 16,
-      "sunHours": 3354,
-      "humidityPct": 65,
-      "dailyVarianceF": 18
-    }
-  },
-  {
-    "name": "Tegucigalpa",
-    "country": "Honduras",
-    "lat": 14.08,
-    "lon": -87.21,
-    "climate": {
-      "avgTempF": 72,
-      "rainInches": 46,
-      "snowInches": 0,
-      "sunHours": 3807,
-      "humidityPct": 77,
-      "dailyVarianceF": 20
+      "rainInches": 26,
+      "snowInches": 7,
+      "sunHours": 3299,
+      "dailyVarianceF": 18,
+      "summerHighF": 92,
+      "winterLowF": 28,
+      "rainyDays": 101,
+      "windMph": 10,
+      "dewPointF": 45
     }
   },
   {
@@ -5187,10 +3949,14 @@
     "climate": {
       "avgTempF": 66,
       "rainInches": 8,
-      "snowInches": 6,
-      "sunHours": 3835,
-      "humidityPct": 33,
-      "dailyVarianceF": 21
+      "snowInches": 9,
+      "sunHours": 3821,
+      "dailyVarianceF": 21,
+      "summerHighF": 101,
+      "winterLowF": 30,
+      "rainyDays": 39,
+      "windMph": 11,
+      "dewPointF": 35
     }
   },
   {
@@ -5203,22 +3969,30 @@
       "rainInches": 21,
       "snowInches": 0,
       "sunHours": 3902,
-      "humidityPct": 72,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 16,
+      "summerHighF": 88,
+      "winterLowF": 48,
+      "rainyDays": 51,
+      "windMph": 11,
+      "dewPointF": 58
     }
   },
   {
-    "name": "Thessaloniki",
-    "country": "Greece",
-    "lat": 40.64,
-    "lon": 22.93,
+    "name": "Temasek",
+    "country": "Singapore",
+    "lat": 1.29,
+    "lon": 103.85,
     "climate": {
-      "avgTempF": 62,
-      "rainInches": 28,
-      "snowInches": 1,
-      "sunHours": 3609,
-      "humidityPct": 71,
-      "dailyVarianceF": 17
+      "avgTempF": 81,
+      "rainInches": 93,
+      "snowInches": 0,
+      "sunHours": 3581,
+      "dailyVarianceF": 8,
+      "summerHighF": 86,
+      "winterLowF": 75,
+      "rainyDays": 281,
+      "windMph": 11,
+      "dewPointF": 75
     }
   },
   {
@@ -5231,22 +4005,12 @@
       "rainInches": 132,
       "snowInches": 36,
       "sunHours": 3361,
-      "humidityPct": 83,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Tianjin",
-    "country": "China",
-    "lat": 39.14,
-    "lon": 117.18,
-    "climate": {
-      "avgTempF": 57,
-      "rainInches": 24,
-      "snowInches": 5,
-      "sunHours": 3203,
-      "humidityPct": 57,
-      "dailyVarianceF": 19
+      "dailyVarianceF": 16,
+      "summerHighF": 71,
+      "winterLowF": 31,
+      "rainyDays": 291,
+      "windMph": 4,
+      "dewPointF": 48
     }
   },
   {
@@ -5259,22 +4023,12 @@
       "rainInches": 22,
       "snowInches": 0,
       "sunHours": 3525,
-      "humidityPct": 73,
-      "dailyVarianceF": 13
-    }
-  },
-  {
-    "name": "Tirana",
-    "country": "Albania",
-    "lat": 41.33,
-    "lon": 19.82,
-    "climate": {
-      "avgTempF": 61,
-      "rainInches": 65,
-      "snowInches": 0,
-      "sunHours": 3604,
-      "humidityPct": 67,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 13,
+      "summerHighF": 76,
+      "winterLowF": 46,
+      "rainyDays": 65,
+      "windMph": 12,
+      "dewPointF": 53
     }
   },
   {
@@ -5287,22 +4041,12 @@
       "rainInches": 54,
       "snowInches": 3,
       "sunHours": 3174,
-      "humidityPct": 71,
-      "dailyVarianceF": 16
-    }
-  },
-  {
-    "name": "Toledo",
-    "country": "United States",
-    "lat": 41.66,
-    "lon": -83.56,
-    "climate": {
-      "avgTempF": 53,
-      "rainInches": 33,
-      "snowInches": 17,
-      "sunHours": 3120,
-      "humidityPct": 70,
-      "dailyVarianceF": 17
+      "dailyVarianceF": 16,
+      "summerHighF": 92,
+      "winterLowF": 32,
+      "rainyDays": 121,
+      "windMph": 17,
+      "dewPointF": 52
     }
   },
   {
@@ -5315,22 +4059,12 @@
       "rainInches": 34,
       "snowInches": 39,
       "sunHours": 3015,
-      "humidityPct": 73,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Trabzon",
-    "country": "Türkiye",
-    "lat": 41.01,
-    "lon": 39.73,
-    "climate": {
-      "avgTempF": 61,
-      "rainInches": 37,
-      "snowInches": 9,
-      "sunHours": 2999,
-      "humidityPct": 74,
-      "dailyVarianceF": 13
+      "dailyVarianceF": 14,
+      "summerHighF": 79,
+      "winterLowF": 21,
+      "rainyDays": 127,
+      "windMph": 13,
+      "dewPointF": 39
     }
   },
   {
@@ -5343,22 +4077,12 @@
       "rainInches": 12,
       "snowInches": 3,
       "sunHours": 3984,
-      "humidityPct": 34,
-      "dailyVarianceF": 26
-    }
-  },
-  {
-    "name": "Tulsa",
-    "country": "United States",
-    "lat": 36.15,
-    "lon": -95.99,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 43,
-      "snowInches": 6,
-      "sunHours": 3447,
-      "humidityPct": 64,
-      "dailyVarianceF": 20
+      "dailyVarianceF": 26,
+      "summerHighF": 107,
+      "winterLowF": 39,
+      "rainyDays": 36,
+      "windMph": 13,
+      "dewPointF": 40
     }
   },
   {
@@ -5371,36 +4095,12 @@
       "rainInches": 17,
       "snowInches": 0,
       "sunHours": 3766,
-      "humidityPct": 67,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Turin",
-    "country": "Italy",
-    "lat": 45.07,
-    "lon": 7.69,
-    "climate": {
-      "avgTempF": 57,
-      "rainInches": 29,
-      "snowInches": 8,
-      "sunHours": 3500,
-      "humidityPct": 71,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Ufa",
-    "country": "Russia",
-    "lat": 54.74,
-    "lon": 55.97,
-    "climate": {
-      "avgTempF": 43,
-      "rainInches": 15,
-      "snowInches": 54,
-      "sunHours": 2882,
-      "humidityPct": 69,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 20,
+      "summerHighF": 104,
+      "winterLowF": 45,
+      "rainyDays": 63,
+      "windMph": 12,
+      "dewPointF": 55
     }
   },
   {
@@ -5413,22 +4113,12 @@
       "rainInches": 14,
       "snowInches": 18,
       "sunHours": 3509,
-      "humidityPct": 61,
-      "dailyVarianceF": 21
-    }
-  },
-  {
-    "name": "Ulsan",
-    "country": "South Korea",
-    "lat": 35.54,
-    "lon": 129.32,
-    "climate": {
-      "avgTempF": 58,
-      "rainInches": 56,
-      "snowInches": 0,
-      "sunHours": 3103,
-      "humidityPct": 71,
-      "dailyVarianceF": 18
+      "dailyVarianceF": 21,
+      "summerHighF": 73,
+      "winterLowF": -14,
+      "rainyDays": 70,
+      "windMph": 10,
+      "dewPointF": 18
     }
   },
   {
@@ -5438,11 +4128,15 @@
     "lon": 87.6,
     "climate": {
       "avgTempF": 48,
-      "rainInches": 5,
+      "rainInches": 6,
       "snowInches": 20,
-      "sunHours": 3323,
-      "humidityPct": 52,
-      "dailyVarianceF": 18
+      "sunHours": 3300,
+      "dailyVarianceF": 18,
+      "summerHighF": 90,
+      "winterLowF": 0,
+      "rainyDays": 52,
+      "windMph": 12,
+      "dewPointF": 28
     }
   },
   {
@@ -5455,22 +4149,12 @@
       "rainInches": 24,
       "snowInches": 115,
       "sunHours": 2490,
-      "humidityPct": 79,
-      "dailyVarianceF": 11
-    }
-  },
-  {
-    "name": "Vadodara",
-    "country": "India",
-    "lat": 22.3,
-    "lon": 73.21,
-    "climate": {
-      "avgTempF": 81,
-      "rainInches": 40,
-      "snowInches": 0,
-      "sunHours": 3655,
-      "humidityPct": 60,
-      "dailyVarianceF": 21
+      "dailyVarianceF": 11,
+      "summerHighF": 57,
+      "winterLowF": 27,
+      "rainyDays": 212,
+      "windMph": 13,
+      "dewPointF": 35
     }
   },
   {
@@ -5483,8 +4167,12 @@
       "rainInches": 22,
       "snowInches": 0,
       "sunHours": 3604,
-      "humidityPct": 81,
-      "dailyVarianceF": 11
+      "dailyVarianceF": 11,
+      "summerHighF": 70,
+      "winterLowF": 51,
+      "rainyDays": 30,
+      "windMph": 14,
+      "dewPointF": 52
     }
   },
   {
@@ -5497,22 +4185,12 @@
       "rainInches": 57,
       "snowInches": 25,
       "sunHours": 2917,
-      "humidityPct": 79,
-      "dailyVarianceF": 11
-    }
-  },
-  {
-    "name": "Varanasi",
-    "country": "India",
-    "lat": 25.32,
-    "lon": 83.01,
-    "climate": {
-      "avgTempF": 78,
-      "rainInches": 41,
-      "snowInches": 0,
-      "sunHours": 3576,
-      "humidityPct": 66,
-      "dailyVarianceF": 20
+      "dailyVarianceF": 11,
+      "summerHighF": 74,
+      "winterLowF": 34,
+      "rainyDays": 150,
+      "windMph": 11,
+      "dewPointF": 43
     }
   },
   {
@@ -5522,25 +4200,15 @@
     "lon": 12.33,
     "climate": {
       "avgTempF": 58,
-      "rainInches": 31,
-      "snowInches": 2,
-      "sunHours": 3381,
-      "humidityPct": 75,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Veracruz",
-    "country": "Mexico",
-    "lat": 19.18,
-    "lon": -96.14,
-    "climate": {
-      "avgTempF": 79,
-      "rainInches": 44,
-      "snowInches": 0,
-      "sunHours": 3844,
-      "humidityPct": 79,
-      "dailyVarianceF": 10
+      "rainInches": 38,
+      "snowInches": 3,
+      "sunHours": 3313,
+      "dailyVarianceF": 14,
+      "summerHighF": 84,
+      "winterLowF": 35,
+      "rainyDays": 95,
+      "windMph": 10,
+      "dewPointF": 48
     }
   },
   {
@@ -5553,8 +4221,12 @@
       "rainInches": 28,
       "snowInches": 18,
       "sunHours": 2967,
-      "humidityPct": 71,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 15,
+      "summerHighF": 83,
+      "winterLowF": 33,
+      "rainyDays": 116,
+      "windMph": 14,
+      "dewPointF": 41
     }
   },
   {
@@ -5567,8 +4239,12 @@
       "rainInches": 86,
       "snowInches": 0,
       "sunHours": 3462,
-      "humidityPct": 72,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 16,
+      "summerHighF": 98,
+      "winterLowF": 60,
+      "rainyDays": 159,
+      "windMph": 8,
+      "dewPointF": 69
     }
   },
   {
@@ -5581,22 +4257,12 @@
       "rainInches": 26,
       "snowInches": 47,
       "sunHours": 2686,
-      "humidityPct": 76,
-      "dailyVarianceF": 14
-    }
-  },
-  {
-    "name": "Virginia Beach",
-    "country": "United States",
-    "lat": 36.85,
-    "lon": -75.98,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 48,
-      "snowInches": 0,
-      "sunHours": 3442,
-      "humidityPct": 75,
-      "dailyVarianceF": 12
+      "dailyVarianceF": 14,
+      "summerHighF": 77,
+      "winterLowF": 24,
+      "rainyDays": 154,
+      "windMph": 12,
+      "dewPointF": 38
     }
   },
   {
@@ -5606,25 +4272,15 @@
     "lon": 131.87,
     "climate": {
       "avgTempF": 44,
-      "rainInches": 34,
-      "snowInches": 21,
-      "sunHours": 3090,
-      "humidityPct": 74,
-      "dailyVarianceF": 10
-    }
-  },
-  {
-    "name": "Volgograd",
-    "country": "Russia",
-    "lat": 48.72,
-    "lon": 44.5,
-    "climate": {
-      "avgTempF": 51,
-      "rainInches": 16,
-      "snowInches": 25,
-      "sunHours": 2944,
-      "humidityPct": 65,
-      "dailyVarianceF": 16
+      "rainInches": 35,
+      "snowInches": 16,
+      "sunHours": 3117,
+      "dailyVarianceF": 11,
+      "summerHighF": 77,
+      "winterLowF": 3,
+      "rainyDays": 90,
+      "windMph": 15,
+      "dewPointF": 35
     }
   },
   {
@@ -5637,8 +4293,30 @@
       "rainInches": 26,
       "snowInches": 28,
       "sunHours": 2685,
-      "humidityPct": 75,
-      "dailyVarianceF": 14
+      "dailyVarianceF": 14,
+      "summerHighF": 79,
+      "winterLowF": 29,
+      "rainyDays": 146,
+      "windMph": 12,
+      "dewPointF": 39
+    }
+  },
+  {
+    "name": "Wellington",
+    "country": "New Zealand",
+    "lat": -41.29,
+    "lon": 174.78,
+    "climate": {
+      "avgTempF": 57,
+      "rainInches": 40,
+      "snowInches": 0,
+      "sunHours": 3179,
+      "dailyVarianceF": 8,
+      "summerHighF": 68,
+      "winterLowF": 46,
+      "rainyDays": 144,
+      "windMph": 21,
+      "dewPointF": 50
     }
   },
   {
@@ -5651,8 +4329,12 @@
       "rainInches": 12,
       "snowInches": 0,
       "sunHours": 3843,
-      "humidityPct": 79,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 15,
+      "summerHighF": 85,
+      "winterLowF": 49,
+      "rainyDays": 50,
+      "windMph": 10,
+      "dewPointF": 58
     }
   },
   {
@@ -5665,22 +4347,12 @@
       "rainInches": 9,
       "snowInches": 64,
       "sunHours": 2913,
-      "humidityPct": 73,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Wichita",
-    "country": "United States",
-    "lat": 37.69,
-    "lon": -97.34,
-    "climate": {
-      "avgTempF": 59,
-      "rainInches": 27,
-      "snowInches": 12,
-      "sunHours": 3590,
-      "humidityPct": 59,
-      "dailyVarianceF": 21
+      "dailyVarianceF": 15,
+      "summerHighF": 77,
+      "winterLowF": 10,
+      "rainyDays": 113,
+      "windMph": 8,
+      "dewPointF": 25
     }
   },
   {
@@ -5693,8 +4365,12 @@
       "rainInches": 10,
       "snowInches": 0,
       "sunHours": 4110,
-      "humidityPct": 32,
-      "dailyVarianceF": 26
+      "dailyVarianceF": 26,
+      "summerHighF": 89,
+      "winterLowF": 43,
+      "rainyDays": 41,
+      "windMph": 12,
+      "dewPointF": 41
     }
   },
   {
@@ -5707,50 +4383,12 @@
       "rainInches": 16,
       "snowInches": 33,
       "sunHours": 3195,
-      "humidityPct": 74,
-      "dailyVarianceF": 17
-    }
-  },
-  {
-    "name": "Winston-Salem",
-    "country": "United States",
-    "lat": 36.1,
-    "lon": -80.24,
-    "climate": {
-      "avgTempF": 60,
-      "rainInches": 37,
-      "snowInches": 1,
-      "sunHours": 3354,
-      "humidityPct": 67,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Wroclaw",
-    "country": "Poland",
-    "lat": 51.1,
-    "lon": 17.03,
-    "climate": {
-      "avgTempF": 52,
-      "rainInches": 30,
-      "snowInches": 20,
-      "sunHours": 2801,
-      "humidityPct": 75,
-      "dailyVarianceF": 15
-    }
-  },
-  {
-    "name": "Wuhan",
-    "country": "China",
-    "lat": 30.58,
-    "lon": 114.27,
-    "climate": {
-      "avgTempF": 65,
-      "rainInches": 55,
-      "snowInches": 2,
-      "sunHours": 2729,
-      "humidityPct": 73,
-      "dailyVarianceF": 14
+      "dailyVarianceF": 17,
+      "summerHighF": 81,
+      "winterLowF": -1,
+      "rainyDays": 94,
+      "windMph": 13,
+      "dewPointF": 31
     }
   },
   {
@@ -5760,11 +4398,15 @@
     "lon": -7.69,
     "climate": {
       "avgTempF": 55,
-      "rainInches": 45,
-      "snowInches": 2,
-      "sunHours": 3376,
-      "humidityPct": 80,
-      "dailyVarianceF": 16
+      "rainInches": 51,
+      "snowInches": 3,
+      "sunHours": 3377,
+      "dailyVarianceF": 16,
+      "summerHighF": 79,
+      "winterLowF": 34,
+      "rainyDays": 142,
+      "windMph": 12,
+      "dewPointF": 47
     }
   },
   {
@@ -5773,26 +4415,34 @@
     "lat": 62.03,
     "lon": 129.73,
     "climate": {
-      "avgTempF": 20,
-      "rainInches": 8,
-      "snowInches": 28,
-      "sunHours": 2816,
-      "humidityPct": 68,
-      "dailyVarianceF": 16
+      "avgTempF": 19,
+      "rainInches": 7,
+      "snowInches": 29,
+      "sunHours": 2822,
+      "dailyVarianceF": 15,
+      "summerHighF": 78,
+      "winterLowF": -54,
+      "rainyDays": 60,
+      "windMph": 8,
+      "dewPointF": 8
     }
   },
   {
-    "name": "Yamoussoukro",
-    "country": "Ivory Coast",
-    "lat": 6.82,
-    "lon": -5.28,
+    "name": "Yangon",
+    "country": "Myanmar",
+    "lat": 16.81,
+    "lon": 96.16,
     "climate": {
-      "avgTempF": 79,
-      "rainInches": 55,
+      "avgTempF": 81,
+      "rainInches": 111,
       "snowInches": 0,
-      "sunHours": 3162,
-      "humidityPct": 77,
-      "dailyVarianceF": 17
+      "sunHours": 3209,
+      "dailyVarianceF": 16,
+      "summerHighF": 101,
+      "winterLowF": 66,
+      "rainyDays": 183,
+      "windMph": 9,
+      "dewPointF": 72
     }
   },
   {
@@ -5805,8 +4455,12 @@
       "rainInches": 78,
       "snowInches": 0,
       "sunHours": 3047,
-      "humidityPct": 83,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 15,
+      "summerHighF": 89,
+      "winterLowF": 68,
+      "rainyDays": 240,
+      "windMph": 7,
+      "dewPointF": 71
     }
   },
   {
@@ -5819,36 +4473,30 @@
       "rainInches": 11,
       "snowInches": 48,
       "sunHours": 2970,
-      "humidityPct": 70,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 16,
+      "summerHighF": 79,
+      "winterLowF": -1,
+      "rainyDays": 89,
+      "windMph": 11,
+      "dewPointF": 29
     }
   },
   {
-    "name": "Yerevan",
-    "country": "Armenia",
-    "lat": 40.18,
-    "lon": 44.51,
+    "name": "Yogyakarta",
+    "country": "Indonesia",
+    "lat": -7.8,
+    "lon": 110.36,
     "climate": {
-      "avgTempF": 57,
-      "rainInches": 14,
-      "snowInches": 13,
-      "sunHours": 3705,
-      "humidityPct": 52,
-      "dailyVarianceF": 20
-    }
-  },
-  {
-    "name": "Yokohama",
-    "country": "Japan",
-    "lat": 35.43,
-    "lon": 139.65,
-    "climate": {
-      "avgTempF": 62,
-      "rainInches": 54,
-      "snowInches": 2,
-      "sunHours": 3171,
-      "humidityPct": 72,
-      "dailyVarianceF": 14
+      "avgTempF": 78,
+      "rainInches": 73,
+      "snowInches": 0,
+      "sunHours": 3487,
+      "dailyVarianceF": 16,
+      "summerHighF": 93,
+      "winterLowF": 69,
+      "rainyDays": 211,
+      "windMph": 9,
+      "dewPointF": 73
     }
   },
   {
@@ -5861,8 +4509,12 @@
       "rainInches": 44,
       "snowInches": 15,
       "sunHours": 3174,
-      "humidityPct": 77,
-      "dailyVarianceF": 16
+      "dailyVarianceF": 16,
+      "summerHighF": 82,
+      "winterLowF": 30,
+      "rainyDays": 123,
+      "windMph": 8,
+      "dewPointF": 44
     }
   },
   {
@@ -5875,8 +4527,12 @@
       "rainInches": 56,
       "snowInches": 23,
       "sunHours": 2891,
-      "humidityPct": 79,
-      "dailyVarianceF": 15
+      "dailyVarianceF": 15,
+      "summerHighF": 77,
+      "winterLowF": 31,
+      "rainyDays": 165,
+      "windMph": 8,
+      "dewPointF": 42
     }
   }
 ]

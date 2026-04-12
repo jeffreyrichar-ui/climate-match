@@ -4,10 +4,10 @@ import { defaultPreferences, FACTORS } from './factors';
 import type { City, Preferences } from '../types';
 
 const cities: City[] = [
-  { name: 'Hot Dry',  country: 'X', lat: 0, lon: 0, climate: { avgTempF: 85, rainInches: 5,  snowInches: 0,  sunHours: 3800, humidityPct: 30, dailyVarianceF: 25 } },
-  { name: 'Cool Wet', country: 'X', lat: 0, lon: 0, climate: { avgTempF: 50, rainInches: 60, snowInches: 5,  sunHours: 1500, humidityPct: 80, dailyVarianceF: 12 } },
-  { name: 'Mild',     country: 'X', lat: 0, lon: 0, climate: { avgTempF: 65, rainInches: 20, snowInches: 0,  sunHours: 2800, humidityPct: 60, dailyVarianceF: 15 } },
-  { name: 'Snowy',    country: 'X', lat: 0, lon: 0, climate: { avgTempF: 35, rainInches: 30, snowInches: 90, sunHours: 2000, humidityPct: 70, dailyVarianceF: 15 } },
+  { name: 'Hot Dry',  country: 'X', lat: 0, lon: 0, climate: { avgTempF: 85, rainInches: 5,  snowInches: 0,  sunHours: 3800, dailyVarianceF: 25, summerHighF: 105, winterLowF: 50, rainyDays: 20,  windMph: 12, dewPointF: 35 } },
+  { name: 'Cool Wet', country: 'X', lat: 0, lon: 0, climate: { avgTempF: 50, rainInches: 60, snowInches: 5,  sunHours: 1500, dailyVarianceF: 12, summerHighF: 70,  winterLowF: 35, rainyDays: 180, windMph: 14, dewPointF: 48 } },
+  { name: 'Mild',     country: 'X', lat: 0, lon: 0, climate: { avgTempF: 65, rainInches: 20, snowInches: 0,  sunHours: 2800, dailyVarianceF: 15, summerHighF: 80,  winterLowF: 45, rainyDays: 90,  windMph: 10, dewPointF: 50 } },
+  { name: 'Snowy',    country: 'X', lat: 0, lon: 0, climate: { avgTempF: 35, rainInches: 30, snowInches: 90, sunHours: 2000, dailyVarianceF: 15, summerHighF: 65,  winterLowF: 5,  rainyDays: 130, windMph: 11, dewPointF: 25 } },
 ];
 
 /** Build a "wide-open" preference that ignores every factor. */
@@ -57,7 +57,6 @@ describe('rankCities', () => {
     const prefs = wideOpen();
     prefs.avgTempF = { min: 80, max: 100 };
     prefs.rainInches = { min: 0, max: 10 };
-    prefs.humidityPct = { min: 20, max: 40 };
     const ranked = rankCities(cities, prefs);
     expect(ranked[0].city.name).toBe('Hot Dry');
   });

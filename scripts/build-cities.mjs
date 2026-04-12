@@ -25,139 +25,93 @@ const OUT_PATH = join(__dirname, '..', 'src', 'data', 'cities.json');
 const START_DATE = '2023-01-01';
 const END_DATE = '2023-12-31';
 const YEARS = 1;
-const SLEEP_MS = 1500; // be nice to the free API
+const SLEEP_MS = 300; // geocoding is cheap
 const MAX_RETRIES = 8;
+const BATCH_SIZE = 100; // cities per batched archive/climate request
 
 const CITY_NAMES = [
-  // ===== USA (100) =====
+  // ===== USA (50) — climate diversity coast-to-coast =====
   'New York', 'Los Angeles', 'Chicago', 'Houston', 'Phoenix', 'Philadelphia',
-  'San Antonio', 'San Diego', 'Dallas', 'San Jose', 'Austin', 'Jacksonville',
-  'Fort Worth', 'Columbus Ohio', 'Charlotte', 'Indianapolis', 'San Francisco',
-  'Seattle', 'Denver', 'Washington DC', 'Nashville', 'Oklahoma City', 'El Paso',
-  'Boston', 'Portland Oregon', 'Las Vegas', 'Detroit', 'Memphis', 'Louisville',
-  'Baltimore', 'Milwaukee', 'Albuquerque', 'Tucson', 'Fresno', 'Sacramento',
-  'Mesa Arizona', 'Kansas City', 'Atlanta', 'Long Beach', 'Colorado Springs',
-  'Raleigh', 'Miami', 'Virginia Beach', 'Omaha', 'Oakland', 'Minneapolis',
-  'Tulsa', 'Arlington Texas', 'New Orleans', 'Wichita', 'Bakersfield',
-  'Cleveland', 'Tampa', 'Aurora Colorado', 'Honolulu', 'Anaheim', 'Santa Ana',
-  'Corpus Christi', 'Riverside California', 'Saint Louis', 'Lexington Kentucky',
-  'Stockton', 'Pittsburgh', 'Saint Paul', 'Anchorage', 'Cincinnati', 'Henderson Nevada',
-  'Greensboro', 'Plano', 'Newark', 'Toledo', 'Lincoln Nebraska', 'Orlando',
-  'Jersey City', 'Chandler Arizona', 'Fort Wayne', 'Buffalo', 'Durham',
-  'Saint Petersburg Florida', 'Irvine', 'Laredo', 'Lubbock', 'Madison Wisconsin',
-  'Norfolk Virginia', 'Reno', 'Winston-Salem', 'Glendale Arizona', 'Hialeah',
-  'Garland Texas', 'Scottsdale', 'Irving', 'Chesapeake', 'Fremont California',
-  'Baton Rouge', 'Richmond Virginia', 'Boise', 'Spokane', 'Des Moines',
-  'Fargo', 'Billings', 'Burlington Vermont', 'Charleston South Carolina', 'Savannah',
+  'San Diego', 'Dallas', 'Austin', 'San Francisco', 'Seattle', 'Denver',
+  'Washington DC', 'Boston', 'Portland Oregon', 'Las Vegas', 'Detroit',
+  'Atlanta', 'Miami', 'Minneapolis', 'New Orleans', 'Honolulu', 'Anchorage',
+  'Pittsburgh', 'Buffalo', 'Orlando', 'Tampa', 'Cleveland', 'Salt Lake City',
+  'Albuquerque', 'Tucson', 'Sacramento', 'Kansas City', 'Saint Louis',
+  'Nashville', 'Memphis', 'Charleston South Carolina', 'Savannah',
+  'Burlington Vermont', 'Boise', 'Reno', 'Fargo', 'Billings', 'Spokane',
+  'Cheyenne', 'Bismarck', 'Juneau', 'Fairbanks', 'Key West', 'Bangor Maine',
 
-  // ===== Canada (15) =====
-  'Toronto', 'Montreal', 'Vancouver', 'Calgary', 'Edmonton', 'Ottawa',
-  'Winnipeg', 'Quebec City', 'Hamilton Ontario', 'Victoria BC', 'Halifax',
-  'Saskatoon', 'Regina Saskatchewan', 'St Johns Newfoundland', 'Whitehorse',
+  // ===== Canada (10) =====
+  'Toronto', 'Montreal', 'Vancouver', 'Calgary', 'Edmonton', 'Quebec City',
+  'Halifax', 'Winnipeg', 'Whitehorse', 'St Johns Newfoundland',
 
-  // ===== Mexico (15) =====
-  'Mexico City', 'Guadalajara', 'Monterrey', 'Puebla', 'Tijuana', 'Leon Mexico',
-  'Ciudad Juarez', 'Cancun', 'Merida Mexico', 'Oaxaca', 'Acapulco', 'Veracruz',
-  'San Luis Potosi', 'Chihuahua', 'Hermosillo',
+  // ===== Mexico & Central America (12) =====
+  'Mexico City', 'Guadalajara', 'Monterrey', 'Tijuana', 'Cancun', 'Merida Mexico',
+  'Oaxaca', 'Guatemala City', 'San Salvador', 'San Jose Costa Rica',
+  'Panama City', 'Hermosillo',
 
-  // ===== Central America & Caribbean (15) =====
-  'Guatemala City', 'San Salvador', 'Tegucigalpa', 'Managua', 'San Jose Costa Rica',
-  'Panama City', 'Belize City', 'Havana', 'Santo Domingo', 'San Juan Puerto Rico',
-  'Kingston Jamaica', 'Port-au-Prince', 'Nassau Bahamas', 'Bridgetown', 'Castries',
+  // ===== Caribbean (6) =====
+  'Havana', 'Santo Domingo', 'San Juan Puerto Rico', 'Kingston Jamaica',
+  'Nassau Bahamas', 'Bridgetown',
 
-  // ===== South America (35) =====
+  // ===== South America (20) =====
   'Sao Paulo', 'Rio de Janeiro', 'Buenos Aires', 'Lima', 'Bogota', 'Santiago Chile',
-  'Caracas', 'Brasilia', 'Belo Horizonte', 'Salvador Brazil', 'Fortaleza',
-  'Recife', 'Curitiba', 'Porto Alegre', 'Manaus', 'Quito', 'Guayaquil',
-  'La Paz Bolivia', 'Sucre', 'Asuncion', 'Montevideo', 'Cordoba Argentina',
-  'Rosario', 'Mendoza', 'Medellin', 'Cali', 'Cartagena Colombia', 'Cusco',
-  'Arequipa', 'Cayenne', 'Paramaribo', 'Georgetown Guyana', 'Maracaibo',
-  'Valparaiso', 'Ushuaia',
+  'Caracas', 'Brasilia', 'Manaus', 'Quito', 'La Paz Bolivia', 'Asuncion',
+  'Montevideo', 'Medellin', 'Cusco', 'Cartagena Colombia', 'Cordoba Argentina',
+  'Mendoza', 'Ushuaia', 'Valparaiso',
 
-  // ===== UK & Ireland (15) =====
-  'London', 'Manchester', 'Birmingham UK', 'Glasgow', 'Liverpool', 'Leeds',
-  'Sheffield', 'Edinburgh', 'Bristol UK', 'Cardiff', 'Belfast', 'Newcastle UK',
-  'Dublin', 'Cork', 'Galway',
+  // ===== UK & Ireland (6) =====
+  'London', 'Manchester', 'Edinburgh', 'Glasgow', 'Dublin', 'Belfast',
 
-  // ===== Western & Southern Europe (50) =====
-  'Paris', 'Marseille', 'Lyon', 'Toulouse', 'Nice', 'Bordeaux', 'Strasbourg',
-  'Brussels', 'Antwerp', 'Amsterdam', 'Rotterdam', 'The Hague', 'Madrid',
-  'Barcelona', 'Valencia Spain', 'Seville', 'Bilbao', 'Malaga', 'Lisbon',
-  'Porto', 'Rome', 'Milan', 'Naples', 'Turin', 'Florence', 'Venice', 'Bologna',
-  'Palermo', 'Berlin', 'Munich', 'Hamburg', 'Cologne', 'Frankfurt', 'Stuttgart',
-  'Dresden', 'Leipzig', 'Dusseldorf', 'Vienna', 'Salzburg', 'Zurich', 'Geneva',
-  'Bern', 'Basel', 'Luxembourg', 'Monaco', 'Andorra la Vella', 'Reykjavik',
-  'Oslo', 'Bergen', 'Stockholm',
+  // ===== Western & Southern Europe (28) =====
+  'Paris', 'Marseille', 'Lyon', 'Nice', 'Bordeaux', 'Brussels', 'Amsterdam',
+  'Madrid', 'Barcelona', 'Seville', 'Malaga', 'Lisbon', 'Porto',
+  'Rome', 'Milan', 'Naples', 'Florence', 'Venice', 'Palermo',
+  'Berlin', 'Munich', 'Hamburg', 'Frankfurt', 'Vienna', 'Salzburg',
+  'Zurich', 'Geneva', 'Reykjavik',
 
-  // ===== Northern & Eastern Europe (40) =====
-  'Helsinki', 'Tampere', 'Copenhagen', 'Aarhus', 'Tallinn', 'Riga', 'Vilnius',
-  'Warsaw', 'Krakow', 'Gdansk', 'Wroclaw', 'Prague', 'Brno', 'Bratislava',
-  'Budapest', 'Debrecen', 'Bucharest', 'Cluj-Napoca', 'Sofia', 'Plovdiv',
-  'Belgrade', 'Zagreb', 'Sarajevo', 'Ljubljana', 'Skopje', 'Pristina', 'Tirana',
-  'Podgorica', 'Athens', 'Thessaloniki', 'Heraklion', 'Istanbul', 'Ankara',
-  'Izmir', 'Antalya', 'Bursa', 'Adana', 'Konya', 'Trabzon', 'Gaziantep',
+  // ===== Northern & Eastern Europe (22) =====
+  'Oslo', 'Bergen', 'Stockholm', 'Helsinki', 'Copenhagen', 'Tallinn', 'Riga',
+  'Vilnius', 'Warsaw', 'Krakow', 'Prague', 'Bratislava', 'Budapest',
+  'Bucharest', 'Sofia', 'Belgrade', 'Zagreb', 'Ljubljana', 'Athens',
+  'Istanbul', 'Ankara', 'Antalya',
 
-  // ===== Russia & Caucasus (20) =====
-  'Moscow', 'Saint Petersburg', 'Novosibirsk', 'Yekaterinburg', 'Kazan',
-  'Nizhny Novgorod', 'Chelyabinsk', 'Samara', 'Omsk', 'Rostov-on-Don', 'Ufa',
-  'Krasnoyarsk', 'Volgograd', 'Vladivostok', 'Yakutsk', 'Murmansk', 'Sochi',
-  'Tbilisi', 'Yerevan', 'Baku',
+  // ===== Russia & Caucasus (10) =====
+  'Moscow', 'Saint Petersburg', 'Novosibirsk', 'Yekaterinburg', 'Vladivostok',
+  'Yakutsk', 'Murmansk', 'Sochi', 'Tbilisi', 'Baku',
 
-  // ===== Middle East (25) =====
-  'Tehran', 'Mashhad', 'Isfahan', 'Shiraz', 'Tabriz', 'Baghdad', 'Basra',
-  'Mosul', 'Damascus', 'Aleppo', 'Beirut', 'Amman', 'Jerusalem', 'Tel Aviv',
-  'Riyadh', 'Jeddah', 'Mecca', 'Medina', 'Dubai', 'Abu Dhabi', 'Doha',
-  'Manama', 'Kuwait City', 'Muscat', 'Sanaa',
+  // ===== Middle East (14) =====
+  'Tehran', 'Isfahan', 'Baghdad', 'Beirut', 'Amman', 'Jerusalem', 'Tel Aviv',
+  'Riyadh', 'Jeddah', 'Dubai', 'Abu Dhabi', 'Doha', 'Kuwait City', 'Muscat',
 
-  // ===== North Africa (15) =====
-  'Cairo', 'Alexandria Egypt', 'Luxor', 'Tripoli Libya', 'Tunis', 'Algiers',
-  'Oran', 'Casablanca', 'Marrakech', 'Rabat', 'Fes', 'Tangier', 'Khartoum',
-  'Nouakchott', 'Bamako',
+  // ===== North Africa (8) =====
+  'Cairo', 'Alexandria Egypt', 'Tunis', 'Algiers', 'Casablanca', 'Marrakech',
+  'Khartoum', 'Tripoli Libya',
 
-  // ===== Sub-Saharan Africa (35) =====
-  'Lagos', 'Abuja', 'Kano', 'Accra', 'Kumasi', 'Abidjan', 'Yamoussoukro',
-  'Dakar', 'Conakry', 'Freetown', 'Monrovia', 'Ouagadougou', 'Niamey',
-  'Ndjamena', 'Yaounde', 'Douala', 'Libreville', 'Brazzaville', 'Kinshasa',
-  'Luanda', 'Windhoek', 'Gaborone', 'Pretoria', 'Johannesburg', 'Cape Town',
-  'Durban', 'Port Elizabeth', 'Bloemfontein', 'Maseru', 'Mbabane', 'Maputo',
-  'Antananarivo', 'Nairobi', 'Mombasa', 'Kampala',
+  // ===== Sub-Saharan Africa (16) =====
+  'Lagos', 'Accra', 'Abidjan', 'Dakar', 'Yaounde', 'Kinshasa', 'Luanda',
+  'Windhoek', 'Johannesburg', 'Cape Town', 'Durban', 'Maputo', 'Antananarivo',
+  'Nairobi', 'Addis Ababa', 'Dar es Salaam',
 
-  // ===== East Africa & Horn (5) =====
-  'Addis Ababa', 'Asmara', 'Djibouti', 'Mogadishu', 'Dar es Salaam',
+  // ===== South Asia (16) =====
+  'Mumbai', 'Delhi', 'Bangalore', 'Chennai', 'Kolkata', 'Hyderabad', 'Jaipur',
+  'Srinagar', 'Kochi', 'Karachi', 'Lahore', 'Islamabad', 'Dhaka', 'Colombo',
+  'Kathmandu', 'Thimphu',
 
-  // ===== South Asia (40) =====
-  'Mumbai', 'Delhi', 'Bangalore', 'Hyderabad', 'Ahmedabad', 'Chennai', 'Kolkata',
-  'Surat', 'Pune', 'Jaipur', 'Lucknow', 'Kanpur', 'Nagpur', 'Indore', 'Bhopal',
-  'Patna', 'Vadodara', 'Ghaziabad', 'Ludhiana', 'Coimbatore', 'Agra', 'Madurai',
-  'Varanasi', 'Srinagar', 'Amritsar', 'Kochi', 'Panaji', 'Karachi', 'Lahore',
-  'Islamabad', 'Faisalabad', 'Peshawar', 'Quetta', 'Dhaka', 'Chittagong',
-  'Colombo', 'Kandy', 'Kathmandu', 'Pokhara', 'Thimphu',
+  // ===== East Asia (24) =====
+  'Tokyo', 'Osaka', 'Sapporo', 'Fukuoka', 'Naha', 'Seoul', 'Busan', 'Pyongyang',
+  'Beijing', 'Shanghai', 'Guangzhou', 'Chongqing', 'Chengdu', 'Xian', 'Harbin',
+  'Kunming', 'Lhasa', 'Urumqi', 'Hong Kong', 'Taipei', 'Kaohsiung',
+  'Ulaanbaatar', 'Macau', 'Hangzhou',
 
-  // ===== East Asia (50) =====
-  'Tokyo', 'Yokohama', 'Osaka', 'Nagoya', 'Sapporo', 'Fukuoka', 'Kobe', 'Kyoto',
-  'Kawasaki', 'Saitama', 'Hiroshima', 'Sendai', 'Naha', 'Seoul', 'Busan',
-  'Incheon', 'Daegu', 'Daejeon', 'Gwangju', 'Ulsan', 'Jeju', 'Pyongyang',
-  'Beijing', 'Shanghai', 'Guangzhou', 'Shenzhen', 'Tianjin', 'Chongqing',
-  'Wuhan', 'Chengdu', 'Xian', 'Hangzhou', 'Nanjing', 'Suzhou', 'Qingdao',
-  'Harbin', 'Dalian', 'Kunming', 'Lhasa', 'Urumqi', 'Lanzhou', 'Hohhot',
-  'Hong Kong', 'Macau', 'Taipei', 'Kaohsiung', 'Taichung', 'Tainan',
-  'Ulaanbaatar', 'Quanzhou',
+  // ===== Southeast Asia (16) =====
+  'Bangkok', 'Chiang Mai', 'Phuket', 'Hanoi', 'Ho Chi Minh City', 'Vientiane',
+  'Phnom Penh', 'Yangon', 'Kuala Lumpur', 'Singapore', 'Jakarta', 'Bali Denpasar',
+  'Yogyakarta', 'Manila', 'Cebu City', 'Bandar Seri Begawan',
 
-  // ===== Southeast Asia (30) =====
-  'Bangkok', 'Chiang Mai', 'Phuket', 'Pattaya', 'Hanoi', 'Ho Chi Minh City',
-  'Da Nang', 'Hue', 'Vientiane', 'Luang Prabang', 'Phnom Penh', 'Siem Reap',
-  'Yangon', 'Mandalay', 'Naypyidaw', 'Kuala Lumpur', 'George Town Penang',
-  'Kota Kinabalu', 'Kuching', 'Singapore', 'Jakarta', 'Surabaya', 'Bandung',
-  'Medan', 'Denpasar', 'Yogyakarta', 'Manila', 'Cebu City', 'Davao',
-  'Bandar Seri Begawan',
-
-  // ===== Oceania (15) =====
-  'Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Adelaide', 'Hobart', 'Darwin',
-  'Canberra', 'Gold Coast', 'Auckland', 'Wellington', 'Christchurch',
-  'Queenstown', 'Suva', 'Port Moresby',
-
-  // ===== Pacific Islands (5) =====
-  'Apia', 'Nukualofa', 'Port Vila', 'Noumea', 'Papeete',
+  // ===== Oceania & Pacific (12) =====
+  'Sydney', 'Melbourne', 'Brisbane', 'Perth', 'Hobart', 'Darwin',
+  'Auckland', 'Wellington', 'Christchurch', 'Queenstown', 'Suva', 'Papeete',
 ];
 
 const sleep = (ms) => new Promise((r) => setTimeout(r, ms));
@@ -198,15 +152,41 @@ async function geocode(name) {
   };
 }
 
-async function fetchClimate(lat, lon) {
+/**
+ * Batched archive request — ERA5 daily data for up to BATCH_SIZE cities
+ * in a single HTTP call. Open-Meteo returns an array of per-location objects.
+ */
+async function fetchArchiveBatch(coords) {
+  const lats = coords.map((c) => c.lat).join(',');
+  const lons = coords.map((c) => c.lon).join(',');
   const url =
     `https://archive-api.open-meteo.com/v1/archive` +
-    `?latitude=${lat}&longitude=${lon}` +
+    `?latitude=${lats}&longitude=${lons}` +
     `&start_date=${START_DATE}&end_date=${END_DATE}` +
-    `&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean,rain_sum,snowfall_sum,sunshine_duration` +
-    `&hourly=relative_humidity_2m` +
-    `&temperature_unit=fahrenheit&precipitation_unit=inch&timezone=UTC`;
-  return fetchWithRetry(url, 'archive');
+    `&daily=temperature_2m_max,temperature_2m_min,temperature_2m_mean,rain_sum,snowfall_sum,sunshine_duration,precipitation_sum,wind_speed_10m_max` +
+    `&temperature_unit=fahrenheit&precipitation_unit=inch&wind_speed_unit=mph&timezone=UTC`;
+  const result = await fetchWithRetry(url, 'archive');
+  // Single-location responses come back as an object; normalize to array.
+  return Array.isArray(result) ? result : [result];
+}
+
+/**
+ * Batched dew point request — CMIP6 historical daily data for up to
+ * BATCH_SIZE cities in a single HTTP call. Returns an array of per-location
+ * objects matching the input order.
+ */
+async function fetchDewPointBatch(coords) {
+  const lats = coords.map((c) => c.lat).join(',');
+  const lons = coords.map((c) => c.lon).join(',');
+  const url =
+    `https://climate-api.open-meteo.com/v1/climate` +
+    `?latitude=${lats}&longitude=${lons}` +
+    `&start_date=2010-01-01&end_date=2014-12-31` +
+    `&models=MRI_AGCM3_2_S` +
+    `&daily=dew_point_2m_mean` +
+    `&temperature_unit=fahrenheit`;
+  const result = await fetchWithRetry(url, 'climate');
+  return Array.isArray(result) ? result : [result];
 }
 
 const sum = (arr) => arr.reduce((a, b) => a + (b ?? 0), 0);
@@ -219,16 +199,19 @@ const round = (n, places = 0) => {
   return Math.round(n * m) / m;
 };
 
-function aggregate(data) {
-  const d = data.daily;
+function aggregate(archiveData, climateData) {
+  const d = archiveData.daily;
   if (!d) throw new Error('no daily data');
 
+  const time = d.time;
   const tmax = d.temperature_2m_max;
   const tmin = d.temperature_2m_min;
   const tmean = d.temperature_2m_mean;
   const rain = d.rain_sum;
   const snow = d.snowfall_sum;
   const sun = d.sunshine_duration;
+  const precipAll = d.precipitation_sum;
+  const wind = d.wind_speed_10m_max;
 
   const avgTempF = round(meanNonNull(tmean));
   // average daily swing (max - min) across all valid days
@@ -243,15 +226,52 @@ function aggregate(data) {
   const snowInches = round(sum(snow) / YEARS);
   const sunHours = round(sum(sun) / 3600 / YEARS);
 
-  const humidityPct = round(meanNonNull(data.hourly?.relative_humidity_2m ?? []));
+  // Dew point comes from a separate climate-api request (CMIP6 historical)
+  const dewPointDaily = climateData?.daily?.dew_point_2m_mean ?? [];
+  const dewPointF = round(meanNonNull(dewPointDaily));
+
+  // Group daily data by calendar month (1-12) to find hottest/coldest months
+  const monthlyHighs = Array.from({ length: 12 }, () => []);
+  const monthlyLows = Array.from({ length: 12 }, () => []);
+  const monthlyMeans = Array.from({ length: 12 }, () => []);
+  for (let i = 0; i < time.length; i++) {
+    const m = parseInt(time[i].slice(5, 7), 10) - 1;
+    if (tmax[i] != null) monthlyHighs[m].push(tmax[i]);
+    if (tmin[i] != null) monthlyLows[m].push(tmin[i]);
+    if (tmean[i] != null) monthlyMeans[m].push(tmean[i]);
+  }
+  const monthHighAvg = monthlyHighs.map(meanNonNull);
+  const monthLowAvg = monthlyLows.map(meanNonNull);
+  const monthMeanAvg = monthlyMeans.map(meanNonNull);
+
+  // Hottest / coldest month chosen by monthly mean temperature
+  let hotIdx = 0, coldIdx = 0;
+  for (let i = 1; i < 12; i++) {
+    if ((monthMeanAvg[i] ?? -Infinity) > (monthMeanAvg[hotIdx] ?? -Infinity)) hotIdx = i;
+    if ((monthMeanAvg[i] ?? Infinity) < (monthMeanAvg[coldIdx] ?? Infinity)) coldIdx = i;
+  }
+  const summerHighF = round(monthHighAvg[hotIdx] ?? avgTempF);
+  const winterLowF = round(monthLowAvg[coldIdx] ?? avgTempF);
+
+  // Rainy days = days where measurable precipitation (>= 0.04 in ≈ 1mm)
+  let rainyDayCount = 0;
+  for (const v of precipAll) if ((v ?? 0) >= 0.04) rainyDayCount++;
+  const rainyDays = round(rainyDayCount / YEARS);
+
+  // Wind: average of daily max wind speed (so "how windy it typically gets")
+  const windMph = round(meanNonNull(wind));
 
   return {
     avgTempF,
     rainInches,
     snowInches,
     sunHours,
-    humidityPct,
     dailyVarianceF,
+    summerHighF,
+    winterLowF,
+    rainyDays,
+    windMph,
+    dewPointF,
   };
 }
 
@@ -259,71 +279,26 @@ function normalize(s) {
   return s.toLowerCase().replace(/[^a-z0-9]/g, '');
 }
 
+/** A city record is "fresh" only if it has all the current fields */
+const REQUIRED_CLIMATE_FIELDS = [
+  'avgTempF', 'rainInches', 'snowInches', 'sunHours', 'dailyVarianceF',
+  'summerHighF', 'winterLowF', 'rainyDays', 'windMph', 'dewPointF',
+];
+function isFresh(city) {
+  return REQUIRED_CLIMATE_FIELDS.every((k) => typeof city?.climate?.[k] === 'number');
+}
 async function loadExisting() {
   try {
     const txt = await readFile(OUT_PATH, 'utf8');
     const arr = JSON.parse(txt);
-    if (Array.isArray(arr)) return arr;
+    if (Array.isArray(arr)) return arr.filter(isFresh);
   } catch {}
   return [];
 }
 
-async function main() {
-  const existing = await loadExisting();
-  const out = [...existing];
-  const seenNames = new Set(existing.map((c) => normalize(c.name)));
-  const failed = [];
-  let i = 0;
-  console.log(`Resuming with ${existing.length} existing cities`);
-
-  for (const name of CITY_NAMES) {
-    i++;
-    // skip if we already have this city (rough match by normalized name)
-    if (seenNames.has(normalize(name))) continue;
-    const tag = `[${String(i).padStart(3)}/${CITY_NAMES.length}] ${name}`;
-    try {
-      const geo = await geocode(name);
-      if (!geo) {
-        console.log(`${tag} — NOT FOUND`);
-        failed.push({ name, reason: 'geocode' });
-        await sleep(SLEEP_MS);
-        continue;
-      }
-      await sleep(SLEEP_MS);
-
-      const data = await fetchClimate(geo.lat, geo.lon);
-      const climate = aggregate(data);
-
-      // sanity-check that we got real numbers
-      if (
-        climate.avgTempF == null ||
-        climate.humidityPct == null ||
-        Number.isNaN(climate.avgTempF)
-      ) {
-        console.log(`${tag} — bad data`);
-        failed.push({ name, reason: 'bad data' });
-        await sleep(SLEEP_MS);
-        continue;
-      }
-
-      out.push({
-        name: geo.name,
-        country: geo.country,
-        lat: round(geo.lat, 2),
-        lon: round(geo.lon, 2),
-        climate,
-      });
-      console.log(
-        `${tag} — ${geo.country} · ${climate.avgTempF}°F · ${climate.rainInches}in rain · ${climate.snowInches}in snow`,
-      );
-    } catch (e) {
-      console.log(`${tag} — ERROR ${e.message}`);
-      failed.push({ name, reason: e.message });
-    }
-    await sleep(SLEEP_MS);
-  }
-
-  // de-duplicate by (name, country)
+/** Atomically write the current city list — called after every successful fetch
+ *  so a crash or rate-limit kill loses at most the in-flight city. */
+async function saveOut(out) {
   const seen = new Set();
   const deduped = [];
   for (const c of out) {
@@ -332,16 +307,106 @@ async function main() {
     seen.add(key);
     deduped.push(c);
   }
-  // alphabetize for stable diffs
   deduped.sort((a, b) =>
     a.name.localeCompare(b.name) || a.country.localeCompare(b.country),
   );
-
   await mkdir(dirname(OUT_PATH), { recursive: true });
   await writeFile(OUT_PATH, JSON.stringify(deduped, null, 2) + '\n');
+}
 
+async function main() {
+  const existing = await loadExisting();
+  const out = [...existing];
+  const seenNames = new Set(existing.map((c) => normalize(c.name)));
+  const failed = [];
+  console.log(`Resuming with ${existing.length} existing cities`);
+
+  // ---- Phase 1: geocode every city that isn't already on disk ----
+  const toFetch = [];
+  let i = 0;
+  for (const name of CITY_NAMES) {
+    i++;
+    if (seenNames.has(normalize(name))) continue;
+    const tag = `[geo ${String(i).padStart(3)}/${CITY_NAMES.length}] ${name}`;
+    try {
+      const geo = await geocode(name);
+      if (!geo) {
+        console.log(`${tag} — NOT FOUND`);
+        failed.push({ name, reason: 'geocode' });
+      } else {
+        toFetch.push({ ...geo, inputName: name });
+        console.log(`${tag} — ${geo.country} (${round(geo.lat, 2)}, ${round(geo.lon, 2)})`);
+      }
+    } catch (e) {
+      console.log(`${tag} — ERROR ${e.message}`);
+      failed.push({ name, reason: e.message });
+    }
+    await sleep(SLEEP_MS);
+  }
+
+  // ---- Phase 2: batched climate fetches, BATCH_SIZE cities per request ----
+  const totalBatches = Math.ceil(toFetch.length / BATCH_SIZE);
   console.log(
-    `\nDone. Wrote ${deduped.length} cities to ${OUT_PATH}` +
+    `\nGeocoded ${toFetch.length} cities. Fetching climate in ${totalBatches} batched request(s) of up to ${BATCH_SIZE}.`,
+  );
+
+  for (let start = 0; start < toFetch.length; start += BATCH_SIZE) {
+    const chunk = toFetch.slice(start, start + BATCH_SIZE);
+    const batchNum = start / BATCH_SIZE + 1;
+    const tag = `[batch ${batchNum}/${totalBatches}] ${chunk.length} cities`;
+    try {
+      const archiveResults = await fetchArchiveBatch(chunk);
+      await sleep(1000);
+      const climateResults = await fetchDewPointBatch(chunk);
+
+      if (archiveResults.length !== chunk.length || climateResults.length !== chunk.length) {
+        throw new Error(
+          `response length mismatch: archive=${archiveResults.length} climate=${climateResults.length} chunk=${chunk.length}`,
+        );
+      }
+
+      let added = 0;
+      for (let j = 0; j < chunk.length; j++) {
+        const geo = chunk[j];
+        try {
+          const climate = aggregate(archiveResults[j], climateResults[j]);
+          if (
+            climate.avgTempF == null ||
+            climate.dewPointF == null ||
+            Number.isNaN(climate.avgTempF)
+          ) {
+            console.log(`  ${geo.inputName} — bad data`);
+            failed.push({ name: geo.inputName, reason: 'bad data' });
+            continue;
+          }
+          out.push({
+            name: geo.name,
+            country: geo.country,
+            lat: round(geo.lat, 2),
+            lon: round(geo.lon, 2),
+            climate,
+          });
+          seenNames.add(normalize(geo.name));
+          added++;
+        } catch (e) {
+          console.log(`  ${geo.inputName} — aggregate error ${e.message}`);
+          failed.push({ name: geo.inputName, reason: e.message });
+        }
+      }
+      await saveOut(out);
+      console.log(`${tag} — added ${added}, ${out.length} total on disk`);
+    } catch (e) {
+      console.log(`${tag} — ERROR ${e.message}`);
+      for (const geo of chunk) {
+        failed.push({ name: geo.inputName, reason: e.message });
+      }
+    }
+    await sleep(2000);
+  }
+
+  await saveOut(out);
+  console.log(
+    `\nDone. Wrote ${out.length} cities to ${OUT_PATH}` +
       (failed.length ? `\nFailed: ${failed.length}` : ''),
   );
   if (failed.length) {
