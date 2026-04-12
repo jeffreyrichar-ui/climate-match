@@ -46,8 +46,19 @@ body {
 }
 
 @media (max-width: 900px) {
-  .app-main { grid-template-columns: 1fr; }
-  .prefs-panel { position: static; }
+  .app-main {
+    grid-template-columns: 1fr;
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+  .prefs-panel {
+    position: static;
+    width: 100%;
+  }
+  .results-panel {
+    width: 100%;
+  }
 }
 
 /* ---------- Preferences Panel ---------- */

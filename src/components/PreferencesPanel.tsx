@@ -1,4 +1,4 @@
-import { useState } from 'react';
+import { useState, useEffect } from 'react';
 import type { Preferences, Preference, FactorKey } from '../types';
 import { FACTORS } from '../lib/factors';
 import { FactorSlider } from './FactorSlider';
@@ -9,8 +9,12 @@ type Props = {
   onResetAll: () => void;
 };
 
+function isMobile() {
+  return window.matchMedia('(max-width: 900px)').matches;
+}
+
 export function PreferencesPanel({ prefs, onChange, onResetAll }: Props) {
-  const [collapsed, setCollapsed] = useState(false);
+  const [collapsed, setCollapsed] = useState(isMobile);
 
   const updateFactor = (key: FactorKey, next: Preference) => {
     onChange({ ...prefs, [key]: next });
