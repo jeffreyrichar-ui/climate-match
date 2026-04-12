@@ -47,6 +47,7 @@ body {
 
 @media (max-width: 900px) {
   .app-main { grid-template-columns: 1fr; }
+  .prefs-panel { position: static; }
 }
 
 /* ---------- Preferences Panel ---------- */
@@ -65,6 +66,18 @@ body {
   margin-bottom: 8px;
 }
 .prefs-header h2 { margin: 0; font-size: 20px; }
+.prefs-header-actions { display: flex; gap: 8px; align-items: center; }
+.collapse-toggle {
+  background: var(--border);
+  color: var(--text);
+  border: none;
+  border-radius: var(--radius);
+  padding: 4px 10px;
+  font-size: 13px;
+  cursor: pointer;
+}
+.collapse-toggle:hover { background: var(--accent); color: #fff; }
+.prefs-collapsed .prefs-header { margin-bottom: 0; }
 .prefs-intro {
   color: var(--muted);
   font-size: 13px;
