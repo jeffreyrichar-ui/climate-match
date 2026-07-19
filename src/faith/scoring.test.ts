@@ -122,6 +122,58 @@ describe('answeredCount', () => {
   });
 });
 
+describe('discrimination via the new temperament dimensions', () => {
+  // Two secular fixtures that differ mainly on desire/world stance — the axes
+  // that separate Stoic-style from Epicurean-style ways of life.
+  const stoicLike: Religion = {
+    id: 'fx-stoic',
+    name: 'Stoic-like',
+    traditionFamily: 'Nontheistic & Philosophical',
+    branchPath: ['Nontheistic & Philosophical', 'Stoic-like'],
+    shortDescription: 'A discipline-of-the-passions fixture.',
+    profile: {
+      desireStance: { master: 1 },
+      worldStance: { ascetic: 1 },
+      ethicalFocus: { 'self-mastery': 1 },
+      moralSource: { 'natural-law': 1 },
+    },
+  };
+  const epicureanLike: Religion = {
+    id: 'fx-epicurean',
+    name: 'Epicurean-like',
+    traditionFamily: 'Nontheistic & Philosophical',
+    branchPath: ['Nontheistic & Philosophical', 'Epicurean-like'],
+    shortDescription: 'A tranquil-pleasure fixture.',
+    profile: {
+      desireStance: { moderate: 1 },
+      worldStance: { affirming: 1 },
+      ethicalFocus: { 'self-mastery': 1 },
+      meaningSource: { 'self-created': 1 },
+    },
+  };
+  const pair = [stoicLike, epicureanLike];
+
+  it('ranks the Stoic-like path first for discipline-leaning answers', () => {
+    const ranked = rankReligions(pair, {
+      q_desire_stance: ['master'],
+      q_good_life: ['stoic'],
+      q_worldliness: ['discipline'],
+    });
+    expect(ranked[0].religion.id).toBe('fx-stoic');
+    expect(ranked[0].matchPct).toBeGreaterThan(ranked[1].matchPct);
+  });
+
+  it('ranks the Epicurean-like path first for pleasure-leaning answers', () => {
+    const ranked = rankReligions(pair, {
+      q_desire_stance: ['moderate'],
+      q_good_life: ['epicurean'],
+      q_worldliness: ['embrace'],
+    });
+    expect(ranked[0].religion.id).toBe('fx-epicurean');
+    expect(ranked[0].matchPct).toBeGreaterThan(ranked[1].matchPct);
+  });
+});
+
 // ─────────────────── data integrity of the shipped content ───────────────────
 
 describe('question data integrity', () => {

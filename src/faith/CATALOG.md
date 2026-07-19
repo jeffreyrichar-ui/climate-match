@@ -1,6 +1,6 @@
 # The Faith Match Catalog
 
-**558 religions, denominations, sects, orders, and worldviews** across 13 tradition families.
+**585 religions, denominations, sects, orders, and worldviews** across 13 tradition families.
 
 This is the full reference list behind the Faith Match questionnaire. Every entry is described neutrally and is included for exploration and education only — not as a ranking or endorsement of any tradition.
 
@@ -9,13 +9,13 @@ This is the full reference list behind the Faith Match questionnaire. Every entr
 - [Christianity](#christianity) (144)
 - [Hinduism](#hinduism) (59)
 - [New Religious & Esoteric](#new-religious-esoteric) (56)
+- [Nontheistic & Philosophical](#nontheistic-philosophical) (55)
 - [Buddhism](#buddhism) (48)
 - [Islam](#islam) (45)
 - [East Asian](#east-asian) (44)
 - [Indigenous](#indigenous) (32)
 - [African & Diaspora](#african-diaspora) (30)
 - [Judaism](#judaism) (28)
-- [Nontheistic & Philosophical](#nontheistic-philosophical) (28)
 - [Indian Dharmic](#indian-dharmic) (15)
 - [Iranian & West Asian](#iranian-west-asian) (15)
 - [Other](#other) (14)
@@ -813,6 +813,176 @@ _56 traditions_
   A nondenominational body founded by Kirby Hensley that ordains anyone who asks, holding that all people have the right to their own beliefs.  
   <sub>~millions ordained (nominal) · United States · 1959–1962</sub>
 
+## Nontheistic & Philosophical
+
+_55 traditions_
+
+- **Absurdism** _(also: Philosophy of the Absurd)_ — Nontheistic & Philosophical ▸ Existential Philosophy ▸ Absurdism
+  A philosophy holding that humans seek meaning in an indifferent universe, and that one should embrace this tension through revolt and lucid living.  
+  <sub>France,Europe,global · mid 20th century</sub>
+- **Academic Skepticism** _(also: New Academy; Academic scepticism)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Skepticism ▸ Academic Skepticism
+  A skeptical school of Plato's later Academy holding that certain knowledge is unattainable, favoring probability and withheld assent as guides to life.  
+  <sub>Ancient Greece,Roman world · c. 3rd century BCE</sub>
+- **Agnosticism** _(also: Agnostic (T.H. Huxley's coinage))_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Agnosticism
+  The view that the existence or nature of the divine is unknown or, in stronger forms, inherently unknowable to human reason.  
+  <sub>hundreds of millions (overlaps other categories) · Europe,North America,worldwide · 19th century (term); ancient antecedents</sub>
+- **Antitheism** _(also: Anti-theism; anti-religion)_ — Nontheistic & Philosophical ▸ Secularism & Nonbelief ▸ Antitheism
+  An active opposition to theism and organized religion, holding belief in gods to be false and, on balance, harmful to human wellbeing.  
+  <sub>global · modern</sub>
+- **Apatheism** _(also: Pragmatic atheism,Practical indifference)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Apatheism
+  An attitude of apathy toward the existence of deities, regarding the question as unimportant or irrelevant to how one lives.  
+  <sub>secularized societies worldwide · modern (term); perennial attitude</sub>
+- **Aristotelianism** _(also: Peripatetic school; Aristotelian virtue ethics)_ — Nontheistic & Philosophical ▸ Classical Greek Philosophy ▸ Aristotelianism
+  A philosophy centered on achieving eudaimonia (flourishing) through cultivating virtues of character and intellect, guided by reason and the mean.  
+  <sub>Ancient Greece,Mediterranean world,global · c. 335 BCE</sub>
+- **Atheism** _(also: Nonbelief,Godlessness,Strong/positive atheism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Atheism
+  The absence or rejection of belief in deities, ranging from simple lack of belief to the positive assertion that no gods exist.  
+  <sub>~200 million (self-identified; more by broad definition) · East Asia,Europe,North America,worldwide · ancient (as a position); modern movement</sub>
+- **Confucian Secular Ethics** _(also: Rujia; 儒家)_ — Nontheistic & Philosophical ▸ Chinese Philosophy ▸ Confucian Secular Ethics
+  A tradition of ethical self-cultivation emphasizing benevolence, ritual propriety, and social harmony through the fulfillment of relational duties.  
+  <sub>China,Korea,Japan,Vietnam · c. 5th century BCE</sub>
+- **Cosmism** _(also: Russian Cosmism)_ — Nontheistic & Philosophical ▸ Techno-Progressive Worldviews ▸ Cosmism
+  A speculative movement envisioning humanity's technological transformation of the cosmos, including space expansion and the possible resurrection of the dead.  
+  <sub>Russia,global · late 19th century</sub>
+- **Cynicism** _(also: Kynismos)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Cynicism
+  An ancient philosophy urging a life of virtue lived in agreement with nature, rejecting convention, wealth, and social status.  
+  <sub>Ancient Greece,Roman world · c. 4th century BCE</sub>
+- **Cyrenaic Hedonism** _(also: Cyrenaic school; Cyrenaicism)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Cyrenaic Hedonism
+  An ancient hedonist philosophy holding that immediate bodily pleasure is the highest good and the only reliable measure of a good life.  
+  <sub>Ancient Greece (Cyrene),Mediterranean world · c. 4th century BCE</sub>
+- **Deep Ecology** _(also: Ecosophy)_ — Nontheistic & Philosophical ▸ Environmental Philosophy ▸ Deep Ecology
+  An environmental philosophy holding that all living beings have inherent worth, calling for a fundamental shift away from human-centered values.  
+  <sub>Norway,United States,global · 1970s</sub>
+- **Deism** _(also: Natural religion,Classical Deism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Deism
+  The belief in a creator known through reason and observation of nature, who does not intervene in the world after its creation.  
+  <sub>hundreds of thousands (self-identified) · Europe,North America · 17th-18th century (Enlightenment)</sub>
+- **Effective Altruism** _(also: EA)_ — Nontheistic & Philosophical ▸ Contemporary Ethical Movements ▸ Effective Altruism
+  A movement using evidence and reason to determine how to do the most good, prioritizing high-impact giving and careers to help others impartially.  
+  <sub>United States,United Kingdom,global · 2000s-2010s</sub>
+- **Epicureanism** _(also: The Garden; Epikoúreios)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Epicureanism
+  A philosophy teaching that a tranquil life free of pain and fear is achieved through modest pleasures, friendship, and understanding nature.  
+  <sub>Ancient Greece,Roman world · c. 307 BCE</sub>
+- **Ethical Culture** _(also: Ethical Movement,Ethical Humanism,Society for Ethical Culture)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Humanism ▸ Ethical Culture
+  A humanistic ethical and congregational movement emphasizing moral living—"deed before creed"—independent of theological belief.  
+  <sub>a few thousand members · United States,United Kingdom · 1876 (Felix Adler, New York)</sub>
+- **Ethical Naturalism** _(also: Naturalistic moral realism)_ — Nontheistic & Philosophical ▸ Moral Philosophy ▸ Ethical Naturalism
+  A metaethical view holding that moral facts are natural facts, knowable by reason and observation without appeal to any supernatural source.  
+  <sub>global · modern</sub>
+- **Extropianism** _(also: Extropy; Extropian transhumanism)_ — Nontheistic & Philosophical ▸ Futurist Philosophies ▸ Extropianism
+  An optimistic transhumanist philosophy promoting perpetual progress, self-transformation, rational thinking, and technology to overcome human limits including death.  
+  <sub>United States,global · 1980s-1990s</sub>
+- **Freethought** _(also: Freethinking,Libre-pensée)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Freethought
+  A philosophical stance holding that beliefs should be formed by reason, logic, and empirical evidence rather than authority, tradition, or dogma.  
+  <sub>Europe,North America,worldwide · 17th-19th century</sub>
+- **Gaianism** _(also: Gaia philosophy; Gaian spirituality)_ — Nontheistic & Philosophical ▸ Environmental Philosophy ▸ Gaianism
+  An Earth-centered worldview treating the planet as a single self-regulating living system worthy of reverence, care, and ecological responsibility.  
+  <sub>global · late 20th century</sub>
+- **Humanistic Judaism** _(also: Secular Humanistic Judaism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Humanism ▸ Humanistic Judaism
+  A nontheistic movement celebrating Jewish culture, identity, and ethics through a humanistic philosophy rather than belief in God.  
+  <sub>tens of thousands · United States,Israel,Canada · 1963 (Sherwin Wine, Michigan)</sub>
+- **Ietsism** _(also: Ietsisme; 'somethingism')_ — Nontheistic & Philosophical ▸ Modern Naturalistic Lifeways ▸ Ietsism
+  An unstructured belief that there is 'something' greater or transcendent, without committing to any defined deity or organized religion.  
+  <sub>Netherlands,Western Europe · late 20th century</sub>
+- **Ignosticism** _(also: Igtheism,Theological noncognitivism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Ignosticism
+  The position that the question of God's existence is meaningless until "God" is coherently defined, treating the term as cognitively empty.  
+  <sub>Western philosophical circles · 20th century</sub>
+- **Legalism (Chinese Fajia)** _(also: Fajia; School of Law; Legalist statecraft)_ — Nontheistic & Philosophical ▸ Classical Chinese Philosophy ▸ Legalism
+  A classical Chinese political philosophy holding that order comes from strict codified law, clear rewards and punishments, and centralized state power.  
+  <sub>Ancient China · c. 4th-3rd century BCE</sub>
+- **Mohism** _(also: Mojia; Moism; School of Mo)_ — Nontheistic & Philosophical ▸ Classical Chinese Philosophy ▸ Mohism
+  A classical Chinese philosophy advocating impartial care for all, meritocracy, frugality, and opposition to aggressive war, judged by benefit to society.  
+  <sub>Ancient China · c. 5th century BCE</sub>
+- **Naturalistic Pantheism** _(also: Scientific Pantheism,World Pantheism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Pantheism ▸ Naturalistic Pantheism
+  A reverential naturalism identifying the divine with the universe and nature itself, holding no supernatural or personal deity beyond the cosmos.  
+  <sub>Europe,North America,online communities · modern (roots in Spinoza)</sub>
+- **Neo-Confucianism** _(also: Lixue; 理學)_ — Nontheistic & Philosophical ▸ Chinese Philosophy ▸ Confucian Secular Ethics ▸ Neo-Confucianism
+  A revived Confucian tradition integrating metaphysics of principle and vital force with moral self-cultivation and rigorous ethical inquiry.  
+  <sub>China,Korea,Japan · 11th century CE</sub>
+- **Neoplatonism** _(also: Platonism (late antique))_ — Nontheistic & Philosophical ▸ Platonic Tradition ▸ Neoplatonism
+  A late-antique philosophy positing reality as emanations from a transcendent ineffable One, toward which the soul ascends through contemplation.  
+  <sub>Roman Egypt,Mediterranean world · 3rd century CE</sub>
+- **Neostoicism** _(also: Modern Stoicism; Stoic revival)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Stoicism ▸ Modern Stoicism
+  A contemporary revival adapting classical Stoic practices of emotional resilience and virtue ethics for secular self-improvement and daily life.  
+  <sub>North America,Europe,global · 21st century</sub>
+- **New Atheism** _(also: Antitheism,Movement atheism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Atheism ▸ New Atheism
+  An early-21st-century activist current of atheism that vocally criticizes religion and promotes science, skepticism, and secularism in public life.  
+  <sub>millions (loose movement) · North America,United Kingdom,online communities · early 21st century</sub>
+- **Nihilism** _(also: Existential nihilism; moral nihilism)_ — Nontheistic & Philosophical ▸ Modern Philosophy ▸ Nihilism
+  A view holding that life, values, and knowledge lack objective or inherent meaning, and that no transcendent purpose underwrites human existence.  
+  <sub>Europe,global · 19th century</sub>
+- **Objectivism** _(also: Randian philosophy)_ — Nontheistic & Philosophical ▸ Modern Philosophy ▸ Objectivism
+  A philosophy founded by Ayn Rand holding that reality is objective, reason is the only means of knowledge, and rational self-interest is the proper moral aim.  
+  <sub>United States,global · mid-20th century</sub>
+- **Optimistic Nihilism** _(also: Positive nihilism)_ — Nontheistic & Philosophical ▸ Modern Philosophy ▸ Nihilism ▸ Optimistic Nihilism
+  A contemporary stance holding that although the universe has no inherent meaning, this freedom lets people create their own purpose and enjoy life.  
+  <sub>global (internet culture) · 21st century</sub>
+- **Pandeism** _(also: Pan-deism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Deism ▸ Pandeism
+  A view combining deism and pantheism, holding that a creator became the universe and thereby ceased to exist as a separate, conscious entity.  
+  <sub>Western philosophical circles · modern (term); older antecedents</sub>
+- **Philosophical Taoism** _(also: Daojia; 道家)_ — Nontheistic & Philosophical ▸ Chinese Philosophy ▸ Philosophical Taoism
+  A Chinese philosophical tradition centered on living in spontaneous harmony with the Dao, the ineffable natural order, through effortless action.  
+  <sub>China,East Asia · c. 4th century BCE</sub>
+- **Platonism** _(also: Academy; Platonic philosophy)_ — Nontheistic & Philosophical ▸ Classical Greek Philosophy ▸ Platonism
+  An ancient philosophy holding that abstract Forms are the truest reality, grasped by reason, with the Good as the highest object of knowledge.  
+  <sub>Ancient Greece,Mediterranean world,global · c. 387 BCE</sub>
+- **Positivism / Religion of Humanity** _(also: Comtean Positivism; Church of Humanity; Religion de l'Humanité)_ — Nontheistic & Philosophical ▸ Modern Philosophy ▸ Positivism
+  Auguste Comte's system grounding knowledge in science and organizing a secular Religion of Humanity that venerates humankind rather than any deity.  
+  <sub>France,Brazil,Britain · 19th century</sub>
+- **Pragmatism** _(also: Pragmatist philosophy; American Pragmatism)_ — Nontheistic & Philosophical ▸ Modern Philosophy ▸ Pragmatism
+  A philosophy holding that ideas and beliefs are judged by their practical consequences and usefulness in experience rather than by fixed absolutes.  
+  <sub>United States,global · late 19th century</sub>
+- **Pyrrhonism** _(also: Pyrrhonian skepticism; Pyrrhonean scepticism)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Skepticism ▸ Pyrrhonism
+  A skeptical philosophy that suspends judgment on all non-evident claims, aiming for tranquility (ataraxia) by withholding dogmatic assent.  
+  <sub>Ancient Greece,Roman world · c. 3rd century BCE</sub>
+- **Pythagoreanism** _(also: Pythagorean school)_ — Nontheistic & Philosophical ▸ Classical Greek Philosophy ▸ Pythagoreanism
+  An ancient philosophical and mathematical way of life holding that number and harmony underlie reality, joined to ascetic discipline and soul purification.  
+  <sub>Ancient Greece,Southern Italy · c. 530 BCE</sub>
+- **Rationalist Movement** _(also: LessWrong rationality; the rationalist community)_ — Nontheistic & Philosophical ▸ Contemporary Ethical Movements ▸ Rationalist Movement
+  A contemporary community seeking to refine human reasoning through probability, cognitive-bias awareness, and Bayesian thinking to form more accurate beliefs.  
+  <sub>United States,global (online) · 2000s-2010s</sub>
+- **Religious Humanism** _(also: Humanistic religion; ceremonial humanism)_ — Nontheistic & Philosophical ▸ Humanism ▸ Religious Humanism
+  A nontheistic humanist movement that keeps congregational community, ceremony, and ethical commitment while locating meaning in humanity rather than deity.  
+  <sub>United States,United Kingdom · early 20th century</sub>
+- **Religious Naturalism** _(also: Naturalistic spirituality)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Naturalism ▸ Religious Naturalism
+  An orientation that finds religious meaning, awe, and reverence entirely within the natural world, without appeal to a supernatural realm.  
+  <sub>North America,Europe · 20th century</sub>
+- **Scientific Skepticism** _(also: Rational skepticism; the skeptical movement)_ — Nontheistic & Philosophical ▸ Secularism & Nonbelief ▸ Scientific Skepticism
+  A movement applying scientific method and critical inquiry to test claims, rejecting the paranormal and pseudoscience for lack of reliable evidence.  
+  <sub>United States,Europe,global · 20th century</sub>
+- **Secular Buddhism** _(also: Naturalistic Buddhism)_ — Nontheistic & Philosophical ▸ Modern Naturalistic Lifeways ▸ Secular Buddhism
+  A modern movement reinterpreting Buddhist practice and ethics in naturalistic terms, setting aside supernatural claims like literal rebirth.  
+  <sub>North America,Europe,Australia · late 20th century</sub>
+- **Secular Existentialism** _(also: Atheistic existentialism)_ — Nontheistic & Philosophical ▸ Modern Continental Philosophy ▸ Secular Existentialism
+  A modern philosophy holding that existence precedes essence, so individuals must create meaning and values through free, responsible choice in a godless world.  
+  <sub>Europe,global · 20th century</sub>
+- **Secular Humanism** _(also: Scientific Humanism,Secular Humanist ethics)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Humanism ▸ Secular Humanism
+  A life stance affirming human reason, ethics, and dignity without reference to the supernatural, seeking meaning and morality through this-worldly inquiry.  
+  <sub>tens of millions (estimates vary) · Europe,North America,Australia,urban worldwide · 20th century (roots in Enlightenment)</sub>
+- **Spiritual But Not Religious** _(also: SBNR)_ — Nontheistic & Philosophical ▸ Modern Naturalistic Lifeways ▸ Spiritual But Not Religious
+  A contemporary orientation valuing personal spiritual experience and growth while rejecting affiliation with organized religious institutions.  
+  <sub>~hundreds of millions · North America,Europe,global · late 20th century</sub>
+- **Stoicism** _(also: Stoa; Stōïkismos)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Stoicism
+  A Hellenistic philosophy holding that virtue grounded in reason and accord with nature is the sole basis of a flourishing life.  
+  <sub>Ancient Greece,Roman world,global (modern revival) · c. 300 BCE</sub>
+- **Sunday Assembly** _(also: Godless congregation,Atheist church)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Humanism ▸ Sunday Assembly
+  A secular congregational movement holding uplifting community gatherings with music and talks under the motto "live better, help often, wonder more."  
+  <sub>thousands across dozens of chapters · United Kingdom,United States,Australia · 2013 (London)</sub>
+- **Transcendentalism** _(also: New England Transcendentalism)_ — Nontheistic & Philosophical ▸ Modern Philosophy ▸ Transcendentalism
+  A 19th-century American movement emphasizing individual intuition, self-reliance, and the spiritual unity of humanity with nature over institutional religion.  
+  <sub>United States (New England) · 1830s-1840s</sub>
+- **Transhumanism as Worldview** _(also: H+)_ — Nontheistic & Philosophical ▸ Techno-Progressive Worldviews ▸ Transhumanism
+  A worldview advocating the use of technology to radically enhance human physical, cognitive, and emotional capacities and transcend biological limits.  
+  <sub>North America,Europe,global · late 20th century</sub>
+- **Utilitarianism** _(also: Utilitarian ethics; greatest-happiness principle)_ — Nontheistic & Philosophical ▸ Moral Philosophy ▸ Utilitarianism
+  A consequentialist ethic holding that the right action is the one maximizing overall wellbeing or happiness, counting each affected being impartially.  
+  <sub>United Kingdom,global · late 18th-19th century</sub>
+- **World Pantheism** _(also: WPM; Scientific pantheism; World Pantheist Movement)_ — Nontheistic & Philosophical ▸ Naturalistic Spirituality ▸ World Pantheism
+  An organized naturalistic pantheism revering the universe and nature with awe, without belief in a supernatural god, embracing science and environmental care.  
+  <sub>United States,Europe,global (online) · 1990s-2000s</sub>
+- **Yangism** _(also: Yang Zhu school; Yangzi thought)_ — Nontheistic & Philosophical ▸ Classical Chinese Philosophy ▸ Yangism
+  A classical Chinese philosophy prizing individual self-preservation, keeping one's nature intact, and refusing to sacrifice the self for external gain.  
+  <sub>Ancient China · c. 4th century BCE</sub>
+
 ## Buddhism
 
 _48 traditions_
@@ -1523,95 +1693,6 @@ _28 traditions_
 - **Yeshivish Community** _(also: Yeshiva world,Black Hat,Yeshivishe)_ — Judaism ▸ Orthodox ▸ Haredi ▸ Yeshivish
   An American Haredi subculture centered on lifelong yeshiva Torah study, distinctive dress, and a Talmud-focused ideal of scholarly devotion.  
   <sub>~400 thousand · United States,Israel · 20th century</sub>
-
-## Nontheistic & Philosophical
-
-_28 traditions_
-
-- **Absurdism** _(also: Philosophy of the Absurd)_ — Nontheistic & Philosophical ▸ Existential Philosophy ▸ Absurdism
-  A philosophy holding that humans seek meaning in an indifferent universe, and that one should embrace this tension through revolt and lucid living.  
-  <sub>France,Europe,global · mid 20th century</sub>
-- **Agnosticism** _(also: Agnostic (T.H. Huxley's coinage))_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Agnosticism
-  The view that the existence or nature of the divine is unknown or, in stronger forms, inherently unknowable to human reason.  
-  <sub>hundreds of millions (overlaps other categories) · Europe,North America,worldwide · 19th century (term); ancient antecedents</sub>
-- **Apatheism** _(also: Pragmatic atheism,Practical indifference)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Apatheism
-  An attitude of apathy toward the existence of deities, regarding the question as unimportant or irrelevant to how one lives.  
-  <sub>secularized societies worldwide · modern (term); perennial attitude</sub>
-- **Atheism** _(also: Nonbelief,Godlessness,Strong/positive atheism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Atheism
-  The absence or rejection of belief in deities, ranging from simple lack of belief to the positive assertion that no gods exist.  
-  <sub>~200 million (self-identified; more by broad definition) · East Asia,Europe,North America,worldwide · ancient (as a position); modern movement</sub>
-- **Confucian Secular Ethics** _(also: Rujia; 儒家)_ — Nontheistic & Philosophical ▸ Chinese Philosophy ▸ Confucian Secular Ethics
-  A tradition of ethical self-cultivation emphasizing benevolence, ritual propriety, and social harmony through the fulfillment of relational duties.  
-  <sub>China,Korea,Japan,Vietnam · c. 5th century BCE</sub>
-- **Cosmism** _(also: Russian Cosmism)_ — Nontheistic & Philosophical ▸ Techno-Progressive Worldviews ▸ Cosmism
-  A speculative movement envisioning humanity's technological transformation of the cosmos, including space expansion and the possible resurrection of the dead.  
-  <sub>Russia,global · late 19th century</sub>
-- **Cynicism** _(also: Kynismos)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Cynicism
-  An ancient philosophy urging a life of virtue lived in agreement with nature, rejecting convention, wealth, and social status.  
-  <sub>Ancient Greece,Roman world · c. 4th century BCE</sub>
-- **Deism** _(also: Natural religion,Classical Deism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Deism
-  The belief in a creator known through reason and observation of nature, who does not intervene in the world after its creation.  
-  <sub>hundreds of thousands (self-identified) · Europe,North America · 17th-18th century (Enlightenment)</sub>
-- **Epicureanism** _(also: The Garden; Epikoúreios)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Epicureanism
-  A philosophy teaching that a tranquil life free of pain and fear is achieved through modest pleasures, friendship, and understanding nature.  
-  <sub>Ancient Greece,Roman world · c. 307 BCE</sub>
-- **Ethical Culture** _(also: Ethical Movement,Ethical Humanism,Society for Ethical Culture)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Humanism ▸ Ethical Culture
-  A humanistic ethical and congregational movement emphasizing moral living—"deed before creed"—independent of theological belief.  
-  <sub>a few thousand members · United States,United Kingdom · 1876 (Felix Adler, New York)</sub>
-- **Freethought** _(also: Freethinking,Libre-pensée)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Freethought
-  A philosophical stance holding that beliefs should be formed by reason, logic, and empirical evidence rather than authority, tradition, or dogma.  
-  <sub>Europe,North America,worldwide · 17th-19th century</sub>
-- **Humanistic Judaism** _(also: Secular Humanistic Judaism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Humanism ▸ Humanistic Judaism
-  A nontheistic movement celebrating Jewish culture, identity, and ethics through a humanistic philosophy rather than belief in God.  
-  <sub>tens of thousands · United States,Israel,Canada · 1963 (Sherwin Wine, Michigan)</sub>
-- **Ietsism** _(also: Ietsisme; 'somethingism')_ — Nontheistic & Philosophical ▸ Modern Naturalistic Lifeways ▸ Ietsism
-  An unstructured belief that there is 'something' greater or transcendent, without committing to any defined deity or organized religion.  
-  <sub>Netherlands,Western Europe · late 20th century</sub>
-- **Ignosticism** _(also: Igtheism,Theological noncognitivism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Ignosticism
-  The position that the question of God's existence is meaningless until "God" is coherently defined, treating the term as cognitively empty.  
-  <sub>Western philosophical circles · 20th century</sub>
-- **Naturalistic Pantheism** _(also: Scientific Pantheism,World Pantheism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Pantheism ▸ Naturalistic Pantheism
-  A reverential naturalism identifying the divine with the universe and nature itself, holding no supernatural or personal deity beyond the cosmos.  
-  <sub>Europe,North America,online communities · modern (roots in Spinoza)</sub>
-- **Neo-Confucianism** _(also: Lixue; 理學)_ — Nontheistic & Philosophical ▸ Chinese Philosophy ▸ Confucian Secular Ethics ▸ Neo-Confucianism
-  A revived Confucian tradition integrating metaphysics of principle and vital force with moral self-cultivation and rigorous ethical inquiry.  
-  <sub>China,Korea,Japan · 11th century CE</sub>
-- **Neoplatonism** _(also: Platonism (late antique))_ — Nontheistic & Philosophical ▸ Platonic Tradition ▸ Neoplatonism
-  A late-antique philosophy positing reality as emanations from a transcendent ineffable One, toward which the soul ascends through contemplation.  
-  <sub>Roman Egypt,Mediterranean world · 3rd century CE</sub>
-- **Neostoicism** _(also: Modern Stoicism; Stoic revival)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Stoicism ▸ Modern Stoicism
-  A contemporary revival adapting classical Stoic practices of emotional resilience and virtue ethics for secular self-improvement and daily life.  
-  <sub>North America,Europe,global · 21st century</sub>
-- **New Atheism** _(also: Antitheism,Movement atheism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Atheism ▸ New Atheism
-  An early-21st-century activist current of atheism that vocally criticizes religion and promotes science, skepticism, and secularism in public life.  
-  <sub>millions (loose movement) · North America,United Kingdom,online communities · early 21st century</sub>
-- **Pandeism** _(also: Pan-deism)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Deism ▸ Pandeism
-  A view combining deism and pantheism, holding that a creator became the universe and thereby ceased to exist as a separate, conscious entity.  
-  <sub>Western philosophical circles · modern (term); older antecedents</sub>
-- **Philosophical Taoism** _(also: Daojia; 道家)_ — Nontheistic & Philosophical ▸ Chinese Philosophy ▸ Philosophical Taoism
-  A Chinese philosophical tradition centered on living in spontaneous harmony with the Dao, the ineffable natural order, through effortless action.  
-  <sub>China,East Asia · c. 4th century BCE</sub>
-- **Religious Naturalism** _(also: Naturalistic spirituality)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Naturalism ▸ Religious Naturalism
-  An orientation that finds religious meaning, awe, and reverence entirely within the natural world, without appeal to a supernatural realm.  
-  <sub>North America,Europe · 20th century</sub>
-- **Secular Buddhism** _(also: Naturalistic Buddhism)_ — Nontheistic & Philosophical ▸ Modern Naturalistic Lifeways ▸ Secular Buddhism
-  A modern movement reinterpreting Buddhist practice and ethics in naturalistic terms, setting aside supernatural claims like literal rebirth.  
-  <sub>North America,Europe,Australia · late 20th century</sub>
-- **Secular Humanism** _(also: Scientific Humanism,Secular Humanist ethics)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Humanism ▸ Secular Humanism
-  A life stance affirming human reason, ethics, and dignity without reference to the supernatural, seeking meaning and morality through this-worldly inquiry.  
-  <sub>tens of millions (estimates vary) · Europe,North America,Australia,urban worldwide · 20th century (roots in Enlightenment)</sub>
-- **Spiritual But Not Religious** _(also: SBNR)_ — Nontheistic & Philosophical ▸ Modern Naturalistic Lifeways ▸ Spiritual But Not Religious
-  A contemporary orientation valuing personal spiritual experience and growth while rejecting affiliation with organized religious institutions.  
-  <sub>~hundreds of millions · North America,Europe,global · late 20th century</sub>
-- **Stoicism** _(also: Stoa; Stōïkismos)_ — Nontheistic & Philosophical ▸ Hellenistic Philosophy ▸ Stoicism
-  A Hellenistic philosophy holding that virtue grounded in reason and accord with nature is the sole basis of a flourishing life.  
-  <sub>Ancient Greece,Roman world,global (modern revival) · c. 300 BCE</sub>
-- **Sunday Assembly** _(also: Godless congregation,Atheist church)_ — Nontheistic & Philosophical ▸ Secular Worldviews ▸ Humanism ▸ Sunday Assembly
-  A secular congregational movement holding uplifting community gatherings with music and talks under the motto "live better, help often, wonder more."  
-  <sub>thousands across dozens of chapters · United Kingdom,United States,Australia · 2013 (London)</sub>
-- **Transhumanism as Worldview** _(also: H+)_ — Nontheistic & Philosophical ▸ Techno-Progressive Worldviews ▸ Transhumanism
-  A worldview advocating the use of technology to radically enhance human physical, cognitive, and emotional capacities and transcend biological limits.  
-  <sub>North America,Europe,global · late 20th century</sub>
 
 ## Indian Dharmic
 

@@ -1,7 +1,7 @@
 import type { Religion } from './types';
 
 /**
- * Auto-generated comparative-religion catalog (558 traditions).
+ * Auto-generated comparative-religion catalog (585 traditions).
  * Each entry carries a stance vector over the belief dimensions in dimensions.ts.
  * Descriptions are neutral and for exploration/education only.
  * Regenerate via the faith-catalog workflow + scratchpad/merge-faith-data.mjs.
@@ -83,6 +83,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -161,6 +171,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "embrace": 0.5
       }
     }
   },
@@ -233,6 +254,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -305,6 +337,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -378,6 +421,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -457,6 +511,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -529,6 +592,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "relationships": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -610,6 +683,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -682,6 +766,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -761,6 +856,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -841,6 +946,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -912,6 +1027,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -995,6 +1119,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -1064,6 +1199,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -1143,6 +1288,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -1222,6 +1377,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -1293,6 +1458,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -1364,6 +1540,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -1446,6 +1633,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -1528,6 +1725,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -1606,6 +1813,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -1685,6 +1902,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -1758,6 +1985,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -1837,6 +2075,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -1909,6 +2158,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -1982,6 +2242,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "relationships": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -2061,6 +2331,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -2133,6 +2414,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -2212,6 +2503,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -2289,6 +2590,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -2367,6 +2678,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -2446,6 +2766,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -2524,6 +2854,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -2604,6 +2944,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -2684,6 +3035,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -2767,6 +3127,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -2842,6 +3212,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -2920,6 +3300,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -3000,6 +3390,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -3077,6 +3477,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -3158,6 +3567,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -3239,6 +3657,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -3321,6 +3749,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -3396,6 +3833,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -3471,6 +3918,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -3551,6 +4008,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -3631,6 +4097,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -3711,6 +4188,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -3791,6 +4277,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -3869,6 +4365,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -3950,6 +4455,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -4029,6 +4544,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -4111,6 +4636,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -4196,6 +4731,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -4272,6 +4817,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -4354,6 +4909,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -4434,6 +4999,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -4515,6 +5089,18 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 0.5,
+        "transcend": 0.5
       }
     }
   },
@@ -4594,6 +5180,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -4679,6 +5275,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -4753,6 +5359,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -4833,6 +5449,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -4915,6 +5540,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "relationships": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -4990,6 +5625,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -5072,6 +5717,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "master": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -5154,6 +5809,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -5236,6 +5900,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 0.5,
+        "transcend": 0.5
       }
     }
   },
@@ -5312,6 +5987,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "embrace": 0.5
       }
     }
   },
@@ -5391,6 +6077,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -5475,6 +6170,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -5555,6 +6260,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -5636,6 +6350,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -5721,6 +6444,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -5798,6 +6531,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -5880,6 +6622,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -5959,6 +6711,18 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -6042,6 +6806,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -6119,6 +6893,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 0.5,
+        "transcend": 0.5
       }
     }
   },
@@ -6198,6 +6983,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -6279,6 +7073,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -6358,6 +7161,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -6438,6 +7251,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -6521,6 +7343,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -6603,6 +7434,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -6686,6 +7526,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -6769,6 +7619,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -6850,6 +7710,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -6933,6 +7803,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -7017,6 +7896,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -7103,6 +7991,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -7185,6 +8083,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -7268,6 +8176,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -7348,6 +8266,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -7432,6 +8359,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -7510,6 +8446,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -7593,6 +8538,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -7671,6 +8625,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -7754,6 +8717,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -7838,6 +8810,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -7923,6 +8904,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -8006,6 +8996,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -8089,6 +9088,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -8170,6 +9178,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -8251,6 +9268,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -8334,6 +9360,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -8410,6 +9445,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -8490,6 +9535,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -8571,6 +9625,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -8654,6 +9717,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -8736,6 +9809,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -8817,6 +9901,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -8901,6 +9995,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -8982,6 +10087,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -9064,6 +10178,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -9142,6 +10265,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -9221,6 +10354,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -9304,6 +10447,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -9386,6 +10539,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -9467,6 +10629,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -9548,6 +10720,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -9632,6 +10813,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -9716,6 +10906,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -9798,6 +10998,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 1,
         "reason": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -9882,6 +11092,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -9966,6 +11186,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -10050,6 +11280,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -10129,6 +11369,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -10210,6 +11459,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -10291,6 +11549,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -10372,6 +11639,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -10450,6 +11726,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -10532,6 +11817,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 1,
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -10616,6 +11911,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -10695,6 +12000,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -10770,6 +12085,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -10851,6 +12175,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -10930,6 +12263,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -11013,6 +12355,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -11093,6 +12445,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -11177,6 +12538,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -11256,6 +12627,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -11336,6 +12716,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -11415,6 +12804,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -11494,6 +12893,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -11576,6 +12984,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -11658,6 +13075,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -11734,6 +13161,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -11814,6 +13250,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -11893,6 +13340,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -11977,6 +13435,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -12063,6 +13531,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -12146,6 +13624,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -12223,6 +13710,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -12303,6 +13800,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -12386,6 +13892,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -12460,6 +13975,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -12544,6 +14069,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 1,
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -12627,6 +14162,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -12705,6 +14250,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -12790,6 +14345,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -12871,6 +14436,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -12950,6 +14524,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -13030,6 +14614,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -13109,6 +14702,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -13186,6 +14789,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -13267,6 +14879,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -13351,6 +14972,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -13428,6 +15058,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -13511,6 +15150,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -13591,6 +15239,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -13671,6 +15328,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -13754,6 +15420,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -13831,6 +15506,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -13912,6 +15596,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 1,
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -13992,6 +15685,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -14075,6 +15777,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -14156,6 +15867,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -14236,6 +15957,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -14316,6 +16047,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -14395,6 +16135,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -14478,6 +16227,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 1,
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -14554,6 +16313,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -14635,6 +16403,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -14716,6 +16494,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -14798,6 +16585,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 1,
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -14881,6 +16677,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -14963,6 +16768,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -15047,6 +16862,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -15131,6 +16955,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -15212,6 +17045,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -15282,6 +17124,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -15367,6 +17219,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 1,
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -15450,6 +17311,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -15531,6 +17401,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -15608,6 +17487,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -15692,6 +17581,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 1,
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -15777,6 +17676,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 1,
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -15852,6 +17760,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -15936,6 +17853,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -16019,6 +17945,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -16102,6 +18038,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -16184,6 +18130,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -16265,6 +18220,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -16347,6 +18311,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -16426,6 +18400,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -16506,6 +18489,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -16586,6 +18579,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -16667,6 +18669,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -16743,6 +18755,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -16821,6 +18843,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -16905,6 +18936,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -16988,6 +19028,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -17071,6 +19121,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -17152,6 +19211,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -17232,6 +19302,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -17312,6 +19392,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -17388,6 +19477,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -17468,6 +19566,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -17547,6 +19655,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -17625,6 +19742,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -17703,6 +19829,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -17788,6 +19924,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -17863,6 +20009,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -17937,6 +20093,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -18019,6 +20185,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -18100,6 +20277,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -18175,6 +20362,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -18249,6 +20446,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -18330,6 +20537,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -18407,6 +20624,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -18487,6 +20713,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -18559,6 +20796,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -18637,6 +20885,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -18717,6 +20975,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -18789,6 +21056,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -18859,6 +21136,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -18934,6 +21221,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -19015,6 +21313,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -19092,6 +21400,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -19169,6 +21487,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -19243,6 +21571,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -19324,6 +21662,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -19395,6 +21743,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -19467,6 +21825,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -19548,6 +21916,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -19625,6 +22002,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -19698,6 +22084,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -19780,6 +22177,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -19855,6 +22261,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -19929,6 +22345,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -20002,6 +22428,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -20080,6 +22516,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -20155,6 +22600,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -20233,6 +22689,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -20307,6 +22772,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -20376,6 +22851,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -20450,6 +22935,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -20522,6 +23017,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -20599,6 +23103,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -20674,6 +23188,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -20751,6 +23274,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -20828,6 +23362,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -20907,6 +23451,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -20984,6 +23539,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -21063,6 +23629,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -21140,6 +23717,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -21209,6 +23796,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -21293,6 +23889,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "embrace": 0.5
       }
     }
   },
@@ -21368,6 +23974,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -21447,6 +24063,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -21526,6 +24152,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -21607,6 +24243,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -21691,6 +24337,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -21775,6 +24431,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -21856,6 +24522,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -21938,6 +24614,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -22013,6 +24699,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -22087,6 +24783,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -22156,6 +24861,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -22230,6 +24946,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -22304,6 +25029,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -22387,6 +25122,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -22466,6 +25210,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -22548,6 +25302,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -22630,6 +25394,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -22712,6 +25486,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 0.5,
+        "transcend": 0.5
       }
     }
   },
@@ -22794,6 +25578,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -22875,6 +25669,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -22959,6 +25763,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -23040,6 +25854,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -23124,6 +25948,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "embrace": 0.5
       }
     }
   },
@@ -23209,6 +26044,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "embrace": 0.5
       }
     }
   },
@@ -23294,6 +26139,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "embrace": 0.5
       }
     }
   },
@@ -23378,6 +26233,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -23460,6 +26325,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -23539,6 +26414,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -23621,6 +26506,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -23707,6 +26603,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -23787,6 +26692,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 0.5,
+        "transcend": 0.5
       }
     }
   },
@@ -23870,6 +26786,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -23954,6 +26880,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -24029,6 +26964,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -24103,6 +27047,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -24186,6 +27140,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -24270,6 +27233,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -24351,6 +27324,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -24431,6 +27413,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -24503,6 +27494,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -24578,6 +27578,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -24662,6 +27671,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -24744,6 +27763,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -24827,6 +27856,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -24898,6 +27936,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -24979,6 +28027,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -25064,6 +28121,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -25138,6 +28205,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -25221,6 +28298,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -25305,6 +28391,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -25387,6 +28483,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -25465,6 +28571,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -25547,6 +28663,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -25621,6 +28748,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -25700,6 +28837,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -25784,6 +28930,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -25869,6 +29024,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -25951,6 +29116,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -26030,6 +29205,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -26111,6 +29296,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -26190,6 +29385,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -26272,6 +29477,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -26352,6 +29566,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -26430,6 +29653,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -26510,6 +29743,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -26590,6 +29833,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -26668,6 +29921,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -26747,6 +30011,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -26826,6 +30099,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -26904,6 +30187,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -26985,6 +30277,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -27065,6 +30367,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -27143,6 +30456,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -27223,6 +30545,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -27301,6 +30632,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -27380,6 +30721,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -27458,6 +30809,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -27538,6 +30898,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -27618,6 +30988,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -27698,6 +31077,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -27775,6 +31165,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -27855,6 +31254,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -27935,6 +31343,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -28010,6 +31427,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -28093,6 +31520,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -28172,6 +31609,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -28253,6 +31699,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -28334,6 +31789,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -28412,6 +31876,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -28489,6 +31963,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -28567,6 +32050,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -28647,6 +32139,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -28728,6 +32229,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -28806,6 +32316,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -28883,6 +32404,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -28961,6 +32491,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -29040,6 +32579,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -29120,6 +32668,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -29200,6 +32758,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -29280,6 +32848,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -29363,6 +32940,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -29441,6 +33028,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -29522,6 +33118,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -29603,6 +33209,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -29677,6 +33293,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -29754,6 +33379,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -29831,6 +33465,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -29909,6 +33553,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -29989,6 +33643,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -30069,6 +33733,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -30143,6 +33816,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -30223,6 +33906,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -30299,6 +33992,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -30374,6 +34077,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -30450,6 +34163,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -30528,6 +34252,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -30605,6 +34339,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -30683,6 +34427,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -30755,6 +34509,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -30833,6 +34596,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -30911,6 +34683,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -30990,6 +34771,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -31070,6 +34860,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -31150,6 +34949,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -31229,6 +35038,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -31311,6 +35129,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -31390,6 +35218,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -31468,6 +35305,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -31543,6 +35389,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -31623,6 +35478,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -31704,6 +35568,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -31780,6 +35653,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -31860,6 +35743,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -31941,6 +35834,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -32019,6 +35921,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -32099,6 +36011,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -32179,6 +36100,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -32257,6 +36187,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -32338,6 +36278,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -32418,6 +36367,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -32498,6 +36456,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -32573,6 +36540,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -32652,6 +36628,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -32728,6 +36713,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -32809,6 +36804,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -32886,6 +36890,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -32964,6 +36977,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -33039,6 +37062,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -33120,6 +37152,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -33198,6 +37240,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -33277,6 +37328,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -33353,6 +37413,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -33433,6 +37502,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -33510,6 +37589,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -33587,6 +37676,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -33666,6 +37764,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -33746,6 +37853,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -33822,6 +37938,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -33902,6 +38027,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -33983,6 +38118,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -34061,6 +38206,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -34142,6 +38296,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -34220,6 +38383,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -34300,6 +38473,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -34383,6 +38566,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -34466,6 +38659,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -34548,6 +38752,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -34630,6 +38843,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -34715,6 +38938,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -34795,6 +39028,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -34878,6 +39120,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -34956,6 +39208,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -35039,6 +39301,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -35119,6 +39392,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -35200,6 +39482,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -35282,6 +39574,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -35362,6 +39664,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -35445,6 +39757,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -35526,6 +39848,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -35608,6 +39940,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -35689,6 +40030,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -35770,6 +40121,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -35854,6 +40214,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -35936,6 +40307,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "divine-command": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -36018,6 +40399,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -36096,6 +40486,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -36179,6 +40579,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -36260,6 +40670,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -36343,6 +40763,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -36422,6 +40852,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -36505,6 +40945,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -36587,6 +41037,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -36666,6 +41126,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -36742,6 +41213,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -36822,6 +41302,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -36896,6 +41386,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -36974,6 +41474,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "karma": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -37050,6 +41559,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "welcoming": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -37132,6 +41651,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -37212,6 +41742,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -37289,6 +41829,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -37369,6 +41918,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -37449,6 +42007,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -37526,6 +42094,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "none-and-ok": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -37601,6 +42179,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -37679,6 +42267,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "none-and-ok": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -37757,6 +42355,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -37835,6 +42443,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -37910,6 +42528,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -37982,6 +42611,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -38060,6 +42699,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -38134,6 +42783,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -38210,6 +42869,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -38288,6 +42957,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -38365,6 +43044,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -38435,6 +43123,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -38514,6 +43211,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -38591,6 +43298,17 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "welcoming": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "divine-plan": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -38671,6 +43389,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -38747,6 +43474,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -38824,6 +43560,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -38905,6 +43651,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -38980,6 +43735,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "welcoming": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -39060,6 +43825,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -39137,6 +43911,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "none-and-ok": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -39217,6 +44000,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -39292,6 +44085,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -39373,6 +44175,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -39453,6 +44265,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -39533,6 +44355,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -39612,6 +44443,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -39690,6 +44531,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -39766,6 +44617,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -39843,6 +44703,17 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -39916,6 +44787,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -39997,6 +44877,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -40076,6 +44965,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -40152,6 +45051,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -40232,6 +45140,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -40311,6 +45228,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "devotion-divine": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -40390,6 +45317,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -40469,6 +45405,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "closed": 1
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -40545,6 +45491,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -40620,6 +45576,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "proselytizing": {
         "non-proselytizing": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -40701,6 +45667,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "divine-command": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -40781,6 +45757,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -40860,6 +45846,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -40938,6 +45934,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -41018,6 +46024,87 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-hellenistic-philosophy-skepticism-academic-skepticism-",
+    "name": "Academic Skepticism",
+    "aka": "New Academy; Academic scepticism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Hellenistic Philosophy",
+      "Skepticism",
+      "Academic Skepticism"
+    ],
+    "shortDescription": "A skeptical school of Plato's later Academy holding that certain knowledge is unattainable, favoring probability and withheld assent as guides to life.",
+    "primaryRegions": "Ancient Greece,Roman world",
+    "foundedEra": "c. 3rd century BCE",
+    "profile": {
+      "theism": {
+        "agnostic": 1
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "uncertain": 1
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "balanced": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "sages": 1
+      },
+      "era": {
+        "ancient": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "none-and-ok": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -41093,6 +46180,87 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "none-and-ok": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-secularism-nonbelief-antitheism-antitheism",
+    "name": "Antitheism",
+    "aka": "Anti-theism; anti-religion",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Secularism & Nonbelief",
+      "Antitheism"
+    ],
+    "shortDescription": "An active opposition to theism and organized religion, holding belief in gods to be false and, on balance, harmful to human wellbeing.",
+    "primaryRegions": "global",
+    "foundedEra": "modern",
+    "profile": {
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "affirming": 0.5,
+        "balanced": 0.5
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "exclusive": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "proselytizing": {
+        "active": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -41168,6 +46336,90 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "none-and-ok": 1
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-classical-greek-philosophy-aristotelianism-aristotelia",
+    "name": "Aristotelianism",
+    "aka": "Peripatetic school; Aristotelian virtue ethics",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Classical Greek Philosophy",
+      "Aristotelianism"
+    ],
+    "shortDescription": "A philosophy centered on achieving eudaimonia (flourishing) through cultivating virtues of character and intellect, guided by reason and the mean.",
+    "primaryRegions": "Ancient Greece,Mediterranean world,global",
+    "foundedEra": "c. 335 BCE",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5,
+        "deism": 0.5
+      },
+      "divineNature": {
+        "impersonal": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "none": 0.5,
+        "uncertain": 0.5
+      },
+      "salvationPath": {
+        "self-cultivation": 1
+      },
+      "worldStance": {
+        "balanced": 1
+      },
+      "ritualIntensity": {
+        "low": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "sages": 1
+      },
+      "era": {
+        "ancient": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 1,
+        "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -41244,6 +46496,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -41327,6 +46588,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 1,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -41407,6 +46678,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -41486,6 +46767,164 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 1,
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-hellenistic-philosophy-cyrenaic-hedonism-cyrenaic-hedo",
+    "name": "Cyrenaic Hedonism",
+    "aka": "Cyrenaic school; Cyrenaicism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Hellenistic Philosophy",
+      "Cyrenaic Hedonism"
+    ],
+    "shortDescription": "An ancient hedonist philosophy holding that immediate bodily pleasure is the highest good and the only reliable measure of a good life.",
+    "primaryRegions": "Ancient Greece (Cyrene),Mediterranean world",
+    "foundedEra": "c. 4th century BCE",
+    "profile": {
+      "theism": {
+        "agnostic": 0.5,
+        "nontheism": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "personal-experience": 1
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "sages": 1
+      },
+      "era": {
+        "ancient": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 0.5,
+        "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-environmental-philosophy-deep-ecology-deep-ecology",
+    "name": "Deep Ecology",
+    "aka": "Ecosophy",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Environmental Philosophy",
+      "Deep Ecology"
+    ],
+    "shortDescription": "An environmental philosophy holding that all living beings have inherent worth, calling for a fundamental shift away from human-centered values.",
+    "primaryRegions": "Norway,United States,global",
+    "foundedEra": "1970s",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5,
+        "pantheism": 0.5
+      },
+      "divineNature": {
+        "impersonal": 0.5,
+        "none": 0.5
+      },
+      "authority": {
+        "nature": 1
+      },
+      "afterlife": {
+        "none": 0.5,
+        "uncertain": 0.5
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "affirming": 0.5,
+        "ascetic": 0.5
+      },
+      "ritualIntensity": {
+        "low": 1
+      },
+      "mysticism": {
+        "present": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "animate": 0.5,
+        "naturalistic": 0.5
+      },
+      "moralSource": {
+        "natural-law": 0.5,
+        "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -41565,6 +47004,91 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-contemporary-ethical-movements-effective-altruism-effe",
+    "name": "Effective Altruism",
+    "aka": "EA",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Contemporary Ethical Movements",
+      "Effective Altruism"
+    ],
+    "shortDescription": "A movement using evidence and reason to determine how to do the most good, prioritizing high-impact giving and careers to help others impartially.",
+    "primaryRegions": "United States,United Kingdom,global",
+    "foundedEra": "2000s-2010s",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5,
+        "agnostic": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "none": 0.5,
+        "uncertain": 0.5
+      },
+      "salvationPath": {
+        "good-works": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 0.5,
+        "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -41643,6 +47167,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 1,
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -41723,6 +47256,164 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-moral-philosophy-ethical-naturalism-ethical-naturalism",
+    "name": "Ethical Naturalism",
+    "aka": "Naturalistic moral realism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Moral Philosophy",
+      "Ethical Naturalism"
+    ],
+    "shortDescription": "A metaethical view holding that moral facts are natural facts, knowable by reason and observation without appeal to any supernatural source.",
+    "primaryRegions": "global",
+    "foundedEra": "modern",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5,
+        "agnostic": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 0.5,
+        "nature": 0.5
+      },
+      "afterlife": {
+        "none": 0.5,
+        "uncertain": 0.5
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "affirming": 0.5,
+        "balanced": 0.5
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "natural-law": 0.5,
+        "reason": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-futurist-philosophies-extropianism-extropianism",
+    "name": "Extropianism",
+    "aka": "Extropy; Extropian transhumanism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Futurist Philosophies",
+      "Extropianism"
+    ],
+    "shortDescription": "An optimistic transhumanist philosophy promoting perpetual progress, self-transformation, rational thinking, and technology to overcome human limits including death.",
+    "primaryRegions": "United States,global",
+    "foundedEra": "1980s-1990s",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "knowledge": 0.5,
+        "self-cultivation": 0.5
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "self": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -41797,6 +47488,89 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-environmental-philosophy-gaianism-gaianism",
+    "name": "Gaianism",
+    "aka": "Gaia philosophy; Gaian spirituality",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Environmental Philosophy",
+      "Gaianism"
+    ],
+    "shortDescription": "An Earth-centered worldview treating the planet as a single self-regulating living system worthy of reverence, care, and ecological responsibility.",
+    "primaryRegions": "global",
+    "foundedEra": "late 20th century",
+    "profile": {
+      "theism": {
+        "pantheism": 0.5,
+        "animism": 0.5
+      },
+      "divineNature": {
+        "impersonal": 1
+      },
+      "authority": {
+        "nature": 1
+      },
+      "afterlife": {
+        "none": 0.5,
+        "uncertain": 0.5
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "low": 1
+      },
+      "mysticism": {
+        "present": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "goddess": 0.5,
+        "none": 0.5
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "animate": 1
+      },
+      "moralSource": {
+        "harmony": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -41879,6 +47653,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "relationships": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -41959,6 +47743,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -42033,6 +47827,170 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "none-and-ok": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-classical-chinese-philosophy-legalism-legalism-chinese",
+    "name": "Legalism (Chinese Fajia)",
+    "aka": "Fajia; School of Law; Legalist statecraft",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Classical Chinese Philosophy",
+      "Legalism"
+    ],
+    "shortDescription": "A classical Chinese political philosophy holding that order comes from strict codified law, clear rewards and punishments, and centralized state power.",
+    "primaryRegions": "Ancient China",
+    "foundedEra": "c. 4th-3rd century BCE",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5,
+        "agnostic": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "tradition": 0.5,
+        "reason": 0.5
+      },
+      "afterlife": {
+        "none": 0.5,
+        "uncertain": 0.5
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "balanced": 1
+      },
+      "ritualIntensity": {
+        "low": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "hierarchical": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "exclusive": 0.5,
+        "inclusive": 0.5
+      },
+      "keyFigures": {
+        "sages": 1
+      },
+      "era": {
+        "ancient": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "natural-law": 0.5,
+        "reason": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "lawInDailyLife": {
+        "comprehensive": 1
+      },
+      "desireStance": {
+        "master": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-classical-chinese-philosophy-mohism-mohism",
+    "name": "Mohism",
+    "aka": "Mojia; Moism; School of Mo",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Classical Chinese Philosophy",
+      "Mohism"
+    ],
+    "shortDescription": "A classical Chinese philosophy advocating impartial care for all, meritocracy, frugality, and opposition to aggressive war, judged by benefit to society.",
+    "primaryRegions": "Ancient China",
+    "foundedEra": "c. 5th century BCE",
+    "profile": {
+      "theism": {
+        "agnostic": 0.5,
+        "polytheism": 0.5
+      },
+      "divineNature": {
+        "impersonal": 1
+      },
+      "authority": {
+        "reason": 0.5,
+        "living-teacher": 0.5
+      },
+      "afterlife": {
+        "uncertain": 1
+      },
+      "salvationPath": {
+        "good-works": 1
+      },
+      "worldStance": {
+        "ascetic": 0.5,
+        "balanced": 0.5
+      },
+      "ritualIntensity": {
+        "low": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "hierarchical": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "sages": 1
+      },
+      "era": {
+        "ancient": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 0.5,
+        "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -42110,6 +48068,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -42194,6 +48162,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "harmony": 0.5,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -42272,6 +48250,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 1,
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -42351,6 +48339,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 1,
         "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -42426,6 +48424,229 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-modern-philosophy-nihilism-nihilism",
+    "name": "Nihilism",
+    "aka": "Existential nihilism; moral nihilism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Modern Philosophy",
+      "Nihilism"
+    ],
+    "shortDescription": "A view holding that life, values, and knowledge lack objective or inherent meaning, and that no transcendent purpose underwrites human existence.",
+    "primaryRegions": "Europe,global",
+    "foundedEra": "19th century",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 0.5,
+        "personal-experience": 0.5
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "balanced": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "solitary": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "none-and-ok": 1
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-modern-philosophy-objectivism-objectivism",
+    "name": "Objectivism",
+    "aka": "Randian philosophy",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Modern Philosophy",
+      "Objectivism"
+    ],
+    "shortDescription": "A philosophy founded by Ayn Rand holding that reality is objective, reason is the only means of knowledge, and rational self-interest is the proper moral aim.",
+    "primaryRegions": "United States,global",
+    "foundedEra": "mid-20th century",
+    "profile": {
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "exclusive": 1
+      },
+      "keyFigures": {
+        "self": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-modern-philosophy-nihilism-optimistic-nihilism-optimis",
+    "name": "Optimistic Nihilism",
+    "aka": "Positive nihilism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Modern Philosophy",
+      "Nihilism",
+      "Optimistic Nihilism"
+    ],
+    "shortDescription": "A contemporary stance holding that although the universe has no inherent meaning, this freedom lets people create their own purpose and enjoy life.",
+    "primaryRegions": "global (internet culture)",
+    "foundedEra": "21st century",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "personal-experience": 0.5,
+        "reason": 0.5
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "self": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "compassion": 0.5,
+        "reason": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "all-beings": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "none-and-ok": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -42504,6 +48725,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -42584,6 +48814,533 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-classical-greek-philosophy-platonism-platonism",
+    "name": "Platonism",
+    "aka": "Academy; Platonic philosophy",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Classical Greek Philosophy",
+      "Platonism"
+    ],
+    "shortDescription": "An ancient philosophy holding that abstract Forms are the truest reality, grasped by reason, with the Good as the highest object of knowledge.",
+    "primaryRegions": "Ancient Greece,Mediterranean world,global",
+    "foundedEra": "c. 387 BCE",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5,
+        "monotheism": 0.5
+      },
+      "divineNature": {
+        "impersonal": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "reincarnation": 0.5,
+        "liberation": 0.5
+      },
+      "salvationPath": {
+        "knowledge": 1
+      },
+      "worldStance": {
+        "ascetic": 0.5,
+        "balanced": 0.5
+      },
+      "ritualIntensity": {
+        "low": 1
+      },
+      "mysticism": {
+        "present": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "sages": 1
+      },
+      "era": {
+        "ancient": 1
+      },
+      "cosmology": {
+        "monistic": 1
+      },
+      "moralSource": {
+        "reason": 1,
+        "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-modern-philosophy-positivism-positivism-religion-of-hu",
+    "name": "Positivism / Religion of Humanity",
+    "aka": "Comtean Positivism; Church of Humanity; Religion de l'Humanité",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Modern Philosophy",
+      "Positivism"
+    ],
+    "shortDescription": "Auguste Comte's system grounding knowledge in science and organizing a secular Religion of Humanity that venerates humankind rather than any deity.",
+    "primaryRegions": "France,Brazil,Britain",
+    "foundedEra": "19th century",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "good-works": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "moderate": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "congregational": 0.5,
+        "hierarchical": 0.5
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "self": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 0.5,
+        "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-modern-philosophy-pragmatism-pragmatism",
+    "name": "Pragmatism",
+    "aka": "Pragmatist philosophy; American Pragmatism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Modern Philosophy",
+      "Pragmatism"
+    ],
+    "shortDescription": "A philosophy holding that ideas and beliefs are judged by their practical consequences and usefulness in experience rather than by fixed absolutes.",
+    "primaryRegions": "United States,global",
+    "foundedEra": "late 19th century",
+    "profile": {
+      "theism": {
+        "agnostic": 0.5,
+        "nontheism": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 0.5,
+        "personal-experience": 0.5
+      },
+      "afterlife": {
+        "uncertain": 1
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 0.5,
+        "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-hellenistic-philosophy-skepticism-pyrrhonism-pyrrhonis",
+    "name": "Pyrrhonism",
+    "aka": "Pyrrhonian skepticism; Pyrrhonean scepticism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Hellenistic Philosophy",
+      "Skepticism",
+      "Pyrrhonism"
+    ],
+    "shortDescription": "A skeptical philosophy that suspends judgment on all non-evident claims, aiming for tranquility (ataraxia) by withholding dogmatic assent.",
+    "primaryRegions": "Ancient Greece,Roman world",
+    "foundedEra": "c. 3rd century BCE",
+    "profile": {
+      "theism": {
+        "agnostic": 1
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "personal-experience": 0.5,
+        "reason": 0.5
+      },
+      "afterlife": {
+        "uncertain": 1
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "balanced": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "sages": 1
+      },
+      "era": {
+        "ancient": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 0.5,
+        "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "none-and-ok": 1
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-classical-greek-philosophy-pythagoreanism-pythagoreani",
+    "name": "Pythagoreanism",
+    "aka": "Pythagorean school",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Classical Greek Philosophy",
+      "Pythagoreanism"
+    ],
+    "shortDescription": "An ancient philosophical and mathematical way of life holding that number and harmony underlie reality, joined to ascetic discipline and soul purification.",
+    "primaryRegions": "Ancient Greece,Southern Italy",
+    "foundedEra": "c. 530 BCE",
+    "profile": {
+      "theism": {
+        "pantheism": 0.5,
+        "polytheism": 0.5
+      },
+      "divineNature": {
+        "impersonal": 1
+      },
+      "authority": {
+        "living-teacher": 0.5,
+        "reason": 0.5
+      },
+      "afterlife": {
+        "reincarnation": 1
+      },
+      "salvationPath": {
+        "self-cultivation": 0.5,
+        "knowledge": 0.5
+      },
+      "worldStance": {
+        "ascetic": 1
+      },
+      "ritualIntensity": {
+        "moderate": 1
+      },
+      "mysticism": {
+        "central": 1
+      },
+      "community": {
+        "monastic": 0.5,
+        "hierarchical": 0.5
+      },
+      "scope": {
+        "initiatory": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "sages": 1
+      },
+      "era": {
+        "ancient": 1
+      },
+      "cosmology": {
+        "monistic": 0.5,
+        "cyclical": 0.5
+      },
+      "moralSource": {
+        "harmony": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-contemporary-ethical-movements-rationalist-movement-ra",
+    "name": "Rationalist Movement",
+    "aka": "LessWrong rationality; the rationalist community",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Contemporary Ethical Movements",
+      "Rationalist Movement"
+    ],
+    "shortDescription": "A contemporary community seeking to refine human reasoning through probability, cognitive-bias awareness, and Bayesian thinking to form more accurate beliefs.",
+    "primaryRegions": "United States,global (online)",
+    "foundedEra": "2000s-2010s",
+    "profile": {
+      "theism": {
+        "agnostic": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "none": 0.5,
+        "uncertain": 0.5
+      },
+      "salvationPath": {
+        "knowledge": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-humanism-religious-humanism-religious-humanism",
+    "name": "Religious Humanism",
+    "aka": "Humanistic religion; ceremonial humanism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Humanism",
+      "Religious Humanism"
+    ],
+    "shortDescription": "A nontheistic humanist movement that keeps congregational community, ceremony, and ethical commitment while locating meaning in humanity rather than deity.",
+    "primaryRegions": "United States,United Kingdom",
+    "foundedEra": "early 20th century",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5,
+        "agnostic": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 0.5,
+        "personal-experience": 0.5
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "good-works": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "moderate": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "congregational": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 0.5,
+        "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "family-community": 0.5
+      },
+      "meaningSource": {
+        "relationships": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -42662,6 +49419,88 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "natural-law": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "embrace": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-secularism-nonbelief-scientific-skepticism-scientific-",
+    "name": "Scientific Skepticism",
+    "aka": "Rational skepticism; the skeptical movement",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Secularism & Nonbelief",
+      "Scientific Skepticism"
+    ],
+    "shortDescription": "A movement applying scientific method and critical inquiry to test claims, rejecting the paranormal and pseudoscience for lack of reliable evidence.",
+    "primaryRegions": "United States,Europe,global",
+    "foundedEra": "20th century",
+    "profile": {
+      "theism": {
+        "agnostic": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "none": 0.5,
+        "uncertain": 0.5
+      },
+      "salvationPath": {
+        "knowledge": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -42743,6 +49582,89 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 1,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "transcend": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-modern-continental-philosophy-secular-existentialism-s",
+    "name": "Secular Existentialism",
+    "aka": "Atheistic existentialism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Modern Continental Philosophy",
+      "Secular Existentialism"
+    ],
+    "shortDescription": "A modern philosophy holding that existence precedes essence, so individuals must create meaning and values through free, responsible choice in a godless world.",
+    "primaryRegions": "Europe,global",
+    "foundedEra": "20th century",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "personal-experience": 1
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "affirming": 0.5,
+        "balanced": 0.5
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "solitary": 0.5,
+        "decentralized": 0.5
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "self": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 0.5,
+        "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -42822,6 +49744,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "social-justice": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -42905,6 +49837,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 0.5,
+        "moderate": 0.5
       }
     }
   },
@@ -42982,6 +49924,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 1,
         "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "master": 1
       }
     }
   },
@@ -43061,6 +50012,94 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-modern-philosophy-transcendentalism-transcendentalism",
+    "name": "Transcendentalism",
+    "aka": "New England Transcendentalism",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Modern Philosophy",
+      "Transcendentalism"
+    ],
+    "shortDescription": "A 19th-century American movement emphasizing individual intuition, self-reliance, and the spiritual unity of humanity with nature over institutional religion.",
+    "primaryRegions": "United States (New England)",
+    "foundedEra": "1830s-1840s",
+    "profile": {
+      "theism": {
+        "pantheism": 0.5,
+        "panentheism": 0.5
+      },
+      "divineNature": {
+        "impersonal": 0.5,
+        "both": 0.5
+      },
+      "authority": {
+        "personal-experience": 0.5,
+        "nature": 0.5
+      },
+      "afterlife": {
+        "uncertain": 0.5,
+        "union-divine": 0.5
+      },
+      "salvationPath": {
+        "self-cultivation": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "low": 1
+      },
+      "mysticism": {
+        "central": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "self": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "monistic": 0.5,
+        "animate": 0.5
+      },
+      "moralSource": {
+        "harmony": 0.5,
+        "natural-law": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "cosmic-order": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -43140,6 +50179,238 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "reason": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-moral-philosophy-utilitarianism-utilitarianism",
+    "name": "Utilitarianism",
+    "aka": "Utilitarian ethics; greatest-happiness principle",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Moral Philosophy",
+      "Utilitarianism"
+    ],
+    "shortDescription": "A consequentialist ethic holding that the right action is the one maximizing overall wellbeing or happiness, counting each affected being impartially.",
+    "primaryRegions": "United Kingdom,global",
+    "foundedEra": "late 18th-19th century",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5,
+        "agnostic": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "reason": 1
+      },
+      "afterlife": {
+        "none": 0.5,
+        "uncertain": 0.5
+      },
+      "salvationPath": {
+        "good-works": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "inclusive": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "reason": 0.5,
+        "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "self-created": 0.5,
+        "relationships": 0.5
+      },
+      "desireStance": {
+        "moderate": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-naturalistic-spirituality-world-pantheism-world-panthe",
+    "name": "World Pantheism",
+    "aka": "WPM; Scientific pantheism; World Pantheist Movement",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Naturalistic Spirituality",
+      "World Pantheism"
+    ],
+    "shortDescription": "An organized naturalistic pantheism revering the universe and nature with awe, without belief in a supernatural god, embracing science and environmental care.",
+    "primaryRegions": "United States,Europe,global (online)",
+    "foundedEra": "1990s-2000s",
+    "profile": {
+      "theism": {
+        "pantheism": 1
+      },
+      "divineNature": {
+        "impersonal": 0.5,
+        "none": 0.5
+      },
+      "authority": {
+        "nature": 0.5,
+        "reason": 0.5
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "not-central": 1
+      },
+      "worldStance": {
+        "affirming": 1
+      },
+      "ritualIntensity": {
+        "low": 1
+      },
+      "mysticism": {
+        "present": 1
+      },
+      "community": {
+        "decentralized": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "none": 1
+      },
+      "era": {
+        "modern": 1
+      },
+      "cosmology": {
+        "naturalistic": 0.5,
+        "monistic": 0.5
+      },
+      "moralSource": {
+        "reason": 0.5,
+        "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 0.5,
+        "self-created": 0.5
+      },
+      "desireStance": {
+        "embrace": 1
+      }
+    }
+  },
+  {
+    "id": "nontheistic-philosophical-classical-chinese-philosophy-yangism-yangism",
+    "name": "Yangism",
+    "aka": "Yang Zhu school; Yangzi thought",
+    "traditionFamily": "Nontheistic & Philosophical",
+    "branchPath": [
+      "Nontheistic & Philosophical",
+      "Classical Chinese Philosophy",
+      "Yangism"
+    ],
+    "shortDescription": "A classical Chinese philosophy prizing individual self-preservation, keeping one's nature intact, and refusing to sacrifice the self for external gain.",
+    "primaryRegions": "Ancient China",
+    "foundedEra": "c. 4th century BCE",
+    "profile": {
+      "theism": {
+        "nontheism": 0.5,
+        "agnostic": 0.5
+      },
+      "divineNature": {
+        "none": 1
+      },
+      "authority": {
+        "nature": 0.5,
+        "personal-experience": 0.5
+      },
+      "afterlife": {
+        "none": 1
+      },
+      "salvationPath": {
+        "self-cultivation": 1
+      },
+      "worldStance": {
+        "affirming": 0.5,
+        "balanced": 0.5
+      },
+      "ritualIntensity": {
+        "none": 1
+      },
+      "mysticism": {
+        "minimal": 1
+      },
+      "community": {
+        "solitary": 1
+      },
+      "scope": {
+        "universal": 1
+      },
+      "truthClaim": {
+        "pluralist": 1
+      },
+      "keyFigures": {
+        "sages": 1
+      },
+      "era": {
+        "ancient": 1
+      },
+      "cosmology": {
+        "naturalistic": 1
+      },
+      "moralSource": {
+        "natural-law": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -43217,6 +50488,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 1,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "master": 0.5
       }
     }
   },
@@ -43292,6 +50573,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -43370,6 +50660,16 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "divine-command": 0.5,
         "reason": 0.5
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -43448,6 +50748,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -43529,6 +50838,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "family-community": 0.5,
+        "social-justice": 0.5
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   },
@@ -43606,6 +50925,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -43688,6 +51017,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "karma": 1,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -43763,6 +51101,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -43839,6 +51186,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "compassion": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 0.5,
+        "self-mastery": 0.5
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -43917,6 +51274,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "compassion": 0.5,
         "harmony": 0.5
+      },
+      "ethicalFocus": {
+        "self-mastery": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "embrace": 1
       }
     }
   },
@@ -43999,6 +51365,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -44073,6 +51448,16 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "harmony": 1
+      },
+      "ethicalFocus": {
+        "devotion-divine": 1
+      },
+      "meaningSource": {
+        "divine-plan": 1
+      },
+      "desireStance": {
+        "transcend": 0.5,
+        "embrace": 0.5
       }
     }
   },
@@ -44149,6 +51534,15 @@ export const RELIGIONS: readonly Religion[] = [
       },
       "moralSource": {
         "karma": 1
+      },
+      "ethicalFocus": {
+        "all-beings": 1
+      },
+      "meaningSource": {
+        "cosmic-order": 1
+      },
+      "desireStance": {
+        "transcend": 1
       }
     }
   },
@@ -44228,6 +51622,15 @@ export const RELIGIONS: readonly Religion[] = [
       "moralSource": {
         "reason": 0.5,
         "compassion": 0.5
+      },
+      "ethicalFocus": {
+        "social-justice": 1
+      },
+      "meaningSource": {
+        "self-created": 1
+      },
+      "desireStance": {
+        "moderate": 1
       }
     }
   }

@@ -17,6 +17,7 @@ export const SECTIONS = [
   'Purpose & Afterlife',
   'Practice & Community',
   'Ethics, Society & Style',
+  'Meaning, Ethics & Temperament',
 ] as const;
 
 export const QUESTIONS: readonly Question[] = [
@@ -615,6 +616,131 @@ export const QUESTIONS: readonly Question[] = [
       { id: 'ritual', label: 'Ceremonial — I love sacred form and ritual', contributions: [{ dimension: 'ritualIntensity', option: 'high', weight: 1 }, { dimension: 'salvationPath', option: 'ritual', weight: 0.5 }] },
       { id: 'earthy', label: 'Earthy — I feel the sacred in nature', contributions: [{ dimension: 'authority', option: 'nature', weight: 1 }, { dimension: 'cosmology', option: 'animate', weight: 0.5 }] },
       { id: 'ancestral', label: 'Ancestral — I honor those who came before', contributions: [{ dimension: 'keyFigures', option: 'ancestors', weight: 1 }, { dimension: 'afterlife', option: 'ancestral', weight: 0.5 }] },
+    ],
+  },
+
+  // ─────────────────── Meaning, Ethics & Temperament ───────────────────
+  {
+    id: 'q_ethical_focus',
+    section: 'Meaning, Ethics & Temperament',
+    prompt: 'When you picture living well, where does most of your moral energy go?',
+    multiSelect: false,
+    options: [
+      { id: 'self', label: 'Mastering and perfecting myself', contributions: [{ dimension: 'ethicalFocus', option: 'self-mastery', weight: 2 }] },
+      { id: 'family', label: 'Duty to my family and community', contributions: [{ dimension: 'ethicalFocus', option: 'family-community', weight: 2 }] },
+      { id: 'justice', label: 'Justice for the vulnerable and society', contributions: [{ dimension: 'ethicalFocus', option: 'social-justice', weight: 2 }] },
+      { id: 'all', label: 'The welfare of all living beings', contributions: [{ dimension: 'ethicalFocus', option: 'all-beings', weight: 2 }] },
+      { id: 'divine', label: 'Devotion and service to the divine', contributions: [{ dimension: 'ethicalFocus', option: 'devotion-divine', weight: 2 }] },
+    ],
+  },
+  {
+    id: 'q_meaning_source',
+    section: 'Meaning, Ethics & Temperament',
+    prompt: 'Where does life’s meaning ultimately come from?',
+    multiSelect: false,
+    options: [
+      { id: 'divine', label: 'A divine plan or God’s will', contributions: [{ dimension: 'meaningSource', option: 'divine-plan', weight: 2 }, { dimension: 'divineNature', option: 'personal', weight: 0.3 }] },
+      { id: 'cosmic', label: 'A cosmic order to align with (dharma, the Tao)', contributions: [{ dimension: 'meaningSource', option: 'cosmic-order', weight: 2 }, { dimension: 'moralSource', option: 'harmony', weight: 0.3 }] },
+      { id: 'self', label: 'Meaning I create for myself', contributions: [{ dimension: 'meaningSource', option: 'self-created', weight: 2 }] },
+      { id: 'love', label: 'Love, relationships, and community', contributions: [{ dimension: 'meaningSource', option: 'relationships', weight: 2 }] },
+      { id: 'none', label: 'There is no inherent meaning — and that’s okay', contributions: [{ dimension: 'meaningSource', option: 'none-and-ok', weight: 2 }, { dimension: 'salvationPath', option: 'not-central', weight: 0.3 }] },
+    ],
+  },
+  {
+    id: 'q_desire_stance',
+    section: 'Meaning, Ethics & Temperament',
+    prompt: 'What is the ideal relationship with desire and strong emotion?',
+    multiSelect: false,
+    options: [
+      { id: 'transcend', label: 'Extinguish craving and transcend desire', contributions: [{ dimension: 'desireStance', option: 'transcend', weight: 2 }, { dimension: 'worldStance', option: 'ascetic', weight: 0.4 }] },
+      { id: 'master', label: 'Master and discipline the passions', contributions: [{ dimension: 'desireStance', option: 'master', weight: 2 }, { dimension: 'ethicalFocus', option: 'self-mastery', weight: 0.4 }] },
+      { id: 'moderate', label: 'Enjoy desire in balanced moderation', contributions: [{ dimension: 'desireStance', option: 'moderate', weight: 2 }, { dimension: 'worldStance', option: 'balanced', weight: 0.4 }] },
+      { id: 'embrace', label: 'Fully embrace desire and feeling', contributions: [{ dimension: 'desireStance', option: 'embrace', weight: 2 }, { dimension: 'worldStance', option: 'affirming', weight: 0.4 }] },
+    ],
+  },
+  {
+    id: 'q_good_life',
+    section: 'Meaning, Ethics & Temperament',
+    prompt: 'Which vision of “the good life” pulls at you most?',
+    multiSelect: false,
+    options: [
+      { id: 'epicurean', label: 'Tranquil pleasure, friendship, and freedom from fear', contributions: [{ dimension: 'desireStance', option: 'moderate', weight: 1 }, { dimension: 'worldStance', option: 'affirming', weight: 1 }, { dimension: 'meaningSource', option: 'self-created', weight: 0.5 }] },
+      { id: 'stoic', label: 'Virtue, self-command, and serenity whatever comes', contributions: [{ dimension: 'ethicalFocus', option: 'self-mastery', weight: 1 }, { dimension: 'desireStance', option: 'master', weight: 1 }, { dimension: 'moralSource', option: 'natural-law', weight: 0.5 }] },
+      { id: 'altruist', label: 'Doing the most good and reducing suffering', contributions: [{ dimension: 'ethicalFocus', option: 'all-beings', weight: 1 }, { dimension: 'moralSource', option: 'compassion', weight: 0.7 }, { dimension: 'salvationPath', option: 'good-works', weight: 0.5 }] },
+      { id: 'contemplative', label: 'Rising above it all into stillness and insight', contributions: [{ dimension: 'desireStance', option: 'transcend', weight: 1 }, { dimension: 'worldStance', option: 'ascetic', weight: 1 }, { dimension: 'mysticism', option: 'central', weight: 0.5 }] },
+      { id: 'devotional', label: 'Union with and surrender to the divine', contributions: [{ dimension: 'ethicalFocus', option: 'devotion-divine', weight: 1 }, { dimension: 'salvationPath', option: 'devotion', weight: 0.7 }] },
+    ],
+  },
+  {
+    id: 'q_future_progress',
+    section: 'Meaning, Ethics & Temperament',
+    prompt: 'How do you feel about the future and human progress?',
+    multiSelect: false,
+    options: [
+      { id: 'transhuman', label: 'Science and technology can transform the human condition', contributions: [{ dimension: 'era', option: 'modern', weight: 1 }, { dimension: 'reformStance', option: 'progressive', weight: 1 }, { dimension: 'authority', option: 'reason', weight: 0.5 }] },
+      { id: 'restore', label: 'We should return to timeless, ancient wisdom', contributions: [{ dimension: 'reformStance', option: 'traditionalist', weight: 1.5 }, { dimension: 'era', option: 'ancient', weight: 0.7 }, { dimension: 'meaningSource', option: 'cosmic-order', weight: 0.5 }] },
+      { id: 'reform', label: 'Steady reform toward a more just world', contributions: [{ dimension: 'reformStance', option: 'progressive', weight: 1 }, { dimension: 'ethicalFocus', option: 'social-justice', weight: 1 }] },
+      { id: 'harmony', label: 'Live simply, in harmony with nature', contributions: [{ dimension: 'authority', option: 'nature', weight: 1 }, { dimension: 'ethicalFocus', option: 'all-beings', weight: 0.7 }, { dimension: 'worldStance', option: 'ascetic', weight: 0.4 }] },
+    ],
+  },
+  {
+    id: 'q_test_truth',
+    section: 'Meaning, Ethics & Temperament',
+    prompt: 'When you want to know what’s really true, what do you trust most?',
+    multiSelect: false,
+    options: [
+      { id: 'scripture', label: 'Sacred scripture', contributions: [{ dimension: 'scriptureReading', option: 'literal', weight: 1 }, { dimension: 'authority', option: 'scripture', weight: 1 }] },
+      { id: 'reason', label: 'Reason, evidence, and science', contributions: [{ dimension: 'authority', option: 'reason', weight: 1.5 }, { dimension: 'cosmology', option: 'naturalistic', weight: 0.6 }] },
+      { id: 'experience', label: 'Direct inner experience', contributions: [{ dimension: 'authority', option: 'personal-experience', weight: 1.5 }, { dimension: 'mysticism', option: 'present', weight: 0.4 }] },
+      { id: 'tradition', label: 'Trusted teachers and inherited tradition', contributions: [{ dimension: 'authority', option: 'tradition', weight: 1 }, { dimension: 'scriptureReading', option: 'contextual', weight: 0.4 }] },
+    ],
+  },
+  {
+    id: 'q_daily_rules',
+    section: 'Meaning, Ethics & Temperament',
+    prompt: 'How much should your beliefs shape daily habits — food, dress, time, relationships?',
+    multiSelect: false,
+    options: [
+      { id: 'comprehensive', label: 'A detailed code covering most of daily life', contributions: [{ dimension: 'lawInDailyLife', option: 'comprehensive', weight: 2 }] },
+      { id: 'moderate', label: 'Some meaningful practices and guidelines', contributions: [{ dimension: 'lawInDailyLife', option: 'moderate', weight: 2 }] },
+      { id: 'minimal', label: 'Few fixed rules — conscience and context lead', contributions: [{ dimension: 'lawInDailyLife', option: 'minimal', weight: 2 }] },
+    ],
+  },
+  {
+    id: 'q_gender_leadership',
+    section: 'Meaning, Ethics & Temperament',
+    prompt: 'What feels right for gender and leadership in a community you’d join?',
+    multiSelect: false,
+    options: [
+      { id: 'equal', label: 'Fully equal roles and leadership for all genders', contributions: [{ dimension: 'genderRoles', option: 'egalitarian', weight: 2 }] },
+      { id: 'complementary', label: 'Distinct but equally honored roles', contributions: [{ dimension: 'genderRoles', option: 'complementarian', weight: 2 }] },
+      { id: 'traditional', label: 'Traditional, established gender roles', contributions: [{ dimension: 'genderRoles', option: 'traditional', weight: 2 }] },
+    ],
+  },
+  {
+    id: 'q_outsiders',
+    section: 'Meaning, Ethics & Temperament',
+    prompt: 'How should your path relate to outsiders?',
+    multiSelect: false,
+    options: [
+      { id: 'active', label: 'Actively share the message and invite everyone', contributions: [{ dimension: 'proselytizing', option: 'active', weight: 2 }, { dimension: 'scope', option: 'universal', weight: 0.6 }] },
+      { id: 'welcome', label: 'Open to any sincere seeker, but not pushy', contributions: [{ dimension: 'proselytizing', option: 'welcoming', weight: 2 }, { dimension: 'scope', option: 'universal', weight: 0.4 }] },
+      { id: 'private', label: 'A private path — not something to spread', contributions: [{ dimension: 'proselytizing', option: 'non-proselytizing', weight: 2 }] },
+      { id: 'closed', label: 'Held within a people or through initiation', contributions: [{ dimension: 'proselytizing', option: 'closed', weight: 2 }, { dimension: 'scope', option: 'initiatory', weight: 0.6 }] },
+    ],
+  },
+  {
+    id: 'q_meaning_sources_multi',
+    section: 'Meaning, Ethics & Temperament',
+    prompt: 'Which of these most give your life meaning? (Choose any.)',
+    multiSelect: true,
+    options: [
+      { id: 'god', label: 'Knowing and serving the divine', contributions: [{ dimension: 'meaningSource', option: 'divine-plan', weight: 1 }, { dimension: 'ethicalFocus', option: 'devotion-divine', weight: 0.6 }] },
+      { id: 'order', label: 'Aligning with a larger cosmic order', contributions: [{ dimension: 'meaningSource', option: 'cosmic-order', weight: 1 }] },
+      { id: 'self', label: 'Forging my own path and projects', contributions: [{ dimension: 'meaningSource', option: 'self-created', weight: 1 }] },
+      { id: 'love', label: 'Love, family, and friendship', contributions: [{ dimension: 'meaningSource', option: 'relationships', weight: 1 }, { dimension: 'ethicalFocus', option: 'family-community', weight: 0.5 }] },
+      { id: 'better', label: 'Leaving the world better than I found it', contributions: [{ dimension: 'ethicalFocus', option: 'social-justice', weight: 0.8 }, { dimension: 'salvationPath', option: 'good-works', weight: 0.5 }] },
+      { id: 'truth', label: 'The pursuit of knowledge and truth', contributions: [{ dimension: 'authority', option: 'reason', weight: 0.7 }, { dimension: 'salvationPath', option: 'knowledge', weight: 0.6 }] },
     ],
   },
 ];

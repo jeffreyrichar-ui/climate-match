@@ -30,7 +30,10 @@ export type DimensionKey =
   | 'era'
   | 'proselytizing'
   | 'cosmology'
-  | 'moralSource';
+  | 'moralSource'
+  | 'ethicalFocus'
+  | 'meaningSource'
+  | 'desireStance';
 
 export type DimensionOption = { key: string; label: string };
 
@@ -286,6 +289,41 @@ export const DIMENSIONS: readonly Dimension[] = [
       { key: 'harmony', label: 'Harmony and balance with the world' },
       { key: 'reason', label: 'Human reason and empathy' },
       { key: 'compassion', label: 'Compassion for all beings' },
+    ],
+  },
+  {
+    key: 'ethicalFocus',
+    label: 'Focus of Moral Life',
+    prompt: 'Where your moral energy is chiefly directed',
+    options: [
+      { key: 'self-mastery', label: 'Mastering and perfecting yourself' },
+      { key: 'family-community', label: 'Duty to family and community' },
+      { key: 'social-justice', label: 'Justice for the vulnerable and society' },
+      { key: 'all-beings', label: 'The welfare of all living beings' },
+      { key: 'devotion-divine', label: 'Devotion and service to the divine' },
+    ],
+  },
+  {
+    key: 'meaningSource',
+    label: 'Source of Meaning',
+    prompt: 'Where life’s meaning ultimately comes from',
+    options: [
+      { key: 'divine-plan', label: 'A divine plan or God’s will' },
+      { key: 'cosmic-order', label: 'A cosmic order to align with (dharma, the Tao)' },
+      { key: 'self-created', label: 'Meaning we each create for ourselves' },
+      { key: 'relationships', label: 'Love, relationships, and community' },
+      { key: 'none-and-ok', label: 'There is no inherent meaning — and that’s okay' },
+    ],
+  },
+  {
+    key: 'desireStance',
+    label: 'Desire & Emotion',
+    prompt: 'The ideal relationship to desire and emotion',
+    options: [
+      { key: 'transcend', label: 'Extinguish craving and transcend desire' },
+      { key: 'master', label: 'Master and discipline the passions' },
+      { key: 'moderate', label: 'Enjoy desire in balanced moderation' },
+      { key: 'embrace', label: 'Fully embrace desire and feeling' },
     ],
   },
 ] as const;
