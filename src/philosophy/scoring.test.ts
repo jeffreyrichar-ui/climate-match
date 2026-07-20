@@ -23,32 +23,31 @@ const utilSchool: School = {
 };
 
 describe('buildUserVector', () => {
-  it('normalizes a single-select answer to a one-hot distribution', () => {
-    const uv = buildUserVector({ q_reality: ['matter'] });
+  it('normalizes a single-select answer within its dimension', () => {
+    const uv = buildUserVector({ q_stuff: ['physical'] });
     expect(uv.metaphysics).toEqual({ materialism: 1 });
   });
 
-  it('aggregates multi-select answers across options', () => {
-    const uv = buildUserVector({ q_purpose: ['projects', 'loved'] });
-    expect((uv.meaningSource ?? {})['self-created']).toBeGreaterThan(0);
-    expect((uv.meaningSource ?? {})['relationships']).toBeGreaterThan(0);
+  it('aggregates multi-select answers onto shared dimensions', () => {
+    const uv = buildUserVector({ q_outlook: ['questioner', 'quiet-thinker'] });
+    expect((uv.epistemology ?? {})['skepticism']).toBeGreaterThan(0);
+    expect((uv.epistemology ?? {})['intuition-experience']).toBeGreaterThan(0);
   });
 
   it('ignores unanswered questions', () => {
-    const uv = buildUserVector({ q_reality: [] });
+    const uv = buildUserVector({ q_stuff: [] });
     expect(Object.keys(uv)).toHaveLength(0);
   });
 });
 
 describe('scoreSchool', () => {
   it('gives 100% when the school matches the only answered dimension', () => {
-    const uv = buildUserVector({ q_right_wrong: ['virtue'] });
-    // only ethicsBasis answered; virtueSchool is one-hot virtue there
+    const uv = buildUserVector({ q_right: ['good-person'] });
     expect(scoreSchool(virtueSchool, uv).matchPct).toBe(100);
   });
 
   it('gives 0% for the opposite stance', () => {
-    const uv = buildUserVector({ q_right_wrong: ['virtue'] });
+    const uv = buildUserVector({ q_right: ['good-person'] });
     expect(scoreSchool(utilSchool, uv).matchPct).toBe(0);
   });
 });
@@ -57,17 +56,18 @@ describe('rankSchools discrimination', () => {
   const pair = [virtueSchool, utilSchool];
 
   it('ranks the virtue school first for character-leaning answers', () => {
-    const ranked = rankSchools(pair, { q_right_wrong: ['virtue'], q_moral_dilemma: ['character'] });
+    const ranked = rankSchools(pair, { q_right: ['good-person'], q_good_life: ['be-good'] });
     expect(ranked[0].school.id).toBe('fx-virtue');
   });
 
-  it('ranks the consequentialist school first for outcome-leaning answers', () => {
-    const ranked = rankSchools(pair, { q_right_wrong: ['outcomes'], q_moral_dilemma: ['best'] });
+  it('ranks the consequentialist school first for results-leaning answers', () => {
+    // q_who_counts is the follow-up that opens after picking best-results.
+    const ranked = rankSchools(pair, { q_right: ['best-results'], q_who_counts: ['all-feeling'] });
     expect(ranked[0].school.id).toBe('fx-util');
   });
 
   it('respects the limit', () => {
-    expect(rankSchools(pair, { q_right_wrong: ['virtue'] }, 1)).toHaveLength(1);
+    expect(rankSchools(pair, { q_right: ['good-person'] }, 1)).toHaveLength(1);
   });
 
   it('returns 0% everywhere when nothing is answered', () => {
@@ -75,8 +75,7 @@ describe('rankSchools discrimination', () => {
   });
 });
 
-// Stoic-vs-Epicurean style separation via the good-life / desire axes.
-describe('good-life discrimination', () => {
+describe('good-life discrimination (Stoic-style vs Epicurean-style)', () => {
   const stoic: School = {
     id: 'fx-stoic', name: 'Stoic-like', category: 'Test', branchPath: ['Test', 'Stoic'],
     shortDescription: 'x',
@@ -90,19 +89,27 @@ describe('good-life discrimination', () => {
   const pair = [stoic, epicurean];
 
   it('virtue/discipline answers rank the Stoic school first', () => {
-    const ranked = rankSchools(pair, { q_highest_good: ['virtue'], q_desire: ['master'], q_pleasure_view: ['discipline'] });
+    const ranked = rankSchools(pair, {
+      q_good_life: ['be-good'],
+      q_wants: ['keep-in-check'],
+      q_stuff_money: ['trap'],
+    });
     expect(ranked[0].school.id).toBe('fx-stoic');
   });
 
   it('pleasure answers rank the Epicurean school first', () => {
-    const ranked = rankSchools(pair, { q_highest_good: ['pleasure'], q_desire: ['moderate'], q_pleasure_view: ['embrace'] });
+    const ranked = rankSchools(pair, {
+      q_good_life: ['enjoy'],
+      q_wants: ['enjoy-wisely'],
+      q_stuff_money: ['great'],
+    });
     expect(ranked[0].school.id).toBe('fx-epicurean');
   });
 });
 
 describe('answeredCount', () => {
   it('counts only answered questions', () => {
-    expect(answeredCount({ q_reality: ['matter'], q_desire: [] })).toBe(1);
+    expect(answeredCount({ q_stuff: ['physical'], q_wants: [] })).toBe(1);
   });
 });
 

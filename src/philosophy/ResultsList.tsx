@@ -5,14 +5,13 @@ import { SchoolCard } from './SchoolCard';
 type Props = {
   results: RankedSchool[];
   answered: number;
-  total: number;
   onRestart: () => void;
   onRefine: () => void;
 };
 
 const INITIAL = 12;
 
-export function ResultsList({ results, answered, total, onRestart, onRefine }: Props) {
+export function ResultsList({ results, answered, onRestart, onRefine }: Props) {
   const [showAll, setShowAll] = useState(false);
 
   if (answered === 0) {
@@ -33,11 +32,10 @@ export function ResultsList({ results, answered, total, onRestart, onRefine }: P
   return (
     <section className="faith-results">
       <div className="results-head">
-        <h2>Schools of thought that resonate with you</h2>
+        <h2>Ways of thinking that sound like you</h2>
         <p className="results-sub">
-          Based on {answered} of {total} answers. These are the philosophies whose outlook most
-          closely mirrors yours — an invitation to read and think further, not a verdict on what is
-          true.
+          Based on your {answered} answers. These schools see the world the way you do — good
+          starting points for reading more, not a verdict on what’s true.
         </p>
       </div>
 

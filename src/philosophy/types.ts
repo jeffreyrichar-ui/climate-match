@@ -39,12 +39,26 @@ export type QuestionOption = {
   contributions: readonly Contribution[];
 };
 
+/**
+ * A visibility condition for a follow-up question: passes when the referenced
+ * (earlier) question has at least one chosen option in `anyOf`.
+ */
+export type Condition = {
+  questionId: string;
+  anyOf: readonly string[];
+};
+
 export type Question = {
   id: string;
   section: string;
   prompt: string;
   helpText?: string;
   multiSelect: boolean;
+  /**
+   * Decision-tree gate: show this question only when EVERY condition passes.
+   * Omitted/empty = always shown (a gateway question).
+   */
+  showIf?: readonly Condition[];
   options: readonly QuestionOption[];
 };
 

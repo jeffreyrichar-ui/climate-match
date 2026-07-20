@@ -1,7 +1,8 @@
 import { useMemo, useState } from 'react';
-import { QUESTIONS, SECTIONS } from './questions';
+import { SECTIONS } from './questions';
 import { SCHOOLS } from './schools';
 import { rankSchools, answeredCount } from './scoring';
+import { visibleQuestions, pruneHiddenAnswers } from './flow';
 import type { Answers } from './types';
 import { ProgressBar } from './ProgressBar';
 import { QuestionCard } from './QuestionCard';
@@ -14,8 +15,11 @@ export function PhilosophyApp() {
   const [index, setIndex] = useState(0);
   const [answers, setAnswers] = useState<Answers>({});
 
-  const total = QUESTIONS.length;
-  const question = QUESTIONS[index];
+  // The decision-tree path: recomputed whenever answers change, so follow-up
+  // questions appear or disappear based on what the user picked.
+  const path = useMemo(() => visibleQuestions(answers), [answers]);
+  const total = path.length;
+  const question = path[Math.min(index, total - 1)];
   const selected = question ? answers[question.id] ?? [] : [];
   const answered = answeredCount(answers);
 
@@ -34,7 +38,9 @@ export function PhilosophyApp() {
       } else {
         next = cur.includes(optionId) ? [] : [optionId];
       }
-      return { ...prev, [question.id]: next };
+      // Changing an answer can close branches downstream — drop those answers
+      // so the results only reflect the path the user actually walked.
+      return pruneHiddenAnswers({ ...prev, [question.id]: next });
     });
   }
 
@@ -65,31 +71,32 @@ export function PhilosophyApp() {
     <div className="faith-app">
       <header className="faith-header">
         <div className="brand">Philosophy&nbsp;Match</div>
-        <p className="tagline">Find the schools of thought that fit how you see the world</p>
+        <p className="tagline">Find the ways of thinking that fit how you see the world</p>
       </header>
 
       {phase === 'intro' && (
         <section className="faith-intro">
-          <h1>Which philosophies of life resonate with you?</h1>
+          <h1>Which philosophies of life fit you?</h1>
           <p className="lead">
-            Answer up to {total} questions about reality, knowledge, the good life, ethics, freedom,
-            and meaning. We’ll compare your answers against{' '}
-            <strong>{SCHOOLS.length.toLocaleString()} non-theistic philosophical schools</strong> —
-            from Stoicism and Epicureanism to Existentialism, Utilitarianism, Daoism, and Effective
-            Altruism — and show which ones most closely match how you think.
+            Answer some easy questions about what’s real, what makes a good life, right and wrong,
+            freedom, and meaning. We’ll match your answers against{' '}
+            <strong>{SCHOOLS.length.toLocaleString()} schools of thought</strong> — from Stoicism
+            and Epicureanism to Existentialism, Taoism, and Effective Altruism — and show which
+            ones think the way you do.
           </p>
           <ul className="intro-points">
-            <li>No gods required — every school here stands on reason, experience, or nature.</li>
-            <li>Some questions let you pick several answers; skip anything that doesn’t fit.</li>
-            <li>Spans {SECTIONS.length} themes: {SECTIONS.join(' · ')}.</li>
+            <li>It works like a decision tree: your answers choose which questions come next.</li>
+            <li>No gods involved — every school here stands on reason, experience, or nature.</li>
+            <li>Not sure about one? Skip it. Skipping never counts against a match.</li>
+            <li>Covers {SECTIONS.length} themes: {SECTIONS.join(' · ')}.</li>
           </ul>
           <div className="disclaimer">
-            This is a tool for curiosity and self-reflection, not a verdict on which philosophy is
-            correct. Each school is described neutrally; a “match” simply means its ideas echo your
-            answers — a starting point for reading more.
+            This is for curiosity and self-discovery — not a test with right answers, and not a
+            verdict on which philosophy is correct. A “match” just means a school’s ideas sound
+            like yours. Great starting points for reading more.
           </div>
           <button className="btn primary big" onClick={begin}>
-            Begin the questionnaire →
+            Start →
           </button>
         </section>
       )}
@@ -119,15 +126,17 @@ export function PhilosophyApp() {
         <ResultsList
           results={results}
           answered={answered}
-          total={total}
           onRestart={restart}
-          onRefine={() => setPhase('quiz')}
+          onRefine={() => {
+            setIndex(0);
+            setPhase('quiz');
+          }}
         />
       )}
 
       <footer className="faith-footer">
-        For exploration and education only — a mirror of your answers, not a judgment of which
-        philosophy is true. Descriptions aim to be accurate and even-handed.
+        For fun and exploration — a mirror of your answers, not a judgment of which philosophy is
+        true. Every school is described fairly and even-handedly.
       </footer>
     </div>
   );
