@@ -1,10 +1,10 @@
 import { StrictMode } from 'react';
 import ReactDOM from 'react-dom/client';
-import { FaithApp } from './FaithApp';
+import { PhilosophyApp } from './PhilosophyApp';
 import './styles.css';
 
 ReactDOM.createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <FaithApp />
+    <PhilosophyApp />
   </StrictMode>,
 );

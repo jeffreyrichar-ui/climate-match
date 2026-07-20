@@ -375,6 +375,11 @@ body {
   font-style: italic;
   margin-top: 2px;
 }
+.rc-thinkers {
+  color: var(--muted);
+  font-size: 12.5px;
+  margin: 6px 0 0;
+}
 .rc-breadcrumb {
   color: var(--violet);
   font-size: 12.5px;

@@ -1,9 +1,9 @@
 import { useState } from 'react';
-import type { RankedReligion } from './types';
-import { ReligionCard } from './ReligionCard';
+import type { RankedSchool } from './types';
+import { SchoolCard } from './SchoolCard';
 
 type Props = {
-  results: RankedReligion[];
+  results: RankedSchool[];
   answered: number;
   total: number;
   onRestart: () => void;
@@ -33,16 +33,17 @@ export function ResultsList({ results, answered, total, onRestart, onRefine }: P
   return (
     <section className="faith-results">
       <div className="results-head">
-        <h2>Traditions that resonate with you</h2>
+        <h2>Schools of thought that resonate with you</h2>
         <p className="results-sub">
-          Based on {answered} of {total} answers. These are the paths whose worldview most closely
-          mirrors yours — an invitation to explore and learn, never a judgment of what is true or best.
+          Based on {answered} of {total} answers. These are the philosophies whose outlook most
+          closely mirrors yours — an invitation to read and think further, not a verdict on what is
+          true.
         </p>
       </div>
 
       <ol className="results-list">
         {shown.map((r, i) => (
-          <ReligionCard key={r.religion.id} ranked={r} rank={i + 1} />
+          <SchoolCard key={r.school.id} ranked={r} rank={i + 1} />
         ))}
       </ol>
 

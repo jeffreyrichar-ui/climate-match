@@ -11,8 +11,8 @@ export default defineConfig({
       input: {
         // Existing climate-match app (unchanged entry).
         main: resolve(__dirname, 'index.html'),
-        // New, self-contained Faith Match questionnaire.
-        faith: resolve(__dirname, 'faith.html'),
+        // Self-contained Philosophy Match questionnaire.
+        philosophy: resolve(__dirname, 'philosophy.html'),
       },
     },
   },

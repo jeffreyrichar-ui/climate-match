@@ -3,15 +3,14 @@ import type { DimensionKey } from './dimensions';
 import type {
   Answers,
   DimensionContribution,
-  Religion,
-  RankedReligion,
+  School,
+  RankedSchool,
   UserVector,
 } from './types';
 
 /**
  * Turn the user's raw answers into a normalized preference vector:
  * dimension -> option -> weight in [0, 1] (each answered dimension sums to 1).
- * Questions left unanswered contribute nothing.
  */
 export function buildUserVector(answers: Answers): UserVector {
   const raw: Partial<Record<DimensionKey, Record<string, number>>> = {};
@@ -42,14 +41,13 @@ export function answeredCount(answers: Answers): number {
 }
 
 /**
- * Score one religion against the user vector. Overlap on each dimension the user
- * cares about is the dot product of the two normalized option-distributions
- * (1.0 = identical stance, 0 = no shared stance). The match is the mean overlap
- * across every dimension the user expressed a preference on — so a tradition
- * that is silent on something the user cares about is fairly discounted there.
+ * Score one school against the user vector. Overlap on each dimension the user
+ * cares about is the dot product of the two normalized option-distributions; the
+ * match is the mean overlap across every dimension the user expressed a
+ * preference on.
  */
-export function scoreReligion(
-  religion: Religion,
+export function scoreSchool(
+  school: School,
   userVector: UserVector,
 ): { matchPct: number; strengths: DimensionContribution[]; biggestGap?: DimensionContribution } {
   const dims = Object.keys(userVector) as DimensionKey[];
@@ -59,11 +57,11 @@ export function scoreReligion(
   let total = 0;
   for (const dim of dims) {
     const uv = userVector[dim]!;
-    const rvRaw = religion.profile[dim];
-    const rv = rvRaw ? normalize(rvRaw) : {};
-    const overlap = Object.keys(rv).length ? dot(uv, rv) : 0;
+    const svRaw = school.profile[dim];
+    const sv = svRaw ? normalize(svRaw) : {};
+    const overlap = Object.keys(sv).length ? dot(uv, sv) : 0;
     total += overlap;
-    contributions.push({ dimension: dim, overlap, religionTopOption: topOption(rvRaw) });
+    contributions.push({ dimension: dim, overlap, schoolTopOption: topOption(svRaw) });
   }
 
   const matchPct = clampPct((100 * total) / dims.length);
@@ -75,23 +73,18 @@ export function scoreReligion(
   return { matchPct, strengths, biggestGap };
 }
 
-/**
- * Rank every religion against the user's answers, best match first.
- * `limit` caps the number returned; pass 0 or Infinity for all.
- */
-export function rankReligions(
-  religions: readonly Religion[],
+/** Rank every school against the user's answers, best match first. */
+export function rankSchools(
+  schools: readonly School[],
   answers: Answers,
   limit = 25,
-): RankedReligion[] {
+): RankedSchool[] {
   const userVector = buildUserVector(answers);
-  const ranked: RankedReligion[] = religions.map((religion) => {
-    const { matchPct, strengths, biggestGap } = scoreReligion(religion, userVector);
-    return { religion, matchPct, strengths, biggestGap };
+  const ranked: RankedSchool[] = schools.map((school) => {
+    const { matchPct, strengths, biggestGap } = scoreSchool(school, userVector);
+    return { school, matchPct, strengths, biggestGap };
   });
-  ranked.sort(
-    (a, b) => b.matchPct - a.matchPct || a.religion.name.localeCompare(b.religion.name),
-  );
+  ranked.sort((a, b) => b.matchPct - a.matchPct || a.school.name.localeCompare(b.school.name));
   return limit && limit > 0 ? ranked.slice(0, limit) : ranked;
 }
 
