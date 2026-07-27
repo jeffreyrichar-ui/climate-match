@@ -13,6 +13,8 @@ export default defineConfig({
         main: resolve(__dirname, 'index.html'),
         // Self-contained Philosophy Match questionnaire.
         philosophy: resolve(__dirname, 'philosophy.html'),
+        // Self-contained Faith Match questionnaire (religions & sects).
+        faith: resolve(__dirname, 'faith.html'),
       },
     },
   },
