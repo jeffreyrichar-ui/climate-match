@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import type { Preferences, Preference, FactorKey } from '../types';
 import { FACTORS } from '../lib/factors';
 import { FactorSlider } from './FactorSlider';
